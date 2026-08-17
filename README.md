@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 AI Placement Mentor Agent
 
 An end-to-end AI-powered placement preparation & adaptive career mentor platform designed to continuously assess, verify, analyze, predict, plan, evaluate, adapt, and reassess engineering student placement readiness.
@@ -164,3 +165,7 @@ For detailed guides, explore the `docs/` folder:
 
 Developed for Engineering Placement Excellence.
 Licensed under MIT.
+=======
+# AI-placementor-Mentor
+🤖 AI-powered placement mentor that analyzes student skills, identifies placement gaps, generates personalized preparation roadmaps, provides coding &amp; mock interview practice, and matches students with suitable companies. Built with React, Node.js, Express, JWT &amp; AI-driven analytics.
+>>>>>>> e6f2f6a0ea0ec6e62f522e015a219d71018790fc
