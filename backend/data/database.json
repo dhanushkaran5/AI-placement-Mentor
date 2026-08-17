@@ -1,0 +1,1223 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Test Student",
+      "email": "test@example.com",
+      "password": "$2a$10$D3kd1Ta2MfnzRagb4zXSUeAsltnfpuiKQPNv//yK.Dw8oFNLDdCLC",
+      "created_at": "2026-08-11T04:31:31.831Z"
+    },
+    {
+      "id": 2,
+      "name": "Dhanushkaran",
+      "email": "logeshdhanushkaran@gmail.com",
+      "password": "$2a$10$hfGYRn8UZtMbh2aCJvk5ZurzKz8sEX6Ewh8L79N3s1I4UsZN8uglq",
+      "created_at": "2026-08-11T05:10:55.404Z"
+    },
+    {
+      "id": 3,
+      "name": "dk",
+      "email": "dkkaran8877@gmail.com",
+      "password": "$2a$10$Jbw5OuKsJ0ZbUpyiPBlWcetImCiljLK7CSjuvXn6OW8KnrBfHybN2",
+      "created_at": "2026-08-16T17:49:02.544Z"
+    }
+  ],
+  "user_profiles": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "readiness_score": 71,
+      "updated_at": "2026-08-16T17:15:11.703Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "readiness_score": 38,
+      "updated_at": "2026-08-11T05:11:25.883Z"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "target_role": "Software Engineer",
+      "target_company": "Infosys",
+      "target_date": null,
+      "daily_hours": 4,
+      "readiness_score": 52,
+      "updated_at": "2026-08-16T17:49:55.405Z"
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "target_date": null,
+      "daily_hours": 4,
+      "readiness_score": 0,
+      "updated_at": "2026-08-16T16:21:30.504Z"
+    }
+  ],
+  "resumes": [
+    {
+      "id": 2,
+      "user_id": 2,
+      "raw_text": "\n\nDHANUSHKARAN M \n +91-9566413640     logeshdhanushkaran@gmail.com     LinkedIn     GitHub \nOBJECTIVE \nI am an AI & DS student with a strong interest in technology, seeking an internship opportunity to apply analytical thinking, \nprogramming skills, and creativity to real-world projects while contributing to innovative teams through software development \nand technology-driven solutions for environmental and business growth. \nEXPERIENCE \nIntern — Litz Technologies                                                                                                                                                May 2025 \n• Built responsive web interfaces using HTML, CSS, and JavaScript across multiple internal modules, improving UI \nconsistency and load performance. \n• Applied cloud computing fundamentals to deploy and test web components in a live server environment under senior \ndeveloper guidance. \n• Collaborated in technical design discussions, contributing implementation ideas adopted into the final deployment plan. \nIntern — EDU TANTR                                                                                                                                                       Dec 2025 \n• Analyzed real-world datasets using Python-based data science workflows, improving data quality through structured \ncleaning and preprocessing. \n• Implemented analytical and problem-solving techniques across assigned tasks, delivering results within a collaborative, \ndeadline-driven environment. \n• Strengthened data science and critical-thinking skills through hands-on training in industry-standard workflows and best \npractices. \nPROJECTS \nAI Sign Language Translation Platform \nDeveloped an AI-based sign language translator supporting real-time webcam, image, and video recognition. Built an interactive \ndashboard for dataset management, model training, and prediction visualization, streamlining the ML workflow end-to-end. \nOptimized UI/UX and deployed a responsive web application, improving accessibility of digital communication for hearing-\nimpaired users. \nTree Plantation & Carbon Reduction Calculator \nEngineered a web-based carbon footprint calculator estimating CO2 emissions and recommending tree-planting offsets. Built an \ninteractive dashboard with real-time calculations and data visualizations, delivering personalized sustainability insights. \nDesigned a responsive, user-friendly interface to promote environmental awareness and support eco-friendly decision-making. \nTECHNICAL SKILLS \n• Languages: Python, Java \n• Developer Tools: Git, VS Code \n• Frameworks: Flask, Node.js \n• Database: SQL \n• Soft Skills: Adaptability, Quick Learner, Leadership \nEDUCATION \nB.Tech, Artificial Intelligence & Data Science                                                                                                          (2023 – 2027) \nV.S.B College of Engineering Technical Campus (Affiliated with Anna University), Coimbatore.                          CGPA: 8.10 \nHigher Secondary Certificate (HSC)                                                                                                                        (2022 – 2023) \nKamarajar Matriculation Higher Secondary School, Coimbatore.                                                                          Percentage: 75% \nCERTIFICATIONS \n• NPTEL —  The Joy of Computing Using Python \n• Infosys Springboard —  Data Structures and Algorithms Using Python; Generative AI \n• AWS —  Foundations of Prompt Engineering \n• IBM —  Generative AI Essentials: Using LLMs to Work with Data \nACHIEVEMENTS \n• Patent Publication — Smart Traffic Management System for Urban Congestion (Indian Patent Application No. \n202541099319 A, Nov 2025) \n• 1st Prize — Tech Architecture, Inter College Symposium \n• Finalist — Tree Plantation & Carbon Reduction Calculator, Eclearnix Hackathon, KPR College ",
+      "skills": "[\"Python\",\"Javascript\",\"Node\",\"Sql\",\"Java\",\"Html\",\"Css\",\"Git\",\"Aws\"]",
+      "education": "[{\"degree\":\"B.Tech in Computer Science\",\"institution\":\"State Technical University\",\"year\":\"2022 - 2026\",\"cgpa\":\"8.1\"}]",
+      "experience": "[{\"role\":\"Web Development Intern\",\"company\":\"Acme Software Solutions\",\"duration\":\"3 Months (Summer 2025)\",\"description\":\"Designed and built responsive dashboard widgets, fixed REST API bugs, and enhanced SQLite databases.\"}]",
+      "cgpa": 8.1,
+      "updated_at": "2026-08-11T05:11:12.618Z"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "raw_text": "Test Student Resume - B.Tech CS, 8.4 CGPA, Java, SQL, React, Node.js, AWS. Projects in AI and Full-stack.",
+      "skills": "[\"Java\",\"SQL\",\"React\",\"Node.js\",\"Python\",\"Git\",\"AWS\",\"DSA\",\"Spring Boot\"]",
+      "education": "[{\"degree\":\"B.Tech in Computer Science\",\"institution\":\"State Engineering College\",\"year\":\"2022-2026\",\"cgpa\":\"8.4\"}]",
+      "experience": "[{\"role\":\"Software Engineering Intern\",\"company\":\"TechSolutions Inc\",\"duration\":\"3 Months\",\"description\":\"Built REST APIs and UI widgets.\"}]",
+      "cgpa": 8.4,
+      "claim_verifications": "[]",
+      "updated_at": "2026-08-16T16:27:49.745Z"
+    }
+  ],
+  "roadmaps": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "weeks": "[{\"weekNumber\":1,\"title\":\"Week 1: Master Java\",\"description\":\"This week is dedicated to filling your skill gap in Java specifically for the SDE expectations at TCS.\",\"tasks\":[{\"text\":\"Learn foundational concepts of Java\",\"completed\":true},{\"text\":\"Build a mini hands-on mini-project demonstrating Java\",\"completed\":true},{\"text\":\"Review commonly asked technical interview questions for Java\",\"completed\":false}],\"resources\":[{\"title\":\"FreeCodeCamp Java Full Course (YouTube)\",\"url\":\"https://www.youtube.com/\"},{\"title\":\"GeeksforGeeks Java Tutorial Guide\",\"url\":\"https://www.geeksforgeeks.org/\"}]},{\"weekNumber\":2,\"title\":\"Week 2: Master C++\",\"description\":\"This week is dedicated to filling your skill gap in C++ specifically for the SDE expectations at TCS.\",\"tasks\":[{\"text\":\"Learn foundational concepts of C++\",\"completed\":false},{\"text\":\"Build a mini hands-on mini-project demonstrating C++\",\"completed\":false},{\"text\":\"Review commonly asked technical interview questions for C++\",\"completed\":false}],\"resources\":[{\"title\":\"FreeCodeCamp C++ Full Course (YouTube)\",\"url\":\"https://www.youtube.com/\"},{\"title\":\"GeeksforGeeks C++ Tutorial Guide\",\"url\":\"https://www.geeksforgeeks.org/\"}]},{\"weekNumber\":3,\"title\":\"Week 3: Master Python\",\"description\":\"This week is dedicated to filling your skill gap in Python specifically for the SDE expectations at TCS.\",\"tasks\":[{\"text\":\"Learn foundational concepts of Python\",\"completed\":false},{\"text\":\"Build a mini hands-on mini-project demonstrating Python\",\"completed\":false},{\"text\":\"Review commonly asked technical interview questions for Python\",\"completed\":false}],\"resources\":[{\"title\":\"FreeCodeCamp Python Full Course (YouTube)\",\"url\":\"https://www.youtube.com/\"},{\"title\":\"GeeksforGeeks Python Tutorial Guide\",\"url\":\"https://www.geeksforgeeks.org/\"}]},{\"weekNumber\":4,\"title\":\"Week 4: Master SQL\",\"description\":\"This week is dedicated to filling your skill gap in SQL specifically for the SDE expectations at TCS.\",\"tasks\":[{\"text\":\"Understand database indexing and normal forms (1NF, 2NF, 3NF)\",\"completed\":false},{\"text\":\"Practice writing complex SQL queries using JOINs, aggregations, and subqueries\",\"completed\":false},{\"text\":\"Solve 10 SQL practice problems on HackerRank / LeetCode\",\"completed\":false}],\"resources\":[{\"title\":\"Kudvenkat SQL Tutorial (YouTube)\",\"url\":\"https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB\"},{\"title\":\"SQLZoo Interactive Tutorial\",\"url\":\"https://sqlzoo.net/\"}]},{\"weekNumber\":5,\"title\":\"Week 5: Master DBMS\",\"description\":\"This week is dedicated to filling your skill gap in DBMS specifically for the SDE expectations at TCS.\",\"tasks\":[{\"text\":\"Understand database indexing and normal forms (1NF, 2NF, 3NF)\",\"completed\":false},{\"text\":\"Practice writing complex SQL queries using JOINs, aggregations, and subqueries\",\"completed\":false},{\"text\":\"Solve 10 SQL practice problems on HackerRank / LeetCode\",\"completed\":false}],\"resources\":[{\"title\":\"Kudvenkat SQL Tutorial (YouTube)\",\"url\":\"https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB\"},{\"title\":\"SQLZoo Interactive Tutorial\",\"url\":\"https://sqlzoo.net/\"}]},{\"weekNumber\":6,\"title\":\"Week 6: Master Data Structures\",\"description\":\"This week is dedicated to filling your skill gap in Data Structures specifically for the SDE expectations at TCS.\",\"tasks\":[{\"text\":\"Revise Arrays, LinkedLists, Stacks and Queues\",\"completed\":false},{\"text\":\"Solve 15 LeetCode Easy-Medium questions on Arrays/Strings\",\"completed\":false},{\"text\":\"Implement Binary Search and QuickSort from scratch\",\"completed\":false}],\"resources\":[{\"title\":\"Kunal Kushwaha - DSA BootCamp (YouTube)\",\"url\":\"https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ\"},{\"title\":\"LeetCode Top Interview Questions\",\"url\":\"https://leetcode.com/problemset/all/\"}]},{\"weekNumber\":7,\"title\":\"Week 7: Master OOPs\",\"description\":\"This week is dedicated to filling your skill gap in OOPs specifically for the SDE expectations at TCS.\",\"tasks\":[{\"text\":\"Learn foundational concepts of OOPs\",\"completed\":true},{\"text\":\"Build a mini hands-on mini-project demonstrating OOPs\",\"completed\":false},{\"text\":\"Review commonly asked technical interview questions for OOPs\",\"completed\":false}],\"resources\":[{\"title\":\"FreeCodeCamp OOPs Full Course (YouTube)\",\"url\":\"https://www.youtube.com/\"},{\"title\":\"GeeksforGeeks OOPs Tutorial Guide\",\"url\":\"https://www.geeksforgeeks.org/\"}]},{\"weekNumber\":8,\"title\":\"Week 8: Master Communication Skills\",\"description\":\"This week is dedicated to filling your skill gap in Communication Skills specifically for the SDE expectations at TCS.\",\"tasks\":[{\"text\":\"Learn foundational concepts of Communication Skills\",\"completed\":false},{\"text\":\"Build a mini hands-on mini-project demonstrating Communication Skills\",\"completed\":false},{\"text\":\"Review commonly asked technical interview questions for Communication Skills\",\"completed\":false}],\"resources\":[{\"title\":\"FreeCodeCamp Communication Skills Full Course (YouTube)\",\"url\":\"https://www.youtube.com/\"},{\"title\":\"GeeksforGeeks Communication Skills Tutorial Guide\",\"url\":\"https://www.geeksforgeeks.org/\"}]}]",
+      "created_at": "2026-08-11T04:47:01.494Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "weeks": "[{\"weekNumber\":1,\"title\":\"Week 1: Master C++\",\"description\":\"This week is dedicated to filling your skill gap in C++ specifically for the SDE expectations at TCS.\",\"tasks\":[{\"text\":\"Learn foundational concepts of C++\",\"completed\":false},{\"text\":\"Build a mini hands-on mini-project demonstrating C++\",\"completed\":false},{\"text\":\"Review commonly asked technical interview questions for C++\",\"completed\":false}],\"resources\":[{\"title\":\"FreeCodeCamp C++ Full Course (YouTube)\",\"url\":\"https://www.youtube.com/\"},{\"title\":\"GeeksforGeeks C++ Tutorial Guide\",\"url\":\"https://www.geeksforgeeks.org/\"}]},{\"weekNumber\":2,\"title\":\"Week 2: Master DBMS\",\"description\":\"This week is dedicated to filling your skill gap in DBMS specifically for the SDE expectations at TCS.\",\"tasks\":[{\"text\":\"Understand database indexing and normal forms (1NF, 2NF, 3NF)\",\"completed\":false},{\"text\":\"Practice writing complex SQL queries using JOINs, aggregations, and subqueries\",\"completed\":false},{\"text\":\"Solve 10 SQL practice problems on HackerRank / LeetCode\",\"completed\":false}],\"resources\":[{\"title\":\"Kudvenkat SQL Tutorial (YouTube)\",\"url\":\"https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB\"},{\"title\":\"SQLZoo Interactive Tutorial\",\"url\":\"https://sqlzoo.net/\"}]},{\"weekNumber\":3,\"title\":\"Week 3: Master Data Structures\",\"description\":\"This week is dedicated to filling your skill gap in Data Structures specifically for the SDE expectations at TCS.\",\"tasks\":[{\"text\":\"Revise Arrays, LinkedLists, Stacks and Queues\",\"completed\":false},{\"text\":\"Solve 15 LeetCode Easy-Medium questions on Arrays/Strings\",\"completed\":false},{\"text\":\"Implement Binary Search and QuickSort from scratch\",\"completed\":false}],\"resources\":[{\"title\":\"Kunal Kushwaha - DSA BootCamp (YouTube)\",\"url\":\"https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ\"},{\"title\":\"LeetCode Top Interview Questions\",\"url\":\"https://leetcode.com/problemset/all/\"}]},{\"weekNumber\":4,\"title\":\"Week 4: Master OOPs\",\"description\":\"This week is dedicated to filling your skill gap in OOPs specifically for the SDE expectations at TCS.\",\"tasks\":[{\"text\":\"Learn foundational concepts of OOPs\",\"completed\":false},{\"text\":\"Build a mini hands-on mini-project demonstrating OOPs\",\"completed\":false},{\"text\":\"Review commonly asked technical interview questions for OOPs\",\"completed\":false}],\"resources\":[{\"title\":\"FreeCodeCamp OOPs Full Course (YouTube)\",\"url\":\"https://www.youtube.com/\"},{\"title\":\"GeeksforGeeks OOPs Tutorial Guide\",\"url\":\"https://www.geeksforgeeks.org/\"}]},{\"weekNumber\":5,\"title\":\"Week 5: Master Communication Skills\",\"description\":\"This week is dedicated to filling your skill gap in Communication Skills specifically for the SDE expectations at TCS.\",\"tasks\":[{\"text\":\"Learn foundational concepts of Communication Skills\",\"completed\":false},{\"text\":\"Build a mini hands-on mini-project demonstrating Communication Skills\",\"completed\":false},{\"text\":\"Review commonly asked technical interview questions for Communication Skills\",\"completed\":false}],\"resources\":[{\"title\":\"FreeCodeCamp Communication Skills Full Course (YouTube)\",\"url\":\"https://www.youtube.com/\"},{\"title\":\"GeeksforGeeks Communication Skills Tutorial Guide\",\"url\":\"https://www.geeksforgeeks.org/\"}]}]",
+      "created_at": "2026-08-11T05:11:25.877Z"
+    }
+  ],
+  "company_insights": [
+    {
+      "id": 1,
+      "company": "TCS",
+      "role": "SDE / Ninja / Digital",
+      "type": "interview_pattern",
+      "title": "TCS Recruitment Process & Coding Round Pattern",
+      "content": "TCS conducts its recruitment primarily through TCS NQT (National Qualifier Test). The process has 2 main sections: 1. Cognitive Assessment (Quantitative Aptitude, Verbal Ability, Reasoning Ability). 2. Programming Assessment (Coding questions in C/C++/Java/Python/Perl). The programming section features one basic logic problem and one advanced problem (usually array/string manipulation or dynamic programming). After clearing NQT, there are Technical, Managerial, and HR interviews. In Technical rounds, candidates are grilled on OOPs, DBMS, SQL joins, and basic data structures.",
+      "source": "Placement Cell Guide 2025"
+    },
+    {
+      "id": 2,
+      "company": "Google",
+      "role": "Software Engineer",
+      "type": "interview_pattern",
+      "title": "Google SWE Interview Structure & Topics",
+      "content": "Google SWE interviews focus heavily on algorithms, data structures, and problem-solving ability. Typically involves 1 phone screen followed by 4-5 virtual onsites. Topics highly prioritized include graphs (BFS/DFS, Dijkstra's), trees (binary trees, BST, trie), dynamic programming, recursion, hash tables, and system design (for mid/senior level). Interviewers evaluate you on four categories: Cognitive Ability, Role-Related Knowledge (RRK), Leadership/Googliness, and Coding. Clean, optimal, and bug-free code is expected.",
+      "source": "Senior Alumni Interview Logs"
+    },
+    {
+      "id": 3,
+      "company": "Amazon",
+      "role": "Data Scientist",
+      "type": "interview_pattern",
+      "title": "Amazon Data Scientist Interview & Leadership Principles",
+      "content": "Amazon Data Scientist interviews evaluate technical depth in Machine Learning, coding, case study analysis, and alignment with Leadership Principles. The process consists of a phone screen with ML case study and coding, followed by 5 onsite loops. Expect coding questions in SQL (joins, window functions) and Python (algorithms or data processing). The ML portion focuses heavily on supervised/unsupervised algorithms, evaluation metrics (ROC-AUC, F1-score), feature engineering, and deep learning. Every response in behavioral questions must incorporate Amazon's Leadership Principles (like Customer Obsession and Bias for Action).",
+      "source": "Alumni Placement Reports 2024"
+    },
+    {
+      "id": 4,
+      "company": "Infosys",
+      "role": "Systems Engineer",
+      "type": "interview_pattern",
+      "title": "Infosys HackWithInfy and InfyTQ Channels",
+      "content": "Infosys recruits through three main tracks: InfyTQ certification exam, HackWithInfy coding competition, and standard on-campus drives. HackWithInfy is a coding competition with two rounds testing competitive programming skills. InfyTQ focuses on Python, Database Management Systems (DBMS), and OOPs. The technical interview following InfyTQ certification tests projects mentioned on the resume, database concepts, basic arrays/strings programs, and basic web technologies (HTML/CSS/JS).",
+      "source": "Placement Cell Guide 2025"
+    },
+    {
+      "id": 5,
+      "company": "Wipro",
+      "role": "SDE / Elite / Turbo",
+      "type": "interview_pattern",
+      "title": "Wipro Elite National Talent Hunt (NLTH) Pattern",
+      "content": "Wipro NLTH consists of three sections: 1. Quantitative, Logical, and Verbal English aptitude. 2. Coding (2 programs of medium difficulty in C/C++/Java/Python). 3. Written English Test (Essay writing). In the technical interview, candidates are commonly asked to write basic programs like Fibonacci series, prime check, palindrome, or factorial. Questions on relational databases, keys (primary, foreign), and basic computer networks are highly common.",
+      "source": "Wipro Interview Experience Blog"
+    },
+    {
+      "id": 6,
+      "company": "TCS",
+      "role": "SDE / Digital",
+      "type": "asked_question",
+      "title": "TCS Frequently Asked Technical Questions",
+      "content": "Q1: What is the difference between Method Overloading and Method Overriding?\nQ2: Write a query to find the second highest salary from an Employee table.\nQ3: What are the different types of joins in SQL?\nQ4: Explain the SDLC waterfall model vs Agile.\nQ5: What is a pointer and how is memory managed in C++?",
+      "source": "Student Interview Feedback 2025"
+    },
+    {
+      "id": 7,
+      "company": "Google",
+      "role": "Software Engineer",
+      "type": "asked_question",
+      "title": "Google SWE Commonly Asked Coding Questions",
+      "content": "Q1: Design a search autocomplete system (System Design).\nQ2: Find the longest path in a directed acyclic graph.\nQ3: Given a binary tree, find the maximum path sum between two nodes.\nQ4: Implement a rate limiter using token bucket or sliding window algorithm.\nQ5: Find the median of two sorted arrays of different sizes in O(log(min(m, n))) time.",
+      "source": "SWE Interview Experience Archive"
+    },
+    {
+      "id": 8,
+      "company": "Amazon",
+      "role": "Data Scientist",
+      "type": "asked_question",
+      "title": "Amazon DS Core ML and SQL Questions",
+      "content": "Q1: Explain bias-variance tradeoff in Machine Learning.\nQ2: Write a SQL query using window functions to find the top 3 selling products per category.\nQ3: How would you deal with imbalanced datasets in predictive modeling?\nQ4: Describe how you would set up an A/B test for a new checkout page UI.\nQ5: What is the mathematical explanation of Gradient Descent?",
+      "source": "Amazon Interview Database"
+    },
+    {
+      "id": 9,
+      "company": "Infosys",
+      "role": "Systems Engineer",
+      "type": "asked_question",
+      "title": "Infosys Common Technical Qs",
+      "content": "Q1: Explain the pillars of Object Oriented Programming.\nQ2: Write a program to reverse a string without using built-in methods.\nQ3: What is the difference between primary key, unique key, and candidate key?\nQ4: Explain the difference between GET and POST HTTP requests.\nQ5: What is normalization and why do we use it in DBMS?",
+      "source": "Infosys Campus Prep Notes"
+    },
+    {
+      "id": 10,
+      "company": "Wipro",
+      "role": "SDE",
+      "type": "asked_question",
+      "title": "Wipro Technical Coding Questions",
+      "content": "Q1: How do you check if a linked list contains a cycle?\nQ2: What is the difference between compiler and interpreter?\nQ3: Write a program to check if two strings are anagrams of each other.\nQ4: What is the use of 'final' keyword in Java?\nQ5: Write a SQL query to delete duplicate rows from a table.",
+      "source": "Wipro Elite Prep Guide"
+    }
+  ],
+  "mock_interviews": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "questions": "[{\"id\":1,\"text\":\"Explain how you would optimize database queries in SQL, and how index structures help. Wipro relies heavily on backend engineers who understand this.\",\"category\":\"Technical\",\"userAnswer\":\"I would use indexes like B-Trees to speed up lookups, and avoid SELECT * by specifying columns.\",\"score\":6,\"feedback\":{\"strengths\":[\"Directly addressed the question core.\",\"Gave a structured response.\"],\"weaknesses\":[\"Response is too brief. Try to use the STAR method (Situation, Task, Action, Result) to add details.\",\"Missing a concrete example of implementation.\"],\"suggestedAnswer\":\"A stronger answer would be: \\\"When answering, frame your project with context. For example: 'In my last project, I encountered a bottleneck where SQL queries took 3 seconds due to missing indexing on the foreign key. I solved this by running EXPLAIN queries, creating a composite index, and refactoring nested subqueries into JOINs, which reduced execution time by 85%.' This shows technical mastery, structured problem-solving, and measurable results.\\\"\"},\"rating\":\"Good\"},{\"id\":2,\"text\":\"Can you talk about a technical project where you faced a major challenge, and what specific steps you took to resolve it?\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":3,\"text\":\"Tell me about yourself, and why you are interested in joining TCS as a SDE.\",\"category\":\"HR\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":4,\"text\":\"How would you explain the difference between REST API and GraphQL to a non-technical manager?\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":5,\"text\":\"Where do you see yourself in 5 years? Describe how this role fits into your career plans.\",\"category\":\"HR\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null}]",
+      "overall_score": 0,
+      "created_at": "2026-08-11T04:50:12.646Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "questions": "[{\"id\":1,\"text\":\"Explain how you would optimize database queries in SQL, and how index structures help. Wipro relies heavily on backend engineers who understand this.\",\"category\":\"Technical\",\"userAnswer\":\"To optimize SQL queries, I would use indexing, select only necessary columns, avoid subqueries where joins can be used, and use query execution plans to identify bottlenecks. Database indexes (like B-trees or hash indexes) speed up data retrieval by providing a quick lookup path to rows without scanning the entire table.\",\"score\":8,\"feedback\":{\"strengths\":[\"Directly addressed the question core.\",\"Gave a structured response.\"],\"weaknesses\":[\"Could include more technical metrics or specific technologies.\",\"Missing a concrete example of implementation.\"],\"suggestedAnswer\":\"A stronger answer would be: \\\"When answering, frame your project with context. For example: 'In my last project, I encountered a bottleneck where SQL queries took 3 seconds due to missing indexing on the foreign key. I solved this by running EXPLAIN queries, creating a composite index, and refactoring nested subqueries into JOINs, which reduced execution time by 85%.' This shows technical mastery, structured problem-solving, and measurable results.\\\"\"},\"rating\":\"Strong\"},{\"id\":2,\"text\":\"Can you talk about a technical project where you faced a major challenge, and what specific steps you took to resolve it?\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":3,\"text\":\"Tell me about yourself, and why you are interested in joining TCS as a SDE.\",\"category\":\"HR\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":4,\"text\":\"How would you explain the difference between REST API and GraphQL to a non-technical manager?\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":5,\"text\":\"Where do you see yourself in 5 years? Describe how this role fits into your career plans.\",\"category\":\"HR\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null}]",
+      "overall_score": 0,
+      "created_at": "2026-08-11T05:07:49.077Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "questions": "[{\"question\":\"Explain how HashMap works internally in Java and how collisions are resolved.\",\"user_answer\":\"HashMap uses an array of Node buckets. Keys are hashed with hashCode() and mapped to index. In Java 8, bucket converts from LinkedList to Red-Black Tree if bucket size exceeds 8.\",\"score\":8.5,\"feedback\":\"Strong technical explanation with accurate reference to Java 8 treeification threshold.\"},{\"question\":\"What is the difference between Synchronous and Asynchronous execution?\",\"user_answer\":\"Synchronous blocks execution until task finishes, while Asynchronous executes without blocking and notifies through callbacks or promises.\",\"score\":8,\"feedback\":\"Clear and concise answer.\"}]",
+      "overall_score": 8.2,
+      "created_at": "2026-08-16T16:26:53.080Z"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "questions": "[{\"question\":\"Explain how HashMap works internally in Java and how collisions are resolved.\",\"user_answer\":\"HashMap uses an array of Node buckets. Keys are hashed with hashCode() and mapped to index. In Java 8, bucket converts from LinkedList to Red-Black Tree if bucket size exceeds 8.\",\"score\":8.5,\"feedback\":\"Strong technical explanation with accurate reference to Java 8 treeification threshold.\"},{\"question\":\"What is the difference between Synchronous and Asynchronous execution?\",\"user_answer\":\"Synchronous blocks execution until task finishes, while Asynchronous executes without blocking and notifies through callbacks or promises.\",\"score\":8,\"feedback\":\"Clear and concise answer.\"}]",
+      "overall_score": 8.2,
+      "created_at": "2026-08-16T16:27:49.743Z"
+    }
+  ],
+  "progress_logs": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "activity_type": "roadmap_task",
+      "description": "Completed task: Learn foundational concepts of Java",
+      "metric_value": 1,
+      "created_at": "2026-08-11T05:00:23.707Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "activity_type": "roadmap_task",
+      "description": "Completed task: Learn foundational concepts of OOPs",
+      "metric_value": 1,
+      "created_at": "2026-08-11T05:03:08.512Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "activity_type": "resume_upload",
+      "description": "Uploaded and parsed resume",
+      "metric_value": 38,
+      "created_at": "2026-08-11T05:07:03.131Z"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "activity_type": "roadmap_task",
+      "description": "Completed task: Build a mini hands-on mini-project demonstrating Java",
+      "metric_value": 1,
+      "created_at": "2026-08-11T05:07:25.160Z"
+    },
+    {
+      "id": 5,
+      "user_id": 2,
+      "activity_type": "resume_upload",
+      "description": "Uploaded and parsed resume",
+      "metric_value": 38,
+      "created_at": "2026-08-11T05:11:12.632Z"
+    },
+    {
+      "id": 6,
+      "user_id": 3,
+      "activity_type": "profile_update",
+      "description": "Updated target role to Software Engineer at Infosys",
+      "metric_value": 0,
+      "created_at": "2026-08-16T17:49:20.456Z"
+    }
+  ],
+  "verified_skills": [
+    {
+      "id": 6,
+      "user_id": 1,
+      "skill": "Java",
+      "level": "Strong",
+      "concept_score": 85,
+      "coding_score": 80,
+      "debugging_score": 82,
+      "verification_score": 82,
+      "status": "Verified",
+      "updated_at": "2026-08-16T16:27:49.723Z"
+    },
+    {
+      "id": 7,
+      "user_id": 1,
+      "skill": "Data Structures & Algorithms",
+      "level": "Moderate",
+      "concept_score": 68,
+      "coding_score": 60,
+      "debugging_score": 64,
+      "verification_score": 64,
+      "status": "Verified",
+      "updated_at": "2026-08-16T16:27:49.725Z"
+    },
+    {
+      "id": 8,
+      "user_id": 1,
+      "skill": "SQL & Database Design",
+      "level": "Strong",
+      "concept_score": 88,
+      "coding_score": 82,
+      "debugging_score": 85,
+      "verification_score": 85,
+      "status": "Verified",
+      "updated_at": "2026-08-16T16:27:49.727Z"
+    },
+    {
+      "id": 9,
+      "user_id": 1,
+      "skill": "JavaScript / React",
+      "level": "Strong",
+      "concept_score": 78,
+      "coding_score": 75,
+      "debugging_score": 74,
+      "verification_score": 76,
+      "status": "Verified",
+      "updated_at": "2026-08-16T16:27:49.728Z"
+    },
+    {
+      "id": 10,
+      "user_id": 1,
+      "skill": "System Design & Architecture",
+      "level": "Moderate",
+      "concept_score": 62,
+      "coding_score": 55,
+      "debugging_score": 60,
+      "verification_score": 59,
+      "status": "Verified",
+      "updated_at": "2026-08-16T16:27:49.730Z"
+    }
+  ],
+  "skill_assessments": [],
+  "coding_submissions": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "problem_id": "p1",
+      "problem_title": "Two Sum Problem",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 10,
+      "total_test_cases": 10,
+      "score": 100,
+      "runtime_ms": 38,
+      "complexity": "O(N)",
+      "created_at": "2026-08-16T16:26:53.072Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "problem_id": "p2",
+      "problem_title": "Valid Anagram & Frequency Map",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 8,
+      "total_test_cases": 8,
+      "score": 95,
+      "runtime_ms": 42,
+      "complexity": "O(N)",
+      "created_at": "2026-08-16T16:26:53.074Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "problem_id": "p3",
+      "problem_title": "Reverse Linked List",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 12,
+      "total_test_cases": 12,
+      "score": 90,
+      "runtime_ms": 55,
+      "complexity": "O(N)",
+      "created_at": "2026-08-16T16:26:53.076Z"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "problem_id": "p4",
+      "problem_title": "Binary Tree Level Order Traversal",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Wrong Answer",
+      "test_cases_passed": 4,
+      "total_test_cases": 10,
+      "score": 40,
+      "runtime_ms": 90,
+      "complexity": "O(N)",
+      "created_at": "2026-08-16T16:26:53.078Z"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "problem_id": "p1",
+      "problem_title": "Two Sum Problem",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 10,
+      "total_test_cases": 10,
+      "score": 100,
+      "runtime_ms": 38,
+      "complexity": "O(N)",
+      "created_at": "2026-08-16T16:27:49.733Z"
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "problem_id": "p2",
+      "problem_title": "Valid Anagram & Frequency Map",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 8,
+      "total_test_cases": 8,
+      "score": 95,
+      "runtime_ms": 42,
+      "complexity": "O(N)",
+      "created_at": "2026-08-16T16:27:49.737Z"
+    },
+    {
+      "id": 7,
+      "user_id": 1,
+      "problem_id": "p3",
+      "problem_title": "Reverse Linked List",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 12,
+      "total_test_cases": 12,
+      "score": 90,
+      "runtime_ms": 55,
+      "complexity": "O(N)",
+      "created_at": "2026-08-16T16:27:49.739Z"
+    },
+    {
+      "id": 8,
+      "user_id": 1,
+      "problem_id": "p4",
+      "problem_title": "Binary Tree Level Order Traversal",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Wrong Answer",
+      "test_cases_passed": 4,
+      "total_test_cases": 10,
+      "score": 40,
+      "runtime_ms": 90,
+      "complexity": "O(N)",
+      "created_at": "2026-08-16T16:27:49.742Z"
+    }
+  ],
+  "project_analyses": [],
+  "daily_missions": [
+    {
+      "id": 2,
+      "user_id": 1,
+      "mission_date": "2026-08-16",
+      "tasks": "[{\"id\":1,\"title\":\"Solve 2 Binary Tree & Queue Coding Problems\",\"category\":\"DSA\",\"durationMin\":35,\"completed\":true},{\"id\":2,\"title\":\"Review Java Memory Management & Garbage Collection\",\"category\":\"Technical\",\"durationMin\":20,\"completed\":false},{\"id\":3,\"title\":\"Take 10-Minute Quantitative Aptitude Drill\",\"category\":\"Aptitude\",\"durationMin\":15,\"completed\":false},{\"id\":4,\"title\":\"Simulate Project Architecture Defense for SDE\",\"category\":\"Interview\",\"durationMin\":20,\"completed\":false}]",
+      "completion_percentage": 25,
+      "created_at": "2026-08-16T16:27:49.756Z"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "mission_date": "2026-08-16",
+      "tasks": "[{\"id\":1,\"text\":\"Solve 2 Array & HashMap problem challenges in Coding Lab\",\"category\":\"DSA\",\"completed\":false},{\"id\":2,\"text\":\"Revise SQL Joins and Group By queries (Skill Verification)\",\"category\":\"Technical\",\"completed\":false},{\"id\":3,\"text\":\"Complete 1 Technical Mock Interview question on DSA & Coding\",\"category\":\"Interview\",\"completed\":false},{\"id\":4,\"text\":\"Review 10 Quantitative Aptitude questions for TCS Ninja round\",\"category\":\"Aptitude\",\"completed\":false},{\"id\":5,\"text\":\"Verify Project claims with Resume Claim Verification\",\"category\":\"Resume\",\"completed\":false}]",
+      "completion_percentage": 0,
+      "created_at": "2026-08-16T17:49:55.469Z"
+    }
+  ],
+  "placement_simulations": [],
+  "readiness_history": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "overall_score": 55,
+      "category_breakdown": "{\"technical\":52,\"dsa\":40,\"mockInterview\":50,\"resume\":65,\"aptitude\":60,\"projects\":55,\"communication\":58}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T16:26:53.084Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "overall_score": 62,
+      "category_breakdown": "{\"technical\":65,\"dsa\":48,\"mockInterview\":60,\"resume\":75,\"aptitude\":65,\"projects\":65,\"communication\":65}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:26:53.086Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "overall_score": 68,
+      "category_breakdown": "{\"technical\":75,\"dsa\":56,\"mockInterview\":70,\"resume\":80,\"aptitude\":70,\"projects\":70,\"communication\":72}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:26:53.088Z"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "overall_score": 72,
+      "category_breakdown": "{\"technical\":80,\"dsa\":64,\"mockInterview\":82,\"resume\":85,\"aptitude\":75,\"projects\":75,\"communication\":78}",
+      "risk_level": "Good",
+      "created_at": "2026-08-16T16:26:53.089Z"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "overall_score": 55,
+      "category_breakdown": "{\"technical\":52,\"dsa\":40,\"mockInterview\":50,\"resume\":65,\"aptitude\":60,\"projects\":55,\"communication\":58}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T16:27:49.748Z"
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "overall_score": 62,
+      "category_breakdown": "{\"technical\":65,\"dsa\":48,\"mockInterview\":60,\"resume\":75,\"aptitude\":65,\"projects\":65,\"communication\":65}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:27:49.750Z"
+    },
+    {
+      "id": 7,
+      "user_id": 1,
+      "overall_score": 68,
+      "category_breakdown": "{\"technical\":75,\"dsa\":56,\"mockInterview\":70,\"resume\":80,\"aptitude\":70,\"projects\":70,\"communication\":72}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:27:49.751Z"
+    },
+    {
+      "id": 8,
+      "user_id": 1,
+      "overall_score": 72,
+      "category_breakdown": "{\"technical\":80,\"dsa\":64,\"mockInterview\":82,\"resume\":85,\"aptitude\":75,\"projects\":75,\"communication\":78}",
+      "risk_level": "Good",
+      "created_at": "2026-08-16T16:27:49.753Z"
+    },
+    {
+      "id": 9,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:37:44.759Z"
+    },
+    {
+      "id": 10,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:37:44.784Z"
+    },
+    {
+      "id": 11,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:37:44.859Z"
+    },
+    {
+      "id": 12,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:48:18.819Z"
+    },
+    {
+      "id": 13,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:48:18.837Z"
+    },
+    {
+      "id": 14,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:48:18.937Z"
+    },
+    {
+      "id": 15,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:48:18.970Z"
+    },
+    {
+      "id": 16,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:48:20.498Z"
+    },
+    {
+      "id": 17,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:48:20.527Z"
+    },
+    {
+      "id": 18,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:48:20.657Z"
+    },
+    {
+      "id": 19,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:48:20.686Z"
+    },
+    {
+      "id": 20,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:48:53.019Z"
+    },
+    {
+      "id": 21,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:48:53.055Z"
+    },
+    {
+      "id": 22,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:59:26.461Z"
+    },
+    {
+      "id": 23,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:59:26.669Z"
+    },
+    {
+      "id": 24,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:59:28.007Z"
+    },
+    {
+      "id": 25,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:59:28.107Z"
+    },
+    {
+      "id": 26,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:59:32.505Z"
+    },
+    {
+      "id": 27,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T16:59:32.564Z"
+    },
+    {
+      "id": 28,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:00:30.074Z"
+    },
+    {
+      "id": 29,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:00:30.126Z"
+    },
+    {
+      "id": 30,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:00:30.306Z"
+    },
+    {
+      "id": 31,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:00:30.355Z"
+    },
+    {
+      "id": 32,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:00:41.229Z"
+    },
+    {
+      "id": 33,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:00:41.306Z"
+    },
+    {
+      "id": 34,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:00:41.367Z"
+    },
+    {
+      "id": 35,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:00:41.415Z"
+    },
+    {
+      "id": 36,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:00:48.198Z"
+    },
+    {
+      "id": 37,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:00:48.270Z"
+    },
+    {
+      "id": 38,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:00:48.488Z"
+    },
+    {
+      "id": 39,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:00:48.515Z"
+    },
+    {
+      "id": 40,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:00:55.748Z"
+    },
+    {
+      "id": 41,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:00:55.819Z"
+    },
+    {
+      "id": 42,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:20.791Z"
+    },
+    {
+      "id": 43,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:20.861Z"
+    },
+    {
+      "id": 44,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:21.709Z"
+    },
+    {
+      "id": 45,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:21.781Z"
+    },
+    {
+      "id": 46,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:21.833Z"
+    },
+    {
+      "id": 47,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:21.881Z"
+    },
+    {
+      "id": 48,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:22.485Z"
+    },
+    {
+      "id": 49,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:22.558Z"
+    },
+    {
+      "id": 50,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:22.741Z"
+    },
+    {
+      "id": 51,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:22.786Z"
+    },
+    {
+      "id": 52,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:24.885Z"
+    },
+    {
+      "id": 53,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:24.933Z"
+    },
+    {
+      "id": 54,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:25.215Z"
+    },
+    {
+      "id": 55,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:25.289Z"
+    },
+    {
+      "id": 56,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:25.491Z"
+    },
+    {
+      "id": 57,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:01:25.549Z"
+    },
+    {
+      "id": 58,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:15:11.451Z"
+    },
+    {
+      "id": 59,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:15:11.502Z"
+    },
+    {
+      "id": 60,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:15:11.662Z"
+    },
+    {
+      "id": 61,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":81,\"mockInterview\":41,\"resume\":98,\"aptitude\":60,\"projects\":75,\"communication\":46}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-16T17:15:11.707Z"
+    },
+    {
+      "id": 62,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:02.616Z"
+    },
+    {
+      "id": 63,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:02.691Z"
+    },
+    {
+      "id": 64,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:02.998Z"
+    },
+    {
+      "id": 65,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:03.139Z"
+    },
+    {
+      "id": 66,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:03.376Z"
+    },
+    {
+      "id": 67,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:03.407Z"
+    },
+    {
+      "id": 68,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:03.505Z"
+    },
+    {
+      "id": 69,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:03.591Z"
+    },
+    {
+      "id": 70,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:20.520Z"
+    },
+    {
+      "id": 71,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:20.612Z"
+    },
+    {
+      "id": 72,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:26.105Z"
+    },
+    {
+      "id": 73,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:26.137Z"
+    },
+    {
+      "id": 74,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:33.816Z"
+    },
+    {
+      "id": 75,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:33.918Z"
+    },
+    {
+      "id": 76,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:34.631Z"
+    },
+    {
+      "id": 77,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:34.666Z"
+    },
+    {
+      "id": 78,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:34.699Z"
+    },
+    {
+      "id": 79,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:34.735Z"
+    },
+    {
+      "id": 80,
+      "user_id": 3,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-16T17:49:55.408Z"
+    }
+  ],
+  "placement_risks": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "category": "Aptitude & Logic",
+      "risk_level": "MEDIUM",
+      "reason": "Moderate proficiency in Aptitude & Logic (60%). Further practice required for top companies.",
+      "evidence": "Category score: 60%",
+      "recommended_action": "Schedule 2 extra practice sessions for Aptitude & Logic this week."
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "category": "Communication",
+      "risk_level": "HIGH",
+      "reason": "Recent performance in Communication is currently 46%, which is below target placement standards.",
+      "evidence": "Assessment/Session average score: 46%",
+      "recommended_action": "Complete targeted exercises for Communication in your adaptive roadmap."
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "category": "Mock Interview",
+      "risk_level": "HIGH",
+      "reason": "Recent performance in Mock Interview is currently 41%, which is below target placement standards.",
+      "evidence": "Assessment/Session average score: 41%",
+      "recommended_action": "Complete targeted exercises for Mock Interview in your adaptive roadmap."
+    },
+    {
+      "id": 4,
+      "user_id": 3,
+      "category": "Aptitude & Logic",
+      "risk_level": "MEDIUM",
+      "reason": "Moderate proficiency in Aptitude & Logic (60%). Further practice required for top companies.",
+      "evidence": "Category score: 60%",
+      "recommended_action": "Schedule 2 extra practice sessions for Aptitude & Logic this week."
+    },
+    {
+      "id": 5,
+      "user_id": 3,
+      "category": "Communication",
+      "risk_level": "MEDIUM",
+      "reason": "Moderate proficiency in Communication (60%). Further practice required for top companies.",
+      "evidence": "Category score: 60%",
+      "recommended_action": "Schedule 2 extra practice sessions for Communication this week."
+    },
+    {
+      "id": 6,
+      "user_id": 3,
+      "category": "Resume Quality",
+      "risk_level": "MEDIUM",
+      "reason": "Moderate proficiency in Resume Quality (55%). Further practice required for top companies.",
+      "evidence": "Category score: 55%",
+      "recommended_action": "Schedule 2 extra practice sessions for Resume Quality this week."
+    },
+    {
+      "id": 7,
+      "user_id": 3,
+      "category": "Technical Skills",
+      "risk_level": "MEDIUM",
+      "reason": "Moderate proficiency in Technical Skills (50%). Further practice required for top companies.",
+      "evidence": "Category score: 50%",
+      "recommended_action": "Schedule 2 extra practice sessions for Technical Skills this week."
+    },
+    {
+      "id": 8,
+      "user_id": 3,
+      "category": "Mock Interview",
+      "risk_level": "MEDIUM",
+      "reason": "Moderate proficiency in Mock Interview (50%). Further practice required for top companies.",
+      "evidence": "Category score: 50%",
+      "recommended_action": "Schedule 2 extra practice sessions for Mock Interview this week."
+    },
+    {
+      "id": 9,
+      "user_id": 3,
+      "category": "Project Depth",
+      "risk_level": "MEDIUM",
+      "reason": "Moderate proficiency in Project Depth (50%). Further practice required for top companies.",
+      "evidence": "Category score: 50%",
+      "recommended_action": "Schedule 2 extra practice sessions for Project Depth this week."
+    },
+    {
+      "id": 10,
+      "user_id": 3,
+      "category": "DSA & Coding",
+      "risk_level": "HIGH",
+      "reason": "Recent performance in DSA & Coding is currently 45%, which is below target placement standards.",
+      "evidence": "Assessment/Session average score: 45%",
+      "recommended_action": "Complete targeted exercises for DSA & Coding in your adaptive roadmap."
+    }
+  ]
+}

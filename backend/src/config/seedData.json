@@ -1,0 +1,91 @@
+{
+  "roles_skills": {
+    "SDE at TCS": ["Java", "C++", "Python", "SQL", "DBMS", "Data Structures", "OOPs", "Communication Skills"],
+    "Software Engineer at Google": ["Go", "C++", "Java", "Python", "System Design", "Advanced Algorithms", "Dynamic Programming", "Distributed Systems", "Object-Oriented Design"],
+    "Data Scientist at Amazon": ["Python", "R", "SQL", "Machine Learning", "Deep Learning", "Statistics", "Data Wrangling", "A/B Testing", "Tableau", "Big Data"],
+    "Systems Engineer at Infosys": ["Java", "Python", "SQL", "Networking", "Operating Systems", "SDLC", "Cloud Computing Basics", "Problem Solving"],
+    "SDE at Wipro": ["Java", "C#", "SQL", "HTML/CSS", "JavaScript", "DBMS", "Software Engineering Principles", "Aptitude"]
+  },
+  "insights": [
+    {
+      "company": "TCS",
+      "role": "SDE / Ninja / Digital",
+      "type": "interview_pattern",
+      "title": "TCS Recruitment Process & Coding Round Pattern",
+      "content": "TCS conducts its recruitment primarily through TCS NQT (National Qualifier Test). The process has 2 main sections: 1. Cognitive Assessment (Quantitative Aptitude, Verbal Ability, Reasoning Ability). 2. Programming Assessment (Coding questions in C/C++/Java/Python/Perl). The programming section features one basic logic problem and one advanced problem (usually array/string manipulation or dynamic programming). After clearing NQT, there are Technical, Managerial, and HR interviews. In Technical rounds, candidates are grilled on OOPs, DBMS, SQL joins, and basic data structures.",
+      "source": "Placement Cell Guide 2025"
+    },
+    {
+      "company": "Google",
+      "role": "Software Engineer",
+      "type": "interview_pattern",
+      "title": "Google SWE Interview Structure & Topics",
+      "content": "Google SWE interviews focus heavily on algorithms, data structures, and problem-solving ability. Typically involves 1 phone screen followed by 4-5 virtual onsites. Topics highly prioritized include graphs (BFS/DFS, Dijkstra's), trees (binary trees, BST, trie), dynamic programming, recursion, hash tables, and system design (for mid/senior level). Interviewers evaluate you on four categories: Cognitive Ability, Role-Related Knowledge (RRK), Leadership/Googliness, and Coding. Clean, optimal, and bug-free code is expected.",
+      "source": "Senior Alumni Interview Logs"
+    },
+    {
+      "company": "Amazon",
+      "role": "Data Scientist",
+      "type": "interview_pattern",
+      "title": "Amazon Data Scientist Interview & Leadership Principles",
+      "content": "Amazon Data Scientist interviews evaluate technical depth in Machine Learning, coding, case study analysis, and alignment with Leadership Principles. The process consists of a phone screen with ML case study and coding, followed by 5 onsite loops. Expect coding questions in SQL (joins, window functions) and Python (algorithms or data processing). The ML portion focuses heavily on supervised/unsupervised algorithms, evaluation metrics (ROC-AUC, F1-score), feature engineering, and deep learning. Every response in behavioral questions must incorporate Amazon's Leadership Principles (like Customer Obsession and Bias for Action).",
+      "source": "Alumni Placement Reports 2024"
+    },
+    {
+      "company": "Infosys",
+      "role": "Systems Engineer",
+      "type": "interview_pattern",
+      "title": "Infosys HackWithInfy and InfyTQ Channels",
+      "content": "Infosys recruits through three main tracks: InfyTQ certification exam, HackWithInfy coding competition, and standard on-campus drives. HackWithInfy is a coding competition with two rounds testing competitive programming skills. InfyTQ focuses on Python, Database Management Systems (DBMS), and OOPs. The technical interview following InfyTQ certification tests projects mentioned on the resume, database concepts, basic arrays/strings programs, and basic web technologies (HTML/CSS/JS).",
+      "source": "Placement Cell Guide 2025"
+    },
+    {
+      "company": "Wipro",
+      "role": "SDE / Elite / Turbo",
+      "type": "interview_pattern",
+      "title": "Wipro Elite National Talent Hunt (NLTH) Pattern",
+      "content": "Wipro NLTH consists of three sections: 1. Quantitative, Logical, and Verbal English aptitude. 2. Coding (2 programs of medium difficulty in C/C++/Java/Python). 3. Written English Test (Essay writing). In the technical interview, candidates are commonly asked to write basic programs like Fibonacci series, prime check, palindrome, or factorial. Questions on relational databases, keys (primary, foreign), and basic computer networks are highly common.",
+      "source": "Wipro Interview Experience Blog"
+    },
+    {
+      "company": "TCS",
+      "role": "SDE / Digital",
+      "type": "asked_question",
+      "title": "TCS Frequently Asked Technical Questions",
+      "content": "Q1: What is the difference between Method Overloading and Method Overriding?\nQ2: Write a query to find the second highest salary from an Employee table.\nQ3: What are the different types of joins in SQL?\nQ4: Explain the SDLC waterfall model vs Agile.\nQ5: What is a pointer and how is memory managed in C++?",
+      "source": "Student Interview Feedback 2025"
+    },
+    {
+      "company": "Google",
+      "role": "Software Engineer",
+      "type": "asked_question",
+      "title": "Google SWE Commonly Asked Coding Questions",
+      "content": "Q1: Design a search autocomplete system (System Design).\nQ2: Find the longest path in a directed acyclic graph.\nQ3: Given a binary tree, find the maximum path sum between two nodes.\nQ4: Implement a rate limiter using token bucket or sliding window algorithm.\nQ5: Find the median of two sorted arrays of different sizes in O(log(min(m, n))) time.",
+      "source": "SWE Interview Experience Archive"
+    },
+    {
+      "company": "Amazon",
+      "role": "Data Scientist",
+      "type": "asked_question",
+      "title": "Amazon DS Core ML and SQL Questions",
+      "content": "Q1: Explain bias-variance tradeoff in Machine Learning.\nQ2: Write a SQL query using window functions to find the top 3 selling products per category.\nQ3: How would you deal with imbalanced datasets in predictive modeling?\nQ4: Describe how you would set up an A/B test for a new checkout page UI.\nQ5: What is the mathematical explanation of Gradient Descent?",
+      "source": "Amazon Interview Database"
+    },
+    {
+      "company": "Infosys",
+      "role": "Systems Engineer",
+      "type": "asked_question",
+      "title": "Infosys Common Technical Qs",
+      "content": "Q1: Explain the pillars of Object Oriented Programming.\nQ2: Write a program to reverse a string without using built-in methods.\nQ3: What is the difference between primary key, unique key, and candidate key?\nQ4: Explain the difference between GET and POST HTTP requests.\nQ5: What is normalization and why do we use it in DBMS?",
+      "source": "Infosys Campus Prep Notes"
+    },
+    {
+      "company": "Wipro",
+      "role": "SDE",
+      "type": "asked_question",
+      "title": "Wipro Technical Coding Questions",
+      "content": "Q1: How do you check if a linked list contains a cycle?\nQ2: What is the difference between compiler and interpreter?\nQ3: Write a program to check if two strings are anagrams of each other.\nQ4: What is the use of 'final' keyword in Java?\nQ5: Write a SQL query to delete duplicate rows from a table.",
+      "source": "Wipro Elite Prep Guide"
+    }
+  ]
+}

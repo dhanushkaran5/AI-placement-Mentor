@@ -1,0 +1,4298 @@
+[
+  {
+    "id": "tcs",
+    "name": "TCS",
+    "category": "IT / SERVICE",
+    "description": "Tata Consultancy Services is a global leader in IT services, consulting, and business solutions.",
+    "website": "https://www.tcs.com",
+    "logo": "TCS",
+    "industry": "Information Technology & Services",
+    "headquarters": "Mumbai, India",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "tcs-java-dev",
+        "title": "Java Developer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "OOP",
+            "SQL",
+            "DBMS",
+            "REST API",
+            "Git"
+          ],
+          "programmingLanguages": [
+            "Java"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "Hibernate"
+          ],
+          "databaseSkills": [
+            "MySQL",
+            "PostgreSQL"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      },
+      {
+        "id": "tcs-sde",
+        "title": "Software Engineer (Ninja / Digital)",
+        "requirements": {
+          "technicalSkills": [
+            "C++",
+            "Java",
+            "Python",
+            "SQL",
+            "Data Structures",
+            "OOP"
+          ],
+          "programmingLanguages": [
+            "C++",
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "React"
+          ],
+          "databaseSkills": [
+            "SQL",
+            "DBMS"
+          ],
+          "dsaImportance": "HIGH",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      },
+      {
+        "id": "tcs-qa",
+        "title": "QA Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Manual Testing",
+            "Selenium",
+            "Java",
+            "SQL",
+            "Test Automation"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "JUnit",
+            "TestNG",
+            "Selenium WebDriver"
+          ],
+          "databaseSkills": [
+            "SQL"
+          ],
+          "dsaImportance": "LOW",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "NONE",
+          "cloudImportance": "LOW",
+          "testingImportance": "HIGH",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "TCS NQT (National Qualifier Test)",
+      "stages": [
+        "Cognitive Aptitude",
+        "Programming Logic & Coding",
+        "Technical Interview",
+        "HR Round"
+      ],
+      "timings": "180 minutes total",
+      "focusAreas": [
+        "Numerical Ability",
+        "Verbal & Logical Reasoning",
+        "Basic Coding",
+        "SQL Queries"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round",
+        "Managerial Round",
+        "HR Round"
+      ],
+      "format": "Technical grilling on Java, OOPs, DBMS, SQL joins, basic DSA, and final project walkthrough.",
+      "focusAreas": [
+        "OOP concepts",
+        "SQL queries",
+        "SDLC models",
+        "Project code explanation"
+      ]
+    },
+    "preparationTopics": [
+      "Java Core & OOPs",
+      "SQL Joins & Group By",
+      "Basic Array/String Manipulation",
+      "Quantitative Aptitude",
+      "DBMS Fundamentals"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=tcs.com&sz=128"
+  },
+  {
+    "id": "infosys",
+    "name": "Infosys",
+    "category": "IT / SERVICE",
+    "description": "Infosys is a global digital services and consulting firm driving enterprise transformation.",
+    "website": "https://www.infosys.com",
+    "logo": "INFY",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Bengaluru, India",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "infosys-se",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Python",
+            "Java",
+            "SQL",
+            "DBMS",
+            "Networking",
+            "SDLC"
+          ],
+          "programmingLanguages": [
+            "Python",
+            "Java"
+          ],
+          "frameworks": [
+            "Django",
+            "Spring"
+          ],
+          "databaseSkills": [
+            "SQL",
+            "Oracle"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      },
+      {
+        "id": "infosys-sp",
+        "title": "Specialist Programmer",
+        "requirements": {
+          "technicalSkills": [
+            "Advanced DSA",
+            "Competitive Programming",
+            "Dynamic Programming",
+            "Graphs",
+            "DBMS"
+          ],
+          "programmingLanguages": [
+            "C++",
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "Node.js"
+          ],
+          "databaseSkills": [
+            "PostgreSQL",
+            "MongoDB"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "InfyTQ / HackWithInfy / On-Campus Test",
+      "stages": [
+        "Online Assessment (Aptitude + Coding)",
+        "Technical Interview",
+        "HR Interview"
+      ],
+      "timings": "150 minutes",
+      "focusAreas": [
+        "Data Structures",
+        "Algorithms",
+        "DBMS & SQL",
+        "Pseudo Code"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round",
+        "HR Round"
+      ],
+      "format": "Deep dive into resume projects, programming fundamentals, SQL schema design, and basic algorithm writing.",
+      "focusAreas": [
+        "OOP Principles",
+        "Resume Project Deep-Dive",
+        "String/Array Algorithms",
+        "DBMS Normalization"
+      ]
+    },
+    "preparationTopics": [
+      "Data Structures & Algorithms",
+      "Python/Java Core",
+      "Database Management Systems",
+      "Aptitude & Logic",
+      "Web Basics"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=infosys.com&sz=128"
+  },
+  {
+    "id": "wipro",
+    "name": "Wipro",
+    "category": "IT / SERVICE",
+    "description": "Wipro is a leading technology services and consulting company focused on building innovative solutions.",
+    "website": "https://www.wipro.com",
+    "logo": "WIPRO",
+    "industry": "IT Services",
+    "headquarters": "Bengaluru, India",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "wipro-sde",
+        "title": "Software Developer",
+        "requirements": {
+          "technicalSkills": [
+            "C#",
+            "Java",
+            "SQL",
+            "HTML/CSS",
+            "JavaScript",
+            "DBMS"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "C#",
+            "Python"
+          ],
+          "frameworks": [
+            ".NET",
+            "Spring"
+          ],
+          "databaseSkills": [
+            "SQL Server",
+            "MySQL"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Wipro Elite NTH (National Talent Hunt)",
+      "stages": [
+        "Aptitude Test",
+        "Coding Assessment",
+        "Written Communication Test",
+        "Technical + HR Interview"
+      ],
+      "timings": "140 minutes",
+      "focusAreas": [
+        "Quantitative Aptitude",
+        "Logical Reasoning",
+        "Basic Coding",
+        "Essay Writing"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Interview",
+        "HR Interview"
+      ],
+      "format": "Basic programming tasks (Fibonacci, Anagram, Palindrome), database concepts, and behavioral questions.",
+      "focusAreas": [
+        "Basic C++/Java Code Writing",
+        "SQL Keys & Joins",
+        "Communication Skills"
+      ]
+    },
+    "preparationTopics": [
+      "Basic Coding Logic",
+      "SQL Fundamentals",
+      "Aptitude Speed Tests",
+      "Written Communication"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=wipro.com&sz=128"
+  },
+  {
+    "id": "hcltech",
+    "name": "HCLTech",
+    "category": "IT / SERVICE",
+    "description": "HCLTech is a global technology company providing supercharged capabilities across Digital, Engineering, Cloud, and AI.",
+    "website": "https://www.hcltech.com",
+    "logo": "HCL",
+    "industry": "IT Services & Cloud Solutions",
+    "headquarters": "Noida, India",
+    "difficulty": "Easy",
+    "roles": [
+      {
+        "id": "hcl-software-engineer",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "C++",
+            "Java",
+            "Python",
+            "SQL",
+            "Networking",
+            "Operating Systems"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "C++"
+          ],
+          "frameworks": [
+            "Spring Boot"
+          ],
+          "databaseSkills": [
+            "SQL Server"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "HCLTech First Careers / Campus Drive",
+      "stages": [
+        "Aptitude & Technical MCQ",
+        "Coding Round",
+        "Technical Interview",
+        "HR Interview"
+      ],
+      "timings": "120 minutes",
+      "focusAreas": [
+        "Quantitative & Reasoning",
+        "C/Java Basics",
+        "SQL Queries"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Interview",
+        "HR Interview"
+      ],
+      "format": "Questions on core computer science subjects, project implementation, and basic problem solving.",
+      "focusAreas": [
+        "Operating System Concepts",
+        "Computer Networks",
+        "Basic Coding"
+      ]
+    },
+    "preparationTopics": [
+      "CS Fundamentals",
+      "Aptitude Practice",
+      "Basic Java/C++",
+      "DBMS Queries"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=hcltech.com&sz=128"
+  },
+  {
+    "id": "tech-mahindra",
+    "name": "Tech Mahindra",
+    "category": "IT / SERVICE",
+    "description": "Tech Mahindra offers innovative and customer-centric digital experiences, enabling enterprises, associates, and society to Rise.",
+    "website": "https://www.techmahindra.com",
+    "logo": "TECHM",
+    "industry": "IT Services & Telecom",
+    "headquarters": "Pune, India",
+    "difficulty": "Easy",
+    "roles": [
+      {
+        "id": "techm-associate-engineer",
+        "title": "Associate Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Python",
+            "SQL",
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring"
+          ],
+          "databaseSkills": [
+            "MySQL"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "NONE",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Tech Mahindra National Eligibility Test",
+      "stages": [
+        "Aptitude & Technical MCQ",
+        "Personality Test",
+        "Coding Round",
+        "Technical & HR Interview"
+      ],
+      "timings": "130 minutes",
+      "focusAreas": [
+        "Aptitude",
+        "Psychometric Test",
+        "Basic Coding"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical + HR Panel Interview"
+      ],
+      "format": "Combined panel testing communication skills, adaptability, domain knowledge, and academic projects.",
+      "focusAreas": [
+        "Communication",
+        "Web Development Basics",
+        "DBMS Keys"
+      ]
+    },
+    "preparationTopics": [
+      "Aptitude & Reasoning",
+      "Basic Coding Practice",
+      "Communication Confidence",
+      "SQL Basics"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=techmahindra.com&sz=128"
+  },
+  {
+    "id": "cognizant",
+    "name": "Cognizant",
+    "category": "IT / SERVICE",
+    "description": "Cognizant engineers modern businesses to help clients modernize technology, reimagine processes, and transform experiences.",
+    "website": "https://www.cognizant.com",
+    "logo": "CTSH",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Teaneck, NJ, USA",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "cognizant-genc",
+        "title": "GenC Programmer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Python",
+            "SQL",
+            "HTML/CSS",
+            "JavaScript",
+            "DBMS"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring"
+          ],
+          "databaseSkills": [
+            "SQL Server",
+            "MySQL"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      },
+      {
+        "id": "cognizant-genc-next",
+        "title": "GenC Next Developer",
+        "requirements": {
+          "technicalSkills": [
+            "Data Structures",
+            "Algorithms",
+            "Full Stack Development",
+            "SQL",
+            "Cloud Basics"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python",
+            "C++"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "React",
+            "Node.js"
+          ],
+          "databaseSkills": [
+            "PostgreSQL",
+            "MongoDB"
+          ],
+          "dsaImportance": "HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Cognizant GenC / GenC Next Assessment",
+      "stages": [
+        "Quantitative & Logical Aptitude",
+        "Debugging / Automata Coding",
+        "Technical Interview",
+        "HR Round"
+      ],
+      "timings": "120 minutes",
+      "focusAreas": [
+        "Code Debugging",
+        "Array & String Coding",
+        "Logical Reasoning"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round",
+        "HR Round"
+      ],
+      "format": "Debugging questions, algorithm trace, database query evaluation, and project defense.",
+      "focusAreas": [
+        "Code Debugging Logic",
+        "SQL Queries",
+        "OOP Concepts",
+        "Project Architecture"
+      ]
+    },
+    "preparationTopics": [
+      "Code Debugging Practice",
+      "Data Structures",
+      "Java/Python Core",
+      "SQL Queries"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=cognizant.com&sz=128"
+  },
+  {
+    "id": "accenture",
+    "name": "Accenture",
+    "category": "IT / SERVICE",
+    "description": "Accenture is a global professional services company with leading capabilities in digital, cloud, and security.",
+    "website": "https://www.accenture.com",
+    "logo": "ACN",
+    "industry": "Management Consulting & IT Services",
+    "headquarters": "Dublin, Ireland",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "accenture-ada",
+        "title": "Advanced Application Engineering Associate",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Python",
+            "SQL",
+            "Cloud Fundamentals",
+            "Agile",
+            "Web Stack"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python",
+            "JavaScript"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "React"
+          ],
+          "databaseSkills": [
+            "MySQL",
+            "SQL Server"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Accenture Recruitment Assessment",
+      "stages": [
+        "Cognitive & Technical Assessment",
+        "Coding Assessment",
+        "Communication Assessment",
+        "Interview Loop"
+      ],
+      "timings": "150 minutes",
+      "focusAreas": [
+        "Pseudo Code",
+        "Networking & Cloud Basics",
+        "English Verbal & Pronunciation",
+        "Basic Coding"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Integrated Technical & HR Interview"
+      ],
+      "format": "Scenario-based technical questions, situation handling, project experience, and adaptability assessment.",
+      "focusAreas": [
+        "Scenario Problem Solving",
+        "Cloud & Web Basics",
+        "Communication Fluency"
+      ]
+    },
+    "preparationTopics": [
+      "Pseudo Code Tracing",
+      "Aptitude & Verbal",
+      "Basic Coding",
+      "Communication Practice"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=accenture.com&sz=128"
+  },
+  {
+    "id": "capgemini",
+    "name": "Capgemini",
+    "category": "IT / SERVICE",
+    "description": "Capgemini is a global leader in partnering with companies to transform and manage their business through technology.",
+    "website": "https://www.capgemini.com",
+    "logo": "CAP",
+    "industry": "IT Services & Consulting",
+    "headquarters": "Paris, France",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "capgemini-analyst",
+        "title": "Analyst / Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "C++",
+            "SQL",
+            "Pseudo Code",
+            "Data Structures"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "C++",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring"
+          ],
+          "databaseSkills": [
+            "Oracle",
+            "SQL"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Capgemini Excellence Assessment",
+      "stages": [
+        "Pseudo Code Test",
+        "English Communication Test",
+        "Game-Based Aptitude",
+        "Coding Round",
+        "Technical & HR Interview"
+      ],
+      "timings": "135 minutes",
+      "focusAreas": [
+        "Game Aptitude",
+        "Pseudo Code Evaluation",
+        "Coding Logic"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round",
+        "HR Round"
+      ],
+      "format": "Evaluation of core CS concepts, programming logic, database concepts, and situational questions.",
+      "focusAreas": [
+        "C++/Java Basics",
+        "SQL Joins",
+        "Project Walkthrough"
+      ]
+    },
+    "preparationTopics": [
+      "Pseudo Code Analysis",
+      "Game-Based Aptitude",
+      "Coding Fundamentals",
+      "English Fluency"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=capgemini.com&sz=128"
+  },
+  {
+    "id": "ltimindtree",
+    "name": "LTIMindtree",
+    "category": "IT / SERVICE",
+    "description": "LTIMindtree is a global technology consulting and digital solutions company.",
+    "website": "https://www.ltimindtree.com",
+    "logo": "LTI",
+    "industry": "IT Services",
+    "headquarters": "Mumbai, India",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "lti-software-engineer",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Python",
+            "SQL",
+            "DBMS",
+            "Data Structures",
+            "OOP"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot"
+          ],
+          "databaseSkills": [
+            "MySQL"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "LTIMindtree National Campus Assessment",
+      "stages": [
+        "Aptitude & Psychometric",
+        "Coding Test",
+        "Technical Interview",
+        "HR Interview"
+      ],
+      "timings": "120 minutes",
+      "focusAreas": [
+        "Quantitative Reasoning",
+        "Data Structures Coding",
+        "SQL Queries"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Interview",
+        "HR Round"
+      ],
+      "format": "Technical discussion on OOPs, data structures, SQL queries, and candidate's major college project.",
+      "focusAreas": [
+        "OOP Principles",
+        "Data Structures",
+        "Database Normalization"
+      ]
+    },
+    "preparationTopics": [
+      "Core Java/Python",
+      "DSA Fundamentals",
+      "SQL Database",
+      "Aptitude Tests"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ltimindtree.com&sz=128"
+  },
+  {
+    "id": "mphasis",
+    "name": "Mphasis",
+    "category": "IT / SERVICE",
+    "description": "Mphasis applies next-generation technology to help enterprises transform businesses globally.",
+    "website": "https://www.mphasis.com",
+    "logo": "MPHASIS",
+    "industry": "IT Services & Cloud",
+    "headquarters": "Bengaluru, India",
+    "difficulty": "Easy",
+    "roles": [
+      {
+        "id": "mphasis-associate-se",
+        "title": "Associate Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "C++",
+            "SQL",
+            "Web Basics",
+            "DBMS"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "C++"
+          ],
+          "frameworks": [
+            "Spring"
+          ],
+          "databaseSkills": [
+            "SQL Server"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "NONE",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Mphasis Selection Process",
+      "stages": [
+        "Aptitude Test",
+        "Computer Science MCQ",
+        "Coding Test",
+        "Interview Panel"
+      ],
+      "timings": "110 minutes",
+      "focusAreas": [
+        "Aptitude",
+        "C/Java MCQ",
+        "Basic Coding"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical + HR Interview"
+      ],
+      "format": "Discussion on programming basics, academic projects, and SQL concepts.",
+      "focusAreas": [
+        "Basic Algorithms",
+        "SQL Queries",
+        "Communication"
+      ]
+    },
+    "preparationTopics": [
+      "Quantitative Aptitude",
+      "Basic Java/C++",
+      "SQL Joins"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=mphasis.com&sz=128"
+  },
+  {
+    "id": "hexaware",
+    "name": "Hexaware",
+    "category": "IT / SERVICE",
+    "description": "Hexaware is a global provider of IT, BPO, and consulting services with automated solutions.",
+    "website": "https://www.hexaware.com",
+    "logo": "HEXAWARE",
+    "industry": "IT Services & Automation",
+    "headquarters": "Navi Mumbai, India",
+    "difficulty": "Easy",
+    "roles": [
+      {
+        "id": "hexaware-se",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Python",
+            "SQL",
+            "HTML/CSS",
+            "JavaScript"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot"
+          ],
+          "databaseSkills": [
+            "MySQL"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "NONE",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Hexaware PGET Hiring Test",
+      "stages": [
+        "Aptitude & Communication Test",
+        "Domain & Coding Test",
+        "Technical Interview",
+        "HR Round"
+      ],
+      "timings": "120 minutes",
+      "focusAreas": [
+        "Communication",
+        "Verbal Aptitude",
+        "Coding"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round",
+        "HR Round"
+      ],
+      "format": "Focus on communication skills, web stack basics, database concepts, and coding logic.",
+      "focusAreas": [
+        "Web Stack",
+        "Communication",
+        "Basic Coding"
+      ]
+    },
+    "preparationTopics": [
+      "Aptitude",
+      "Java/Python Basics",
+      "Web Technologies",
+      "Communication Skills"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=hexaware.com&sz=128"
+  },
+  {
+    "id": "persistent",
+    "name": "Persistent Systems",
+    "category": "IT / SERVICE",
+    "description": "Persistent Systems builds software that drives digital transformation for global enterprises.",
+    "website": "https://www.persistent.com",
+    "logo": "PERSISTENT",
+    "industry": "Software Engineering & Digital Transformation",
+    "headquarters": "Pune, India",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "persistent-se",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Data Structures",
+            "Algorithms",
+            "Java",
+            "Python",
+            "SQL",
+            "DBMS",
+            "OS"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "C++",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "React"
+          ],
+          "databaseSkills": [
+            "PostgreSQL",
+            "MySQL"
+          ],
+          "dsaImportance": "HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Persistent Campus Recruitment Drive",
+      "stages": [
+        "Computer Fundamentals & MCQ",
+        "Advanced Coding Round",
+        "Technical Interview Loop",
+        "HR Interview"
+      ],
+      "timings": "140 minutes",
+      "focusAreas": [
+        "CS Fundamentals",
+        "DSA Coding",
+        "DBMS & OS"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Interview 1",
+        "Technical Interview 2",
+        "HR Interview"
+      ],
+      "format": "Detailed problem solving on arrays, trees, graphs, database architecture, and computer CS subjects.",
+      "focusAreas": [
+        "Trees & Graphs",
+        "DBMS Transactions",
+        "Operating System Multithreading"
+      ]
+    },
+    "preparationTopics": [
+      "Data Structures & Algorithms",
+      "Operating Systems",
+      "DBMS Architecture",
+      "Advanced Coding"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=persistent.com&sz=128"
+  },
+  {
+    "id": "coforge",
+    "name": "Coforge",
+    "category": "IT / SERVICE",
+    "description": "Coforge is a global digital services and solutions provider leveraging domain expertise and emerging technologies.",
+    "website": "https://www.coforge.com",
+    "logo": "COFORGE",
+    "industry": "IT Services & Solutions",
+    "headquarters": "Noida, India",
+    "difficulty": "Easy",
+    "roles": [
+      {
+        "id": "coforge-graduate-trainee",
+        "title": "Graduate Engineer Trainee",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Python",
+            "SQL",
+            "HTML/CSS",
+            "DBMS"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring"
+          ],
+          "databaseSkills": [
+            "SQL Server"
+          ],
+          "dsaImportance": "LOW",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "NONE",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Coforge Campus Test",
+      "stages": [
+        "Aptitude Test",
+        "Technical MCQ",
+        "Coding Test",
+        "Interview Panel"
+      ],
+      "timings": "100 minutes",
+      "focusAreas": [
+        "Aptitude",
+        "Basic Coding",
+        "SQL"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical & HR Round"
+      ],
+      "format": "Evaluation of CS fundamentals, project experience, and behavioral alignment.",
+      "focusAreas": [
+        "Basic Coding",
+        "SQL",
+        "Academic Background"
+      ]
+    },
+    "preparationTopics": [
+      "Aptitude",
+      "Basic Programming",
+      "SQL Database"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=coforge.com&sz=128"
+  },
+  {
+    "id": "birlasoft",
+    "name": "Birlasoft",
+    "category": "IT / SERVICE",
+    "description": "Birlasoft combines domain expertise and enterprise technologies to transform enterprise processes.",
+    "website": "https://www.birlasoft.com",
+    "logo": "BIRLASOFT",
+    "industry": "Enterprise IT Services",
+    "headquarters": "Pune, India",
+    "difficulty": "Easy",
+    "roles": [
+      {
+        "id": "birlasoft-engineer",
+        "title": "Software Engineer Trainee",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "C++",
+            "SQL",
+            "DBMS",
+            "Web Stack"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "C++"
+          ],
+          "frameworks": [
+            "Spring"
+          ],
+          "databaseSkills": [
+            "MySQL"
+          ],
+          "dsaImportance": "LOW",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "NONE",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Birlasoft Recruitment Test",
+      "stages": [
+        "Aptitude Test",
+        "Technical MCQ",
+        "Basic Coding",
+        "Interview"
+      ],
+      "timings": "105 minutes",
+      "focusAreas": [
+        "Aptitude",
+        "Language Basics",
+        "SQL"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Interview",
+        "HR Interview"
+      ],
+      "format": "Discussion on C++/Java basics, database keys, and project summary.",
+      "focusAreas": [
+        "Language Core",
+        "SQL Queries",
+        "Communication"
+      ]
+    },
+    "preparationTopics": [
+      "Aptitude & Verbal",
+      "Basic Coding",
+      "DBMS Basics"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=birlasoft.com&sz=128"
+  },
+  {
+    "id": "virtusa",
+    "name": "Virtusa",
+    "category": "IT / SERVICE",
+    "description": "Virtusa provides digital engineering and information technology services to Banking, Healthcare, and Telecom.",
+    "website": "https://www.virtusa.com",
+    "logo": "VIRTUSA",
+    "industry": "Digital Engineering & IT",
+    "headquarters": "Southborough, MA, USA",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "virtusa-engineer",
+        "title": "Associate Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Python",
+            "SQL",
+            "Data Structures",
+            "REST API",
+            "OOP"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "Angular"
+          ],
+          "databaseSkills": [
+            "Oracle",
+            "MySQL"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Virtusa Neural Hack / Campus Drive",
+      "stages": [
+        "Aptitude & Logic",
+        "Coding Assessment",
+        "Technical Interview",
+        "HR Round"
+      ],
+      "timings": "120 minutes",
+      "focusAreas": [
+        "Data Structures",
+        "Java Coding",
+        "Database Queries"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round",
+        "HR Round"
+      ],
+      "format": "Coding problem write-up, OOP design explanation, and database schema evaluation.",
+      "focusAreas": [
+        "OOP Design Patterns",
+        "SQL Queries",
+        "Java Core"
+      ]
+    },
+    "preparationTopics": [
+      "Java Core & Spring",
+      "SQL Joins & Grouping",
+      "Basic Data Structures"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=virtusa.com&sz=128"
+  },
+  {
+    "id": "cgi",
+    "name": "CGI",
+    "category": "IT / SERVICE",
+    "description": "CGI is among the largest IT and business consulting services firms in the world.",
+    "website": "https://www.cgi.com",
+    "logo": "CGI",
+    "industry": "IT & Business Consulting",
+    "headquarters": "Montreal, Canada",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "cgi-associate-consultant",
+        "title": "Associate Software Consultant",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "C#",
+            "SQL",
+            "DBMS",
+            "Data Structures",
+            "Agile"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "C#",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            ".NET Core"
+          ],
+          "databaseSkills": [
+            "SQL Server",
+            "Oracle"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "CGI Hiring Process",
+      "stages": [
+        "Online Assessment (Aptitude + Technical)",
+        "Coding Round",
+        "Technical & HR Interview"
+      ],
+      "timings": "115 minutes",
+      "focusAreas": [
+        "Logical Reasoning",
+        "Coding Logic",
+        "Computer Science MCQ"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Interview",
+        "Managerial & HR Round"
+      ],
+      "format": "Questions on object-oriented software engineering, software lifecycle, and scenario problem-solving.",
+      "focusAreas": [
+        "OOP Principles",
+        "Software Engineering Concepts",
+        "Database Queries"
+      ]
+    },
+    "preparationTopics": [
+      "Quantitative Aptitude",
+      "OOPs Concepts",
+      "SQL",
+      "Software Lifecycle"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=cgi.com&sz=128"
+  },
+  {
+    "id": "dxc",
+    "name": "DXC Technology",
+    "category": "IT / SERVICE",
+    "description": "DXC Technology helps global companies run their mission-critical systems and operations.",
+    "website": "https://dxc.com",
+    "logo": "DXC",
+    "industry": "IT Services & Enterprise Cloud",
+    "headquarters": "Ashburn, VA, USA",
+    "difficulty": "Easy",
+    "roles": [
+      {
+        "id": "dxc-associate-engineer",
+        "title": "Associate Professional Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Python",
+            "SQL",
+            "Networking",
+            "Linux Basics"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring"
+          ],
+          "databaseSkills": [
+            "SQL Server"
+          ],
+          "dsaImportance": "LOW",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "NONE",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "DXC Recruitment Assessment",
+      "stages": [
+        "Aptitude & Technical Test",
+        "Automata Coding",
+        "Technical Interview",
+        "HR Round"
+      ],
+      "timings": "110 minutes",
+      "focusAreas": [
+        "Aptitude",
+        "Basic Coding",
+        "Computer Fundamentals"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round",
+        "HR Round"
+      ],
+      "format": "Basic CS questions, networking basics, programming syntax, and academic achievements.",
+      "focusAreas": [
+        "Networking & OS",
+        "SQL Fundamentals",
+        "Communication"
+      ]
+    },
+    "preparationTopics": [
+      "Aptitude Practice",
+      "Basic Java/Python",
+      "Linux & Networks"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=dxc.com&sz=128"
+  },
+  {
+    "id": "nttdata",
+    "name": "NTT DATA",
+    "category": "IT / SERVICE",
+    "description": "NTT DATA is a trusted global innovator of IT and business services headquartered in Tokyo.",
+    "website": "https://www.nttdata.com",
+    "logo": "NTT",
+    "industry": "IT Services & Global Innovation",
+    "headquarters": "Tokyo, Japan",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "ntt-software-engineer",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Python",
+            "SQL",
+            "DBMS",
+            "Web Technologies",
+            "OOP"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring",
+            "React"
+          ],
+          "databaseSkills": [
+            "MySQL",
+            "Oracle"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "MEDIUM",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "NTT DATA Campus Drive",
+      "stages": [
+        "Aptitude & English Test",
+        "Technical MCQ & Coding",
+        "Technical Interview",
+        "HR Interview"
+      ],
+      "timings": "120 minutes",
+      "focusAreas": [
+        "Numerical Ability",
+        "Pseudo Code",
+        "Coding"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round",
+        "HR Round"
+      ],
+      "format": "Interview covering core programming logic, database normalization, and project details.",
+      "focusAreas": [
+        "DBMS Concepts",
+        "Java Core",
+        "Project Architecture"
+      ]
+    },
+    "preparationTopics": [
+      "Aptitude",
+      "Core Programming",
+      "SQL Database",
+      "Verbal English"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=nttdata.com&sz=128"
+  },
+  {
+    "id": "deloitte",
+    "name": "Deloitte",
+    "category": "IT / SERVICE",
+    "description": "Deloitte delivers industry-leading audit, consulting, tax, and advisory services to major organizations.",
+    "website": "https://www.deloitte.com",
+    "logo": "DELOITTE",
+    "industry": "Consulting & Technology Solutions",
+    "headquarters": "London, UK",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "deloitte-tech-analyst",
+        "title": "Technology Analyst",
+        "requirements": {
+          "technicalSkills": [
+            "Python",
+            "Java",
+            "SQL",
+            "Data Analytics",
+            "Cloud Basics",
+            "Business Analysis"
+          ],
+          "programmingLanguages": [
+            "Python",
+            "Java",
+            "R"
+          ],
+          "frameworks": [
+            "Django",
+            "Spring"
+          ],
+          "databaseSkills": [
+            "SQL Server",
+            "Snowflake"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "VERY HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Deloitte NLA (National Level Assessment)",
+      "stages": [
+        "Quantitative & Verbal Test",
+        "Technical MCQ & Case Study",
+        "Behavioral Test",
+        "Technical & Managerial Interviews"
+      ],
+      "timings": "140 minutes",
+      "focusAreas": [
+        "Case Analysis",
+        "Advanced Verbal & Reasoning",
+        "Data Analytics & SQL"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round",
+        "Managerial / Case Study Round",
+        "HR Round"
+      ],
+      "format": "Tech background review, business scenario evaluation, database query writing, and case study discussion.",
+      "focusAreas": [
+        "Case Studies",
+        "SQL Data Analysis",
+        "Communication & Leadership"
+      ]
+    },
+    "preparationTopics": [
+      "Case Analysis",
+      "SQL Data Manipulation",
+      "Python Basics",
+      "Business Communication"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=deloitte.com&sz=128"
+  },
+  {
+    "id": "ey",
+    "name": "EY",
+    "category": "IT / SERVICE",
+    "description": "Ernst & Young is a global leader in assurance, consulting, strategy and transactions, and tax services.",
+    "website": "https://www.ey.com",
+    "logo": "EY",
+    "industry": "Professional Services & IT Consulting",
+    "headquarters": "London, UK",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "ey-tech-consultant",
+        "title": "Technology Consultant",
+        "requirements": {
+          "technicalSkills": [
+            "Python",
+            "SQL",
+            "Data Analytics",
+            "Cybersecurity Basics",
+            "Cloud Basics"
+          ],
+          "programmingLanguages": [
+            "Python",
+            "SQL"
+          ],
+          "frameworks": [
+            "PowerBI",
+            "Tableau"
+          ],
+          "databaseSkills": [
+            "SQL Server",
+            "MySQL"
+          ],
+          "dsaImportance": "LOW",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "VERY HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "EY Campus Hiring Process",
+      "stages": [
+        "Aptitude & Logical Reasoning",
+        "Technical MCQ Test",
+        "Case Study Round",
+        "Panel Interview"
+      ],
+      "timings": "120 minutes",
+      "focusAreas": [
+        "Logical Reasoning",
+        "Data Interpretation",
+        "SQL"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical & Case Interview",
+        "Partner HR Round"
+      ],
+      "format": "Problem solving in tech consulting contexts, dataset analysis, and project defense.",
+      "focusAreas": [
+        "SQL Queries",
+        "Data Presentation",
+        "Consulting Mindset"
+      ]
+    },
+    "preparationTopics": [
+      "Data Analytics Fundamentals",
+      "SQL Queries",
+      "Aptitude",
+      "Communication"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ey.com&sz=128"
+  },
+  {
+    "id": "kpmg",
+    "name": "KPMG",
+    "category": "IT / SERVICE",
+    "description": "KPMG is a global network of professional firms providing Audit, Tax and Advisory services.",
+    "website": "https://kpmg.com",
+    "logo": "KPMG",
+    "industry": "Audit, Advisory & Digital Solutions",
+    "headquarters": "Amstelveen, Netherlands",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "kpmg-analyst",
+        "title": "Digital Advisory Analyst",
+        "requirements": {
+          "technicalSkills": [
+            "Python",
+            "SQL",
+            "Excel",
+            "Data Modeling",
+            "Business Intelligence"
+          ],
+          "programmingLanguages": [
+            "Python",
+            "SQL"
+          ],
+          "frameworks": [
+            "PowerBI"
+          ],
+          "databaseSkills": [
+            "MySQL"
+          ],
+          "dsaImportance": "LOW",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "VERY HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "KPMG National Assessment",
+      "stages": [
+        "Aptitude & Reasoning Test",
+        "Technical MCQ",
+        "Case Analysis",
+        "Interview Loop"
+      ],
+      "timings": "115 minutes",
+      "focusAreas": [
+        "Logical Analysis",
+        "SQL",
+        "Business Logic"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Interview",
+        "Managerial Interview"
+      ],
+      "format": "Technical discussions on database modeling, analytics tools, and scenario handling.",
+      "focusAreas": [
+        "Data Analysis",
+        "SQL Joins",
+        "Communication"
+      ]
+    },
+    "preparationTopics": [
+      "Data Visualization",
+      "SQL Database",
+      "Reasoning Aptitude"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=kpmg.com&sz=128"
+  },
+  {
+    "id": "pwc",
+    "name": "PwC",
+    "category": "IT / SERVICE",
+    "description": "PwC builds trust in society and solves important problems through audit, tax, and consulting services.",
+    "website": "https://www.pwc.com",
+    "logo": "PWC",
+    "industry": "Professional Services & IT Consulting",
+    "headquarters": "London, UK",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "pwc-associate-consultant",
+        "title": "Technology Associate Consultant",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Python",
+            "SQL",
+            "Cloud Basics",
+            "Data Structures"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring",
+            "React"
+          ],
+          "databaseSkills": [
+            "PostgreSQL",
+            "SQL Server"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "VERY HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "PwC Campus Recruitment",
+      "stages": [
+        "Cognitive Ability Test",
+        "Coding & Technical MCQ",
+        "Technical & HR Interview"
+      ],
+      "timings": "120 minutes",
+      "focusAreas": [
+        "Aptitude",
+        "Python/Java Coding",
+        "Analytical Thinking"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round",
+        "HR Round"
+      ],
+      "format": "Questions on project engineering, database architecture, problem-solving approach, and soft skills.",
+      "focusAreas": [
+        "Analytical Reasoning",
+        "Core Coding",
+        "Behavioral Scenarios"
+      ]
+    },
+    "preparationTopics": [
+      "Aptitude & Verbal",
+      "SQL",
+      "Basic Programming",
+      "Communication"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=pwc.com&sz=128"
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "Amazon is a global technology giant focusing on e-commerce, cloud computing (AWS), digital streaming, and AI.",
+    "website": "https://www.amazon.jobs",
+    "logo": "AMZN",
+    "industry": "E-Commerce, Cloud & Technology",
+    "headquarters": "Seattle, WA, USA",
+    "difficulty": "Very Hard",
+    "roles": [
+      {
+        "id": "amazon-sde",
+        "title": "Software Development Engineer (SDE 1)",
+        "requirements": {
+          "technicalSkills": [
+            "Data Structures",
+            "Advanced Algorithms",
+            "Object Oriented Design",
+            "System Design",
+            "DBMS",
+            "OS",
+            "Networks"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "C++",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "AWS Services"
+          ],
+          "databaseSkills": [
+            "DynamoDB",
+            "PostgreSQL"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "VERY HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "HIGH",
+          "testingImportance": "MEDIUM",
+          "experienceLevel": "Entry Level"
+        }
+      },
+      {
+        "id": "amazon-data-scientist",
+        "title": "Data Scientist",
+        "requirements": {
+          "technicalSkills": [
+            "Python",
+            "Machine Learning",
+            "Deep Learning",
+            "SQL",
+            "Statistics",
+            "A/B Testing",
+            "Big Data"
+          ],
+          "programmingLanguages": [
+            "Python",
+            "R",
+            "SQL"
+          ],
+          "frameworks": [
+            "PyTorch",
+            "TensorFlow",
+            "Scikit-Learn",
+            "Spark"
+          ],
+          "databaseSkills": [
+            "Redshift",
+            "PostgreSQL"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "VERY HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Amazon Online Assessment (OA)",
+      "stages": [
+        "OA 1: Debugging & Work Simulation",
+        "OA 2: Coding (2 LeetCode Medium/Hard Problems)",
+        "OA 3: Work Style Assessment / Leadership Principles"
+      ],
+      "timings": "180 minutes total across OAs",
+      "focusAreas": [
+        "Arrays & Strings",
+        "Trees & Graphs",
+        "Dynamic Programming",
+        "Amazon Leadership Principles"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Phone Screen",
+        "4 Onsite Loops (Coding 1, Coding 2, OOD/System Design, Bar Raiser)"
+      ],
+      "format": "Deep technical algorithms, optimal space-time complexities, object-oriented design, and behavioral questions scored against 16 Leadership Principles.",
+      "focusAreas": [
+        "Trees & Graphs BFS/DFS",
+        "Dynamic Programming",
+        "Object Oriented Design",
+        "Amazon Leadership Principles (STAR format)"
+      ]
+    },
+    "preparationTopics": [
+      "LeetCode Medium/Hard DSA",
+      "Graph Algorithms (BFS, DFS, Dijkstra)",
+      "Object Oriented Design",
+      "Amazon Leadership Principles"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "Microsoft empowers every person and every organization on the planet to achieve more through software, hardware, and Azure cloud.",
+    "website": "https://careers.microsoft.com",
+    "logo": "MSFT",
+    "industry": "Software, Cloud Computing & AI",
+    "headquarters": "Redmond, WA, USA",
+    "difficulty": "Very Hard",
+    "roles": [
+      {
+        "id": "microsoft-swe",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Data Structures",
+            "Algorithms",
+            "System Design",
+            "Operating Systems",
+            "Concurrency",
+            "OOP"
+          ],
+          "programmingLanguages": [
+            "C++",
+            "C#",
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            ".NET",
+            "React",
+            "Azure Services"
+          ],
+          "databaseSkills": [
+            "Azure SQL",
+            "PostgreSQL"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "MEDIUM",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Microsoft Codility / Online Assessment",
+      "stages": [
+        "Online Coding Test (2-3 Algorithm Problems)",
+        "Virtual Onsite Loop (3-4 Rounds)"
+      ],
+      "timings": "90 minutes OA",
+      "focusAreas": [
+        "Strings & Manipulation",
+        "Arrays & Matrices",
+        "Trees & Dynamic Programming"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Phone Screen",
+        "3-4 Onsite Coding & Architecture Rounds"
+      ],
+      "format": "Interactive coding sessions focused on clean code, edge cases, memory management, and system design.",
+      "focusAreas": [
+        "Linked Lists & Binary Trees",
+        "Recursion & Backtracking",
+        "System Architecture",
+        "Cultural Fit"
+      ]
+    },
+    "preparationTopics": [
+      "Binary Trees & Binary Search Trees",
+      "Dynamic Programming",
+      "System Design Patterns",
+      "Memory Management & Concurrency"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128"
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "Google's mission is to organize the world's information and make it universally accessible and useful.",
+    "website": "https://careers.google.com",
+    "logo": "GOOGL",
+    "industry": "Search, Cloud, AI & Hardware",
+    "headquarters": "Mountain View, CA, USA",
+    "difficulty": "Very Hard",
+    "roles": [
+      {
+        "id": "google-swe",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Advanced Algorithms",
+            "Complex Data Structures",
+            "Dynamic Programming",
+            "Graphs",
+            "Distributed Systems"
+          ],
+          "programmingLanguages": [
+            "C++",
+            "Java",
+            "Python",
+            "Go"
+          ],
+          "frameworks": [
+            "TensorFlow",
+            "gRPC"
+          ],
+          "databaseSkills": [
+            "Spanner",
+            "Bigtable"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "HIGH",
+          "testingImportance": "MEDIUM",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Google Online Challenge (GOC)",
+      "stages": [
+        "Online Challenge (2 Complex Algorithmic Problems)",
+        "Technical Phone Screen",
+        "4-5 Onsite Technical Interviews"
+      ],
+      "timings": "90 minutes OA",
+      "focusAreas": [
+        "Graph Theory",
+        "Dynamic Programming",
+        "Tries & Segment Trees"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Phone Technical Screen",
+        "4-5 Technical Interviews (Coding, Algorithms, Googliness)"
+      ],
+      "format": "Rigorous algorithm design, proof of complexity, scalability discussion, and behavioral evaluation.",
+      "focusAreas": [
+        "Graph Algorithms (BFS/DFS, Dijkstra)",
+        "Trie & Binary Search",
+        "Dynamic Programming",
+        "Googliness & Leadership"
+      ]
+    },
+    "preparationTopics": [
+      "Advanced Graph Algorithms",
+      "Dynamic Programming Optimizations",
+      "Segment Trees & Disjoint Set Union",
+      "Scalable System Architecture"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=google.com&sz=128"
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "Meta builds technologies that help people connect, find communities, and grow businesses across Facebook, Instagram, and WhatsApp.",
+    "website": "https://metacareers.com",
+    "logo": "META",
+    "industry": "Social Media, AI & VR/AR",
+    "headquarters": "Menlo Park, CA, USA",
+    "difficulty": "Very Hard",
+    "roles": [
+      {
+        "id": "meta-swe",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Data Structures",
+            "Speed Coding",
+            "System Design",
+            "Full Stack Basics",
+            "Concurrency"
+          ],
+          "programmingLanguages": [
+            "C++",
+            "Python",
+            "Java",
+            "JavaScript"
+          ],
+          "frameworks": [
+            "React",
+            "PyTorch"
+          ],
+          "databaseSkills": [
+            "MySQL",
+            "RocksDB"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Meta Online Screening Test",
+      "stages": [
+        "Technical Phone Screen (2 LeetCode Mediums in 45 mins)",
+        "Full Virtual Onsite Loop"
+      ],
+      "timings": "45 minutes",
+      "focusAreas": [
+        "Arrays & Two Pointers",
+        "Trees & Recursion",
+        "HashMap & Binary Search"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Phone Screen",
+        "2 Coding Rounds",
+        "1 System Design Round",
+        "1 Behavioral Round"
+      ],
+      "format": "High speed, bug-free implementation of 2 algorithmic coding problems per 45-minute interview round.",
+      "focusAreas": [
+        "Rapid Algorithmic Problem Solving",
+        "Binary Tree Traversal",
+        "Graph Search",
+        "Behavioral Engineering Values"
+      ]
+    },
+    "preparationTopics": [
+      "Top Meta Tagged LeetCode Questions",
+      "Binary Trees & BST",
+      "System Design Basics",
+      "Speed Coding Under Time Pressure"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=meta.com&sz=128"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "Apple designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories.",
+    "website": "https://www.apple.com/careers",
+    "logo": "AAPL",
+    "industry": "Consumer Electronics, OS & Software",
+    "headquarters": "Cupertino, CA, USA",
+    "difficulty": "Very Hard",
+    "roles": [
+      {
+        "id": "apple-swe",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "C++",
+            "Data Structures",
+            "Systems Programming",
+            "Memory Allocation",
+            "OS Fundamentals"
+          ],
+          "programmingLanguages": [
+            "C++",
+            "Swift",
+            "Python",
+            "C"
+          ],
+          "frameworks": [
+            "CoreML",
+            "SwiftUI"
+          ],
+          "databaseSkills": [
+            "SQLite"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "VERY HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "LOW",
+          "testingImportance": "MEDIUM",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Apple Technical Screen",
+      "stages": [
+        "Technical Phone Interview",
+        "Onsite Team Interviews (4-5 Rounds)"
+      ],
+      "timings": "60 minutes per screen",
+      "focusAreas": [
+        "Systems C++",
+        "Pointers & Memory",
+        "Data Structures"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Team Recruiter Screen",
+        "Phone Technical Round",
+        "4-5 Onsite Deep-Dive Technical Rounds"
+      ],
+      "format": "Deep technical scrutiny by specific engineering team members on system internals, coding clean architecture, and passion for hardware/software integration.",
+      "focusAreas": [
+        "Operating Systems & Concurrency",
+        "Pointers & Bit Manipulation",
+        "DSA Optimization",
+        "Domain Expertise"
+      ]
+    },
+    "preparationTopics": [
+      "C++ Pointers & Memory Management",
+      "Operating Systems Concurrency",
+      "DSA Optimization",
+      "Low Level System Architecture"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=apple.com&sz=128"
+  },
+  {
+    "id": "adobe",
+    "name": "Adobe",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "Adobe is the global leader in digital media and digital marketing solutions.",
+    "website": "https://www.adobe.com/careers",
+    "logo": "ADBE",
+    "industry": "Software & Digital Experience",
+    "headquarters": "San Jose, CA, USA",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "adobe-member-technical-staff",
+        "title": "Member of Technical Staff (MTS)",
+        "requirements": {
+          "technicalSkills": [
+            "C++",
+            "Java",
+            "Data Structures",
+            "Algorithms",
+            "Computer Graphics Basics",
+            "OS"
+          ],
+          "programmingLanguages": [
+            "C++",
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "React",
+            "Spring"
+          ],
+          "databaseSkills": [
+            "MySQL"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Adobe Online Assessment",
+      "stages": [
+        "Online Assessment (Aptitude + CS Fundamentals + Coding)",
+        "3-4 Technical Interview Rounds"
+      ],
+      "timings": "120 minutes OA",
+      "focusAreas": [
+        "Math & Geometry Logic",
+        "DSA (Trees/DP)",
+        "C++ Concepts"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round 1 (DSA)",
+        "Technical Round 2 (Core CS & OS)",
+        "Technical Round 3 (Design & Projects)",
+        "HR Round"
+      ],
+      "format": "In-depth testing on data structures, algorithmic complexities, C++ pointers, and project architecture.",
+      "focusAreas": [
+        "Dynamic Programming",
+        "Trees & Recursion",
+        "C++ Pointers & Memory",
+        "DBMS & OS"
+      ]
+    },
+    "preparationTopics": [
+      "Dynamic Programming",
+      "Trees & Graphs",
+      "C++ Deep-Dive",
+      "Computer CS Core"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=adobe.com&sz=128"
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "Oracle provides cloud infrastructure, enterprise software, and database technology across the globe.",
+    "website": "https://www.oracle.com/careers",
+    "logo": "ORCL",
+    "industry": "Enterprise Software & Cloud Infrastructure",
+    "headquarters": "Austin, TX, USA",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "oracle-sde",
+        "title": "Server Engineer / Applications Developer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "C++",
+            "SQL",
+            "DBMS Internals",
+            "Data Structures",
+            "OS",
+            "Concurrency"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "C++",
+            "SQL"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "Oracle Cloud"
+          ],
+          "databaseSkills": [
+            "Oracle DB",
+            "MySQL",
+            "PL/SQL"
+          ],
+          "dsaImportance": "HIGH",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Oracle Online Test",
+      "stages": [
+        "Aptitude + CS Fundamentals MCQ Test",
+        "Coding Assessment",
+        "Technical Interviews"
+      ],
+      "timings": "120 minutes OA",
+      "focusAreas": [
+        "Database Concepts",
+        "Data Structures",
+        "Aptitude & Speed"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round 1",
+        "Technical Round 2",
+        "Managerial & HR Round"
+      ],
+      "format": "Heavy focus on database indexing, B-Trees, transaction ACID properties, SQL query optimization, and tree/graph coding.",
+      "focusAreas": [
+        "DBMS Internals & Indexing",
+        "SQL Query Optimization",
+        "Trees & Graphs",
+        "OS Threads"
+      ]
+    },
+    "preparationTopics": [
+      "Database Internals & B+ Trees",
+      "SQL Query Tuning",
+      "Core Java / C++",
+      "Tree Data Structures"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=oracle.com&sz=128"
+  },
+  {
+    "id": "sap",
+    "name": "SAP",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "SAP is the market leader in enterprise application software, helping companies of all sizes run better.",
+    "website": "https://www.sap.com/careers",
+    "logo": "SAP",
+    "industry": "Enterprise Software & ERP",
+    "headquarters": "Walldorf, Germany",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "sap-developer",
+        "title": "Associate Developer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "ABAP",
+            "Python",
+            "SQL",
+            "DBMS",
+            "Data Structures",
+            "Cloud Basics"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python",
+            "C++"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "Node.js"
+          ],
+          "databaseSkills": [
+            "SAP HANA",
+            "PostgreSQL"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "SAP Campus Hiring Assessment",
+      "stages": [
+        "Aptitude & Technical MCQ",
+        "Coding Test (2 Problems)",
+        "Technical Interview",
+        "HR Interview"
+      ],
+      "timings": "120 minutes",
+      "focusAreas": [
+        "Reasoning",
+        "OOP Logic",
+        "Array & String Coding"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round 1",
+        "Technical Round 2",
+        "HR Round"
+      ],
+      "format": "Evaluation of database concepts, web stack fundamentals, algorithm logic, and scenario-based communication.",
+      "focusAreas": [
+        "OOP Design Principles",
+        "Database Normalization",
+        "Problem Solving Logic"
+      ]
+    },
+    "preparationTopics": [
+      "OOPs Design",
+      "DBMS Concepts",
+      "Aptitude",
+      "Java / Node.js Basics"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=sap.com&sz=128"
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "Salesforce is the global leader in Customer Relationship Management (CRM) empowering cloud transformation.",
+    "website": "https://www.salesforce.com/company/careers",
+    "logo": "CRM",
+    "industry": "Cloud Computing & Enterprise CRM",
+    "headquarters": "San Francisco, CA, USA",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "salesforce-mts",
+        "title": "Member of Technical Staff (MTS)",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Data Structures",
+            "Algorithms",
+            "System Design",
+            "Distributed Systems",
+            "REST API"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python",
+            "JavaScript"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "React"
+          ],
+          "databaseSkills": [
+            "PostgreSQL",
+            "Oracle"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "HIGH",
+          "testingImportance": "MEDIUM",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Salesforce HackerRank OA",
+      "stages": [
+        "Online Coding Test (3 Medium/Hard Problems)",
+        "Technical Interview Loop"
+      ],
+      "timings": "90 minutes",
+      "focusAreas": [
+        "Arrays",
+        "Trees",
+        "Graphs",
+        "Dynamic Programming"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Phone Screen",
+        "3 Onsite Interviews (Coding, Architecture, Hiring Manager)"
+      ],
+      "format": "Coding interview on complex DSA, design patterns, scalable REST APIs, and cultural alignment.",
+      "focusAreas": [
+        "Graph Search & DFS",
+        "System Scalability",
+        "Clean Java Code"
+      ]
+    },
+    "preparationTopics": [
+      "Tree & Graph Algorithms",
+      "Distributed System Concepts",
+      "Java Core & Design Patterns"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=salesforce.com&sz=128"
+  },
+  {
+    "id": "ibm",
+    "name": "IBM",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "IBM is a global technology pioneer serving as a leader in Hybrid Cloud, AI, and Quantum Computing.",
+    "website": "https://www.ibm.com/careers",
+    "logo": "IBM",
+    "industry": "Cloud, AI & IT Consulting",
+    "headquarters": "Armonk, NY, USA",
+    "difficulty": "Medium",
+    "roles": [
+      {
+        "id": "ibm-se",
+        "title": "Software Developer",
+        "requirements": {
+          "technicalSkills": [
+            "Python",
+            "Java",
+            "Cloud Basics",
+            "Data Structures",
+            "SQL",
+            "Docker Basics"
+          ],
+          "programmingLanguages": [
+            "Python",
+            "Java",
+            "C++"
+          ],
+          "frameworks": [
+            "Django",
+            "Spring"
+          ],
+          "databaseSkills": [
+            "DB2",
+            "PostgreSQL"
+          ],
+          "dsaImportance": "MEDIUM",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "LOW",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "IBM Cognitive & Coding Test",
+      "stages": [
+        "Cognitive Ability Games",
+        "Coding Assessment (HackerRank)",
+        "Interview Loop"
+      ],
+      "timings": "100 minutes",
+      "focusAreas": [
+        "Spatial Reasoning Games",
+        "Basic Algorithmic Coding"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round",
+        "Managerial & HR Round"
+      ],
+      "format": "Scrutiny of CS basics, cognitive game scores, project implementations, and cloud/AI awareness.",
+      "focusAreas": [
+        "Python/Java Logic",
+        "Cloud Computing Basics",
+        "Project Walkthrough"
+      ]
+    },
+    "preparationTopics": [
+      "Cognitive Reasoning Practice",
+      "Core Coding",
+      "Cloud & Microservices Basics"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ibm.com&sz=128"
+  },
+  {
+    "id": "cisco",
+    "name": "Cisco",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "Cisco is the worldwide leader in technology that powers the Internet, networking, cybersecurity, and IoT.",
+    "website": "https://www.cisco.com/c/en/us/about/careers.html",
+    "logo": "CSCO",
+    "industry": "Networking, Hardware & Security",
+    "headquarters": "San Jose, CA, USA",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "cisco-software-engineer",
+        "title": "Software Engineer (Networking / Cloud)",
+        "requirements": {
+          "technicalSkills": [
+            "Computer Networks",
+            "TCP/IP",
+            "C++",
+            "Python",
+            "Data Structures",
+            "OS",
+            "Sockets"
+          ],
+          "programmingLanguages": [
+            "C++",
+            "Python",
+            "C"
+          ],
+          "frameworks": [
+            "Django"
+          ],
+          "databaseSkills": [
+            "MySQL"
+          ],
+          "dsaImportance": "HIGH",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Cisco CodeSignal Assessment",
+      "stages": [
+        "Online Assessment (Networking MCQ + Coding)",
+        "Technical Interviews"
+      ],
+      "timings": "120 minutes",
+      "focusAreas": [
+        "OSI Layer Protocols",
+        "Subnetting",
+        "Arrays & Strings Coding"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round 1 (Networks & OS)",
+        "Technical Round 2 (DSA & Coding)",
+        "HR Round"
+      ],
+      "format": "In-depth questions on OSI model, socket programming, C++ memory, and algorithm logic.",
+      "focusAreas": [
+        "TCP/IP Protocol Stack",
+        "Socket Programming",
+        "Trees & Linked Lists",
+        "C++ Memory"
+      ]
+    },
+    "preparationTopics": [
+      "Computer Networks (TCP/IP, UDP, Subnetting)",
+      "Operating Systems Internals",
+      "C++ Coding"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=cisco.com&sz=128"
+  },
+  {
+    "id": "intel",
+    "name": "Intel",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "Intel creates world-changing technology that enables global progress and enriches lives through silicon and software.",
+    "website": "https://www.intel.com/content/www/us/en/jobs/jobs-at-intel.html",
+    "logo": "INTC",
+    "industry": "Semiconductors & Systems Software",
+    "headquarters": "Santa Clara, CA, USA",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "intel-software-engineer",
+        "title": "Software Engineer (System / Firmware)",
+        "requirements": {
+          "technicalSkills": [
+            "C",
+            "C++",
+            "Assembly Basics",
+            "Operating Systems",
+            "Hardware Architecture",
+            "Pointers"
+          ],
+          "programmingLanguages": [
+            "C",
+            "C++",
+            "Python"
+          ],
+          "frameworks": [
+            "Linux Kernel"
+          ],
+          "databaseSkills": [
+            "SQLite"
+          ],
+          "dsaImportance": "HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "VERY HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "NONE",
+          "testingImportance": "MEDIUM",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Intel Technical Screening",
+      "stages": [
+        "Technical MCQ (OS, C, Architecture)",
+        "Coding Round",
+        "Technical Interviews"
+      ],
+      "timings": "90 minutes",
+      "focusAreas": [
+        "Bitwise Operations",
+        "Pointers",
+        "OS Memory Management"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Interview 1",
+        "Technical Interview 2",
+        "HR Round"
+      ],
+      "format": "Grilling on pointer arithmetic, cache memory hierarchy, driver architecture, and bitwise programming.",
+      "focusAreas": [
+        "Bit Manipulation",
+        "OS Kernel & Memory",
+        "C/C++ Low-Level Optimization"
+      ]
+    },
+    "preparationTopics": [
+      "C Language Pointers & Memory",
+      "Bitwise Manipulation",
+      "Computer Organization & Architecture"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=intel.com&sz=128"
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "NVIDIA pioneered accelerated computing to solve problems that no one else can solve across GPU, AI, and Gaming.",
+    "website": "https://www.nvidia.com/en-us/about-nvidia/careers",
+    "logo": "NVDA",
+    "industry": "GPU Computing, AI & Hardware",
+    "headquarters": "Santa Clara, CA, USA",
+    "difficulty": "Very Hard",
+    "roles": [
+      {
+        "id": "nvidia-system-software",
+        "title": "System Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "C++",
+            "CUDA Basics",
+            "Data Structures",
+            "Parallel Computing",
+            "Operating Systems",
+            "GPU Architecture"
+          ],
+          "programmingLanguages": [
+            "C++",
+            "C",
+            "Python"
+          ],
+          "frameworks": [
+            "CUDA",
+            "PyTorch"
+          ],
+          "databaseSkills": [
+            "SQLite"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "VERY HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "LOW",
+          "testingImportance": "MEDIUM",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "NVIDIA Coding Challenge",
+      "stages": [
+        "Online Assessment (DSA + Systems C++)",
+        "4 Virtual Technical Rounds"
+      ],
+      "timings": "120 minutes",
+      "focusAreas": [
+        "Multithreading",
+        "Memory Allocation",
+        "Complex Algorithms"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Phone Screen",
+        "4 Onsite Technical Loops"
+      ],
+      "format": "Deep technical analysis of C++ modern features, multithreaded synchronization, CUDA concept awareness, and algorithm efficiency.",
+      "focusAreas": [
+        "Multithreading & Locks",
+        "Data Structures Complexity",
+        "C++ Modern Features (C++14/17)",
+        "Memory Layout"
+      ]
+    },
+    "preparationTopics": [
+      "Advanced C++ & Multithreading",
+      "Low-Level OS & Concurrency",
+      "Algorithm Optimization"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=nvidia.com&sz=128"
+  },
+  {
+    "id": "qualcomm",
+    "name": "Qualcomm",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "Qualcomm enables a world where everyone and everything can be intelligently connected through wireless tech and chips.",
+    "website": "https://www.qualcomm.com/company/careers",
+    "logo": "QCOM",
+    "industry": "Semiconductors & Wireless Tech",
+    "headquarters": "San Diego, CA, USA",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "qualcomm-engineer",
+        "title": "Software Engineer (Embedded / Systems)",
+        "requirements": {
+          "technicalSkills": [
+            "C",
+            "C++",
+            "Data Structures",
+            "Operating Systems",
+            "RTOS Basics",
+            "Computer Networks"
+          ],
+          "programmingLanguages": [
+            "C",
+            "C++",
+            "Python"
+          ],
+          "frameworks": [
+            "Linux Drivers"
+          ],
+          "databaseSkills": [
+            "SQLite"
+          ],
+          "dsaImportance": "HIGH",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "NONE",
+          "testingImportance": "MEDIUM",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Qualcomm Online Test",
+      "stages": [
+        "Aptitude & Technical MCQ (C, OS, Aptitude)",
+        "Coding Test",
+        "Technical Interviews"
+      ],
+      "timings": "120 minutes",
+      "focusAreas": [
+        "C Programming Concepts",
+        "Aptitude",
+        "Operating Systems"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Interview 1",
+        "Technical Interview 2",
+        "HR Round"
+      ],
+      "format": "Focus on C memory management, bit operations, IPC mechanisms, and algorithm code.",
+      "focusAreas": [
+        "C Pointers & Dynamic Memory",
+        "Inter-Process Communication",
+        "Array & LinkedList Coding"
+      ]
+    },
+    "preparationTopics": [
+      "C Programming Pointers",
+      "Operating Systems & IPC",
+      "Bit Manipulation Practice"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=qualcomm.com&sz=128"
+  },
+  {
+    "id": "paypal",
+    "name": "PayPal",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "PayPal is at the forefront of the digital payment revolution, empowering people and businesses to manage money.",
+    "website": "https://www.paypal.com/us/webapps/mpp/jobs",
+    "logo": "PYPL",
+    "industry": "Fintech & Digital Payments",
+    "headquarters": "San Jose, CA, USA",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "paypal-software-engineer",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Data Structures",
+            "Algorithms",
+            "System Design",
+            "REST Services",
+            "SQL"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python",
+            "JavaScript"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "Node.js",
+            "React"
+          ],
+          "databaseSkills": [
+            "Oracle",
+            "PostgreSQL",
+            "MongoDB"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "PayPal Online Assessment",
+      "stages": [
+        "HackerRank Coding Test (3 Medium/Hard Problems)",
+        "Technical Interview Loop"
+      ],
+      "timings": "90 minutes",
+      "focusAreas": [
+        "Arrays & Strings",
+        "Trees & Graphs",
+        "Dynamic Programming"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Phone Screen",
+        "3 Onsite Interviews (DSA, High-Level Architecture, Behavioral)"
+      ],
+      "format": "Detailed algorithm verification, secure API design, database transactions, and scalability.",
+      "focusAreas": [
+        "Graph & Tree Traversal",
+        "System Scalability & REST APIs",
+        "Database ACID & Transactions"
+      ]
+    },
+    "preparationTopics": [
+      "Trees, Graphs & DP",
+      "REST API & Microservices",
+      "Database Schema Design"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=paypal.com&sz=128"
+  },
+  {
+    "id": "walmart",
+    "name": "Walmart Global Tech",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "Walmart Global Tech delivers omnichannel innovation across global supply chain, cloud, and e-commerce platforms.",
+    "website": "https://tech.walmart.com",
+    "logo": "WMT",
+    "industry": "Retail Tech & E-Commerce",
+    "headquarters": "Bentonville, AR, USA / Bengaluru, India",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "walmart-sde",
+        "title": "Software Development Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Data Structures",
+            "Algorithms",
+            "Spring Boot",
+            "System Design",
+            "Kafka"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "React"
+          ],
+          "databaseSkills": [
+            "PostgreSQL",
+            "Cassandra"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Walmart CodeTrack / Hiring Test",
+      "stages": [
+        "Online Coding Test (2 LeetCode Medium/Hard Problems)",
+        "3 Virtual Interview Rounds"
+      ],
+      "timings": "90 minutes",
+      "focusAreas": [
+        "Arrays & HashMap",
+        "Trees & Graphs",
+        "Dynamic Programming"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round 1 (DSA)",
+        "Technical Round 2 (System Design & Java)",
+        "HR / Leadership Round"
+      ],
+      "format": "Evaluation of core DSA speed, Spring Boot architectural patterns, concurrency, and microservice messaging.",
+      "focusAreas": [
+        "Trees & Graphs",
+        "Java Concurrency & Threads",
+        "System Design Patterns"
+      ]
+    },
+    "preparationTopics": [
+      "Trees & Graph Algorithms",
+      "Java Spring Boot Microservices",
+      "Database Partitioning & System Design"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=walmart.com&sz=128"
+  },
+  {
+    "id": "servicenow",
+    "name": "ServiceNow",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "ServiceNow makes the world work better for everyone through cloud workflow automation platforms.",
+    "website": "https://www.servicenow.com/careers",
+    "logo": "NOW",
+    "industry": "Cloud Workflow Software",
+    "headquarters": "Santa Clara, CA, USA",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "servicenow-software-engineer",
+        "title": "Associate Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "JavaScript",
+            "Data Structures",
+            "Algorithms",
+            "DBMS",
+            "Web Stack"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "JavaScript",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "React"
+          ],
+          "databaseSkills": [
+            "MySQL",
+            "PostgreSQL"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "ServiceNow HackerRank OA",
+      "stages": [
+        "Online Coding Assessment (3 Medium Coding Problems)",
+        "Virtual Onsite Loop"
+      ],
+      "timings": "90 minutes",
+      "focusAreas": [
+        "Strings & Arrays",
+        "Recursion & Trees",
+        "Graph Traversal"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round 1",
+        "Technical Round 2",
+        "Hiring Manager Round"
+      ],
+      "format": "Clean coding execution, data structure optimization, web fundamentals, and workflow design logic.",
+      "focusAreas": [
+        "String Algorithms",
+        "Tree & Graph Manipulation",
+        "Web Architecture"
+      ]
+    },
+    "preparationTopics": [
+      "Data Structures & Algorithms",
+      "Java Core",
+      "Web & Database Fundamentals"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=servicenow.com&sz=128"
+  },
+  {
+    "id": "broadcom",
+    "name": "Broadcom",
+    "category": "PRODUCT / TECHNOLOGY",
+    "description": "Broadcom Inc. is a global technology leader that designs, develops, and supplies semiconductor and infrastructure software.",
+    "website": "https://www.broadcom.com/careers",
+    "logo": "AVGO",
+    "industry": "Semiconductors & Infrastructure Software",
+    "headquarters": "San Jose, CA, USA",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "broadcom-software-engineer",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "C++",
+            "Java",
+            "Operating Systems",
+            "Networking",
+            "System Programming",
+            "Pointers"
+          ],
+          "programmingLanguages": [
+            "C++",
+            "C",
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "Linux Drivers"
+          ],
+          "databaseSkills": [
+            "MySQL"
+          ],
+          "dsaImportance": "HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Broadcom Screening Test",
+      "stages": [
+        "Online Assessment (Systems MCQ + Coding)",
+        "Technical Interviews"
+      ],
+      "timings": "90 minutes",
+      "focusAreas": [
+        "C++ Basics",
+        "OS Concepts",
+        "Networking & Data Structures"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Interview 1",
+        "Technical Interview 2",
+        "HR Round"
+      ],
+      "format": "Focus on system programming, multi-thread synchronizations, network protocols, and data structures.",
+      "focusAreas": [
+        "Memory Management",
+        "Multithreading & Synchronization",
+        "C++ Coding"
+      ]
+    },
+    "preparationTopics": [
+      "Systems Programming in C++",
+      "Operating Systems Internals",
+      "DSA"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=broadcom.com&sz=128"
+  },
+  {
+    "id": "zoho",
+    "name": "Zoho",
+    "category": "INDIAN PRODUCT / TECHNOLOGY",
+    "description": "Zoho creates suite of SaaS business applications used by over 100 million users around the globe.",
+    "website": "https://www.zoho.com/careers",
+    "logo": "ZOHO",
+    "industry": "SaaS & Enterprise Business Applications",
+    "headquarters": "Chennai, India",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "zoho-software-developer",
+        "title": "Software Developer",
+        "requirements": {
+          "technicalSkills": [
+            "Core Java",
+            "C++",
+            "Algorithms",
+            "Matrix Operations",
+            "Recursion",
+            "OOP",
+            "DBMS"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "C++",
+            "C"
+          ],
+          "frameworks": [
+            "Servlets",
+            "Spring"
+          ],
+          "databaseSkills": [
+            "MySQL",
+            "PostgreSQL"
+          ],
+          "dsaImportance": "HIGH",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "LOW",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Zoho Off-Campus / On-Campus Recruitment Drive",
+      "stages": [
+        "Round 1: General Aptitude & C/Java Output Tracing",
+        "Round 2: Basic Programming (5 Problems)",
+        "Round 3: Advanced Programming (System/Game Design in 3 Hours)",
+        "Round 4: Technical HR",
+        "Round 5: General HR"
+      ],
+      "timings": "Multi-round full day process",
+      "focusAreas": [
+        "Matrix Pattern Printing",
+        "Recursion & Backtracking",
+        "Custom Console Application Design (e.g. Taxi Booking, Railway Reservation)"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Design Round",
+        "Technical Interview",
+        "HR Round"
+      ],
+      "format": "Candidates build a console application (e.g., Ludo, Parking Lot, Railway Reservation) without built-in libraries in 3 hours, followed by code review.",
+      "focusAreas": [
+        "Custom Data Structures without Libraries",
+        "Recursion",
+        "Clean Code & Data Persistence",
+        "OOP Design"
+      ]
+    },
+    "preparationTopics": [
+      "Console Application Design Patterns",
+      "C/Java Output Tracing",
+      "Matrix & String Manipulation",
+      "Recursion & Backtracking"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=zoho.com&sz=128"
+  },
+  {
+    "id": "freshworks",
+    "name": "Freshworks",
+    "category": "INDIAN PRODUCT / TECHNOLOGY",
+    "description": "Freshworks creates modern, intuitive SaaS solutions for customer support, CRM, and IT service management.",
+    "website": "https://www.freshworks.com/company/careers",
+    "logo": "FRSH",
+    "industry": "SaaS & Customer Engagement Tech",
+    "headquarters": "San Mateo, CA, USA / Chennai, India",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "freshworks-software-engineer",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Data Structures",
+            "Ruby / Java / Python",
+            "SQL",
+            "Web Stack",
+            "System Design Basics",
+            "REST APIs"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python",
+            "Ruby",
+            "JavaScript"
+          ],
+          "frameworks": [
+            "Ruby on Rails",
+            "Spring Boot",
+            "React"
+          ],
+          "databaseSkills": [
+            "MySQL",
+            "Redis"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "VERY HIGH",
+          "systemDesignImportance": "MEDIUM",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Freshworks HackerRank OA",
+      "stages": [
+        "Online Assessment (3 Coding Questions)",
+        "Technical Interview Loop"
+      ],
+      "timings": "90 minutes",
+      "focusAreas": [
+        "Arrays & Strings",
+        "Trees & Graphs",
+        "Hashing & Dynamic Programming"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round 1 (DSA)",
+        "Technical Round 2 (Machine Coding / Project)",
+        "HR Round"
+      ],
+      "format": "Machine coding round to build a functional component (e.g. Rate Limiter, In-Memory Cache) in 2 hours, followed by code review.",
+      "focusAreas": [
+        "Machine Coding & Clean Code",
+        "DSA Problem Solving",
+        "Web Architecture"
+      ]
+    },
+    "preparationTopics": [
+      "Machine Coding Practice",
+      "Data Structures & HashMaps",
+      "RESTful Web APIs"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=freshworks.com&sz=128"
+  },
+  {
+    "id": "razorpay",
+    "name": "Razorpay",
+    "category": "INDIAN PRODUCT / TECHNOLOGY",
+    "description": "Razorpay is India's leading payments and banking platform for business transactions.",
+    "website": "https://razorpay.com/jobs",
+    "logo": "RAZORPAY",
+    "industry": "Fintech & Payments Infrastructure",
+    "headquarters": "Bengaluru, India",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "razorpay-software-engineer",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Go",
+            "PHP",
+            "Data Structures",
+            "System Design",
+            "SQL",
+            "Distributed Systems"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Go",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "Laravel"
+          ],
+          "databaseSkills": [
+            "MySQL",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "VERY HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "HIGH",
+          "testingImportance": "MEDIUM",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Razorpay Coding Challenge",
+      "stages": [
+        "Online Coding Test (2-3 Algorithmic Problems)",
+        "Technical Interview Rounds"
+      ],
+      "timings": "90 minutes",
+      "focusAreas": [
+        "Trees & Graphs",
+        "Dynamic Programming",
+        "System Architecture"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "DSA Coding Round",
+        "Low-Level Design / Machine Coding",
+        "High-Level Architecture & Culture"
+      ],
+      "format": "Focus on high transaction reliability, idempotency, clean low-level class design, and algorithmic correctness.",
+      "focusAreas": [
+        "Machine Coding (Class Design)",
+        "DSA Optimization",
+        "Payment System Architecture Basics"
+      ]
+    },
+    "preparationTopics": [
+      "Low-Level Object Oriented Design",
+      "Tree & Graph Coding",
+      "Database Concurrency & Locking"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=razorpay.com&sz=128"
+  },
+  {
+    "id": "phonepe",
+    "name": "PhonePe",
+    "category": "INDIAN PRODUCT / TECHNOLOGY",
+    "description": "PhonePe is India's premier digital payments and financial services platform.",
+    "website": "https://www.phonepe.com/careers",
+    "logo": "PHONEPE",
+    "industry": "Fintech & Digital Payments",
+    "headquarters": "Bengaluru, India",
+    "difficulty": "Very Hard",
+    "roles": [
+      {
+        "id": "phonepe-software-engineer",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Data Structures",
+            "Algorithms",
+            "Low-Level Design",
+            "Concurrency",
+            "DBMS"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot"
+          ],
+          "databaseSkills": [
+            "MySQL",
+            "HBase",
+            "Aerospike"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "VERY HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "PhonePe Online Assessment",
+      "stages": [
+        "Online Coding Assessment (2 Hard DSA Questions)",
+        "Onsite Technical Rounds"
+      ],
+      "timings": "90 minutes",
+      "focusAreas": [
+        "Graphs",
+        "Dynamic Programming",
+        "Trees"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "DSA Round",
+        "Machine Coding (LLD) Round",
+        "Hiring Manager Round"
+      ],
+      "format": "Mandatory 2-hour Machine Coding round requiring working code with extensible OOP design, followed by DSA and culture rounds.",
+      "focusAreas": [
+        "Machine Coding Design Patterns",
+        "Concurrency & Thread Safety",
+        "Complex DSA"
+      ]
+    },
+    "preparationTopics": [
+      "Machine Coding (Snake & Ladder, Splitwise, Elevator System)",
+      "Dynamic Programming",
+      "Thread Concurrency in Java"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=phonepe.com&sz=128"
+  },
+  {
+    "id": "flipkart",
+    "name": "Flipkart",
+    "category": "INDIAN PRODUCT / TECHNOLOGY",
+    "description": "Flipkart is India's leading e-commerce marketplace driving digital shopping innovation.",
+    "website": "https://www.flipkartcareers.com",
+    "logo": "FLIPKART",
+    "industry": "E-Commerce & Supply Chain Tech",
+    "headquarters": "Bengaluru, India",
+    "difficulty": "Very Hard",
+    "roles": [
+      {
+        "id": "flipkart-sde",
+        "title": "Software Development Engineer (SDE 1)",
+        "requirements": {
+          "technicalSkills": [
+            "Data Structures",
+            "Algorithms",
+            "Machine Coding",
+            "Low-Level Design",
+            "OOP",
+            "DBMS"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "C++",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot"
+          ],
+          "databaseSkills": [
+            "MySQL",
+            "MongoDB"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "VERY HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Flipkart GRiD / OA Test",
+      "stages": [
+        "Online Coding Assessment (3 Algorithmic Problems)",
+        "Virtual Technical Rounds"
+      ],
+      "timings": "90 minutes",
+      "focusAreas": [
+        "Trees & Binary Search",
+        "Graphs",
+        "DP"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Machine Coding Round (2 Hours)",
+        "DSA Coding Round (1 Hour)",
+        "HM / Behavioral Round"
+      ],
+      "format": "Machine coding requires executable code adhering to SOLID principles, design patterns, exception handling, and memory efficiency.",
+      "focusAreas": [
+        "Machine Coding Execution",
+        "SOLID Principles",
+        "Graph & Tree DSA"
+      ]
+    },
+    "preparationTopics": [
+      "Machine Coding Design Patterns",
+      "SOLID Software Design Principles",
+      "Advanced DSA Problems"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=flipkart.com&sz=128"
+  },
+  {
+    "id": "swiggy",
+    "name": "Swiggy",
+    "category": "INDIAN PRODUCT / TECHNOLOGY",
+    "description": "Swiggy is India's leading on-demand convenience platform for food delivery, Instamart groceries, and logistics.",
+    "website": "https://careers.swiggy.com",
+    "logo": "SWIGGY",
+    "industry": "Hyperlocal Delivery & E-Commerce",
+    "headquarters": "Bengaluru, India",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "swiggy-sde",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Go",
+            "Data Structures",
+            "Machine Coding",
+            "Low-Level Design",
+            "SQL"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Go",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot"
+          ],
+          "databaseSkills": [
+            "PostgreSQL",
+            "Redis"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Swiggy HackerEarth OA",
+      "stages": [
+        "Online Coding Test (2-3 DSA Questions)",
+        "Technical Interviews"
+      ],
+      "timings": "90 minutes",
+      "focusAreas": [
+        "Arrays & Strings",
+        "Trees & Graphs",
+        "Dynamic Programming"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Machine Coding Round",
+        "DSA & CS Fundamentals Round",
+        "Techno-Managerial Round"
+      ],
+      "format": "Evaluation of working code in Machine Coding, space/time complexity trade-offs, and microservices logic.",
+      "focusAreas": [
+        "Class Diagram & Low-Level Design",
+        "Graph Traversal",
+        "System Scalability"
+      ]
+    },
+    "preparationTopics": [
+      "Machine Coding (Parking Lot, Food Ordering)",
+      "Trees & Graphs",
+      "Java/Go Microservices"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=swiggy.com&sz=128"
+  },
+  {
+    "id": "zomato",
+    "name": "Zomato",
+    "category": "INDIAN PRODUCT / TECHNOLOGY",
+    "description": "Zomato connects customers, restaurant partners, and delivery partners to transform food discovery and delivery.",
+    "website": "https://www.zomato.com/careers",
+    "logo": "ZOMATO",
+    "industry": "Foodtech & Quick Commerce",
+    "headquarters": "Gurugram, India",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "zomato-software-engineer",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Python",
+            "Go",
+            "Java",
+            "Data Structures",
+            "Algorithms",
+            "Low-Level Design",
+            "SQL"
+          ],
+          "programmingLanguages": [
+            "Python",
+            "Go",
+            "Java",
+            "Node.js"
+          ],
+          "frameworks": [
+            "Django",
+            "Spring Boot",
+            "React"
+          ],
+          "databaseSkills": [
+            "PostgreSQL",
+            "MySQL",
+            "Redis"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "VERY HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Zomato Technical Assessment",
+      "stages": [
+        "Online Coding Challenge (2 Medium/Hard DSA)",
+        "Technical Interview Loop"
+      ],
+      "timings": "90 minutes",
+      "focusAreas": [
+        "Graph Search",
+        "HashMap & Sorting",
+        "DP"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round 1 (DSA)",
+        "Technical Round 2 (Machine Coding)",
+        "Culture & HM Round"
+      ],
+      "format": "Practical problem solving, building scalable food delivery or quick-commerce algorithms, and code cleanliness.",
+      "focusAreas": [
+        "Custom Graph Algorithms",
+        "Low Level Design",
+        "Culture Fit"
+      ]
+    },
+    "preparationTopics": [
+      "DSA Problem Solving",
+      "Machine Coding",
+      "SQL & Redis Caching"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=zomato.com&sz=128"
+  },
+  {
+    "id": "groww",
+    "name": "Groww",
+    "category": "INDIAN PRODUCT / TECHNOLOGY",
+    "description": "Groww is India's leading investment platform making investing simple, transparent, and accessible for everyone.",
+    "website": "https://groww.in/careers",
+    "logo": "GROWW",
+    "industry": "Fintech & Investment Tech",
+    "headquarters": "Bengaluru, India",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "groww-software-engineer",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Kotlin",
+            "Data Structures",
+            "Algorithms",
+            "System Design",
+            "SQL",
+            "Android / Web Stack"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Kotlin",
+            "Python",
+            "JavaScript"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "React Native"
+          ],
+          "databaseSkills": [
+            "PostgreSQL",
+            "MongoDB"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Groww Coding Test",
+      "stages": [
+        "Online Coding Assessment (3 Problems)",
+        "Technical Interview Loop"
+      ],
+      "timings": "90 minutes",
+      "focusAreas": [
+        "Arrays & Matrix",
+        "Trees & Recursion",
+        "DP"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Technical Round 1 (DSA)",
+        "Technical Round 2 (Machine Coding)",
+        "Founders / HM Round"
+      ],
+      "format": "High precision coding, error handling, transactional API safety, and data structure efficiency.",
+      "focusAreas": [
+        "Tree & Array Algorithms",
+        "Class Structure & Clean Code",
+        "Product Ownership"
+      ]
+    },
+    "preparationTopics": [
+      "Data Structures & Algorithms",
+      "Low Level Design",
+      "Database Transactions"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=groww.in&sz=128"
+  },
+  {
+    "id": "cred",
+    "name": "CRED",
+    "category": "INDIAN PRODUCT / TECHNOLOGY",
+    "description": "CRED is a high-trust community of credit-worthy individuals, offering rewards for financial responsibility.",
+    "website": "https://cred.club/careers",
+    "logo": "CRED",
+    "industry": "Fintech & Luxury Rewards",
+    "headquarters": "Bengaluru, India",
+    "difficulty": "Very Hard",
+    "roles": [
+      {
+        "id": "cred-backend-engineer",
+        "title": "Backend Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Java",
+            "Go",
+            "Data Structures",
+            "Algorithms",
+            "Low-Level Design",
+            "Microservices",
+            "Kafka"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "Go",
+            "Python"
+          ],
+          "frameworks": [
+            "Spring Boot",
+            "Dropwizard"
+          ],
+          "databaseSkills": [
+            "PostgreSQL",
+            "Redis",
+            "DynamoDB"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "MEDIUM",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "VERY HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "HIGH",
+          "testingImportance": "LOW",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "CRED Code & Design Challenge",
+      "stages": [
+        "Machine Coding Assessment (2.5 Hours)",
+        "Technical Interviews"
+      ],
+      "timings": "150 minutes",
+      "focusAreas": [
+        "Extensible Architecture",
+        "Working Executable Code",
+        "Edge Case Handling"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Machine Coding Review & Defense",
+        "DSA Deep Dive Round",
+        "Culture & Product Thinking Round"
+      ],
+      "format": "Rigorous machine coding evaluation with live refactoring during interview, complex DSA, and product curiosity.",
+      "focusAreas": [
+        "Clean Code & Refactoring",
+        "Design Patterns",
+        "Complex Graph/Tree Problems"
+      ]
+    },
+    "preparationTopics": [
+      "Machine Coding & OOP Patterns",
+      "Tree/Graph Algorithmic Optimization",
+      "Clean Code Best Practices"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=cred.club&sz=128"
+  },
+  {
+    "id": "zerodha",
+    "name": "Zerodha",
+    "category": "INDIAN PRODUCT / TECHNOLOGY",
+    "description": "Zerodha is India's largest stock broker, building powerful tech infrastructure for trading and investing.",
+    "website": "https://zerodha.tech",
+    "logo": "ZERODHA",
+    "industry": "Fintech & Stock Trading Tech",
+    "headquarters": "Bengaluru, India",
+    "difficulty": "Very Hard",
+    "roles": [
+      {
+        "id": "zerodha-software-engineer",
+        "title": "Software Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Go",
+            "Python",
+            "C",
+            "Systems Programming",
+            "WebSockets",
+            "SQL",
+            "Minimal Dependencies"
+          ],
+          "programmingLanguages": [
+            "Go",
+            "Python",
+            "C",
+            "JavaScript"
+          ],
+          "frameworks": [
+            "Django",
+            "Vue.js"
+          ],
+          "databaseSkills": [
+            "PostgreSQL",
+            "Redis"
+          ],
+          "dsaImportance": "HIGH",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "HIGH",
+          "projectsImportance": "VERY HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "HIGH",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Zerodha Open Tech Evaluation",
+      "stages": [
+        "FOSS Project Review / Open Source Assignment",
+        "Technical Interview Loop"
+      ],
+      "timings": "Self-paced code evaluation",
+      "focusAreas": [
+        "Code Elegance",
+        "Zero Bloat",
+        "Understanding CS Fundamentals"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Codebase Review Round",
+        "Technical & Systems Deep Dive",
+        "Culture & Philosophy Round"
+      ],
+      "format": "Conversational yet intense code review of candidate's real projects, open source contributions, memory efficiency, and minimal framework dependency.",
+      "focusAreas": [
+        "Open Source Projects",
+        "Low-Level Network Protocols & WebSockets",
+        "Philosophy of Tech Simplicity"
+      ]
+    },
+    "preparationTopics": [
+      "Go / Python Systems Programming",
+      "Network Protocols & WebSockets",
+      "Clean Architecture & Low Bloat Code"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=zerodha.com&sz=128"
+  },
+  {
+    "id": "juspay",
+    "name": "Juspay",
+    "category": "INDIAN PRODUCT / TECHNOLOGY",
+    "description": "Juspay is a pioneering payments infrastructure fintech company powering UPI and massive transaction volume across India using functional programming and high-performance engineering.",
+    "website": "https://juspay.in/careers",
+    "logo": "JUSPAY",
+    "industry": "Fintech & Payment Infrastructure",
+    "headquarters": "Bengaluru, India",
+    "difficulty": "Hard",
+    "roles": [
+      {
+        "id": "juspay-sde",
+        "title": "Software Development Engineer",
+        "requirements": {
+          "technicalSkills": [
+            "Data Structures",
+            "Algorithms",
+            "Functional Programming",
+            "Haskell",
+            "PureScript",
+            "Rust",
+            "Java",
+            "Concurrency",
+            "System Design"
+          ],
+          "programmingLanguages": [
+            "Java",
+            "C++",
+            "Haskell",
+            "Rust",
+            "JavaScript"
+          ],
+          "frameworks": [
+            "Node.js",
+            "Spring Boot"
+          ],
+          "databaseSkills": [
+            "PostgreSQL",
+            "Redis"
+          ],
+          "dsaImportance": "VERY HIGH",
+          "aptitudeImportance": "HIGH",
+          "communicationImportance": "MEDIUM",
+          "projectsImportance": "HIGH",
+          "systemDesignImportance": "HIGH",
+          "cloudImportance": "MEDIUM",
+          "testingImportance": "HIGH",
+          "experienceLevel": "Entry Level"
+        }
+      }
+    ],
+    "assessmentPattern": {
+      "name": "Juspay Learnathon & Hiring Challenge",
+      "stages": [
+        "Online Coding Assessment (Trees, Graphs, DP)",
+        "Hackathon / Tree of Space Challenge",
+        "Technical Rounds"
+      ],
+      "timings": "90-120 minutes",
+      "focusAreas": [
+        "Graph Traversal",
+        "Tree Locking / Concurrency",
+        "Functional Paradigms"
+      ]
+    },
+    "interviewPattern": {
+      "rounds": [
+        "Machine Coding Round (Tree of Space / Concurrency)",
+        "Data Structures Deep Dive",
+        "System Architecture & Fitment"
+      ],
+      "format": "Known for challenging Tree of Space problem requiring multi-threaded/concurrent tree locking algorithms.",
+      "focusAreas": [
+        "Graph Algorithms",
+        "Concurrency & Locking",
+        "Low-Level Design"
+      ]
+    },
+    "preparationTopics": [
+      "Tree & Graph Algorithms",
+      "Multi-threading and Concurrency Locking",
+      "Clean Object Modeling / FP paradigms"
+    ],
+    "logoUrl": "https://www.google.com/s2/favicons?domain=juspay.in&sz=128"
+  }
+]

@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+
+dist/
+build/
+coverage/
+
+
+*.log
+.vscode/
+.idea/
