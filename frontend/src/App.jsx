@@ -1,40 +1,76 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import DashboardLayout from './layouts/DashboardLayout';
+import ErrorBoundary from './components/ErrorBoundary';
 
-// Page Views
-import AuthScreen from './pages/AuthScreen';
-import Dashboard from './pages/Dashboard';
-import ResumeUpload from './pages/ResumeUpload';
-import SkillGap from './pages/SkillGap';
-import Roadmap from './pages/Roadmap';
-import CompanyInsights from './pages/CompanyInsights';
-import MockInterview from './pages/MockInterview';
-import Progress from './pages/Progress';
-import SkillVerification from './pages/SkillVerification';
-import CodingLab from './pages/CodingLab';
-import PlacementSimulator from './pages/PlacementSimulator';
-import DailyMission from './pages/DailyMission';
-import ProjectAnalyzer from './pages/ProjectAnalyzer';
-import RiskAnalyzer from './pages/RiskAnalyzer';
-import WhatIfSimulator from './pages/WhatIfSimulator';
-import CompanyMatcher from './pages/CompanyMatcher';
-import ReadinessIndex from './pages/ReadinessIndex';
-import PlacementBlockers from './pages/PlacementBlockers';
-import ResumeJdMatcher from './pages/ResumeJdMatcher';
-import ProjectDefense from './pages/ProjectDefense';
-import CompanyDiscovery from './pages/CompanyDiscovery';
-import CompanyProfile from './pages/CompanyProfile';
-import CompanyComparison from './pages/CompanyComparison';
-import PlacementOpportunities from './pages/PlacementOpportunities';
-import CompanyAdmin from './pages/CompanyAdmin';
+// Lazy-loaded Views for Fast Initial Load and Optimized Route Code-Splitting
+const AuthScreen = lazy(() => import('./pages/AuthScreen'));
+const Dashboard = lazy(() => import('./pages/Dashboard'));
+const ResumeUpload = lazy(() => import('./pages/ResumeUpload'));
+const SkillGap = lazy(() => import('./pages/SkillGap'));
+const Roadmap = lazy(() => import('./pages/Roadmap'));
+const CompanyInsights = lazy(() => import('./pages/CompanyInsights'));
+const MockInterview = lazy(() => import('./pages/MockInterview'));
+const Progress = lazy(() => import('./pages/Progress'));
+const SkillVerification = lazy(() => import('./pages/SkillVerification'));
+const CodingLab = lazy(() => import('./pages/CodingLab'));
+const PlacementSimulator = lazy(() => import('./pages/PlacementSimulator'));
+const DailyMission = lazy(() => import('./pages/DailyMission'));
+const ProjectAnalyzer = lazy(() => import('./pages/ProjectAnalyzer'));
+const RiskAnalyzer = lazy(() => import('./pages/RiskAnalyzer'));
+const WhatIfSimulator = lazy(() => import('./pages/WhatIfSimulator'));
+const CompanyMatcher = lazy(() => import('./pages/CompanyMatcher'));
+const ReadinessIndex = lazy(() => import('./pages/ReadinessIndex'));
+const PlacementBlockers = lazy(() => import('./pages/PlacementBlockers'));
+const ResumeJdMatcher = lazy(() => import('./pages/ResumeJdMatcher'));
+const ProjectDefense = lazy(() => import('./pages/ProjectDefense'));
+const CompanyDiscovery = lazy(() => import('./pages/CompanyDiscovery'));
+const CompanyProfile = lazy(() => import('./pages/CompanyProfile'));
+const CompanyComparison = lazy(() => import('./pages/CompanyComparison'));
+const PlacementOpportunities = lazy(() => import('./pages/PlacementOpportunities'));
+const CompanyAdmin = lazy(() => import('./pages/CompanyAdmin'));
+
+// Loading Fallback Component
+const ViewLoadingFallback = () => (
+  <div className="flex-1 min-h-[60vh] flex flex-col items-center justify-center space-y-3 p-8">
+    <div className="animate-spin rounded-full h-10 w-10 border-2 border-primary border-t-transparent"></div>
+    <p className="text-xs font-bold text-text-secondary">Loading view...</p>
+  </div>
+);
 
 function MainAppContent() {
   const { token, loading } = useAuth();
-  const [currentView, setCurrentView] = useState('dashboard');
+  
+  // Read initial view from URL hash if present
+  const getInitialView = () => {
+    const hash = window.location.hash.replace(/^#\/?/, '').trim();
+    return hash || 'dashboard';
+  };
+
+  const [currentView, setCurrentView] = useState(getInitialView);
   const [selectedCompanyId, setSelectedCompanyId] = useState('tcs');
   const [compareList, setCompareList] = useState([]);
   const [isDiagnosticsOpen, setIsDiagnosticsOpen] = useState(false);
+
+  // Sync state with URL hash
+  useEffect(() => {
+    if (token) {
+      window.location.hash = currentView;
+    }
+  }, [currentView, token]);
+
+  // Handle browser back/forward navigation
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.replace(/^#\/?/, '').trim();
+      if (hash && hash !== currentView) {
+        setCurrentView(hash);
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, [currentView]);
 
   if (loading) {
     return (
@@ -46,7 +82,11 @@ function MainAppContent() {
   }
 
   if (!token) {
-    return <AuthScreen />;
+    return (
+      <Suspense fallback={<ViewLoadingFallback />}>
+        <AuthScreen />
+      </Suspense>
+    );
   }
 
   const renderView = () => {
@@ -125,16 +165,20 @@ function MainAppContent() {
       isDiagnosticsOpen={isDiagnosticsOpen}
       setIsDiagnosticsOpen={setIsDiagnosticsOpen}
     >
-      {renderView()}
+      <Suspense fallback={<ViewLoadingFallback />}>
+        {renderView()}
+      </Suspense>
     </DashboardLayout>
   );
 }
 
 function App() {
   return (
-    <AuthProvider>
-      <MainAppContent />
-    </AuthProvider>
+    <ErrorBoundary>
+      <AuthProvider>
+        <MainAppContent />
+      </AuthProvider>
+    </ErrorBoundary>
   );
 }
 

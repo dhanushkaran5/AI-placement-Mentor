@@ -8,7 +8,9 @@ router.use(authMiddleware);
 
 router.get('/problems', getCodingProblems);
 router.post('/submit', submitCodeSolution);
+router.post('/evaluate', submitCodeSolution); // Alias
 router.get('/history', getSubmissionsHistory);
 router.get('/weakness-profile', getWeaknessProfile);
+router.get('/weaknesses', getWeaknessProfile); // Alias
 
 export default router;

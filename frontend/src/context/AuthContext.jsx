@@ -82,11 +82,19 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  const signup = async (name, email, password) => {
+  const signup = async (name, email, password, confirmPassword) => {
     setLoading(true);
     setAuthError(null);
+
+    if (confirmPassword !== undefined && password !== confirmPassword) {
+      const err = new Error('Passwords do not match.');
+      setAuthError(err.message);
+      setLoading(false);
+      throw err;
+    }
+
     try {
-      const data = await api.post('/auth/signup', { name, email, password });
+      const data = await api.post('/auth/register', { name, email, password });
       if (data.token) {
         localStorage.setItem('token', data.token);
         setToken(data.token);
@@ -94,15 +102,17 @@ export const AuthProvider = ({ children }) => {
         setIsBackendOffline(false);
         return data;
       } else {
-        throw new Error('Signup failed: Token not received.');
+        throw new Error('Registration failed: Token not received.');
       }
     } catch (error) {
-      setAuthError(error.message || 'Signup failed. Please try again.');
+      setAuthError(error.message || 'Registration failed. Please try again.');
       throw error;
     } finally {
       setLoading(false);
     }
   };
+
+  const register = signup;
 
   const logout = () => {
     localStorage.removeItem('token');
@@ -151,6 +161,7 @@ export const AuthProvider = ({ children }) => {
     isBackendOffline,
     login,
     signup,
+    register,
     logout,
     refreshProfile,
     updateTarget,

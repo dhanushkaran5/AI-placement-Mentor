@@ -25,10 +25,11 @@ import {
   AlertOctagon,
   Activity,
   FileSearch,
-  Swords
+  Swords,
+  X
 } from 'lucide-react';
 
-export const Sidebar = ({ currentView, setCurrentView, onOpenDiagnostics }) => {
+export const Sidebar = ({ currentView, setCurrentView, onOpenDiagnostics, isMobileOpen, onCloseMobile }) => {
   const { user, profile, logout } = useAuth();
 
   const navGroups = [
@@ -80,10 +81,17 @@ export const Sidebar = ({ currentView, setCurrentView, onOpenDiagnostics }) => {
     }
   ];
 
-  return (
-    <aside className="w-64 bg-surface border-r border-border flex flex-col justify-between h-screen sticky top-0 overflow-y-auto custom-scrollbar flex-shrink-0 z-20">
+  const handleSelectView = (id) => {
+    setCurrentView(id);
+    if (onCloseMobile) {
+      onCloseMobile();
+    }
+  };
+
+  const sidebarContent = (
+    <div className="flex flex-col justify-between h-full bg-surface">
       <div className="flex flex-col">
-        {/* Brand Logo */}
+        {/* Brand Logo & Close button on Mobile */}
         <div className="p-4 sm:p-5 border-b border-border flex items-center justify-between">
           <div className="flex items-center gap-2.5">
             <div className="w-9 h-9 bg-primary flex items-center justify-center rounded-xl text-white shadow-md shadow-primary/20">
@@ -97,20 +105,33 @@ export const Sidebar = ({ currentView, setCurrentView, onOpenDiagnostics }) => {
             </div>
           </div>
 
-          {/* System Diagnostics Trigger Button */}
-          {onOpenDiagnostics && (
-            <button
-              onClick={onOpenDiagnostics}
-              title="Open System Diagnostics"
-              className="p-1.5 text-text-secondary hover:text-primary hover:bg-background rounded-lg transition-colors border border-border/60"
-            >
-              <Activity size={15} />
-            </button>
-          )}
+          <div className="flex items-center gap-1">
+            {/* System Diagnostics Trigger Button */}
+            {onOpenDiagnostics && (
+              <button
+                onClick={onOpenDiagnostics}
+                title="Open System Diagnostics"
+                className="p-1.5 text-text-secondary hover:text-primary hover:bg-background rounded-lg transition-colors border border-border/60"
+              >
+                <Activity size={15} />
+              </button>
+            )}
+
+            {/* Mobile close button */}
+            {onCloseMobile && (
+              <button
+                onClick={onCloseMobile}
+                className="md:hidden p-1.5 text-text-secondary hover:text-text-primary rounded-lg transition-colors"
+                title="Close Navigation"
+              >
+                <X size={18} />
+              </button>
+            )}
+          </div>
         </div>
 
         {/* Navigation Items */}
-        <nav className="p-3 space-y-4">
+        <nav className="p-3 space-y-4 overflow-y-auto max-h-[calc(100vh-140px)] custom-scrollbar">
           {navGroups.map((group) => (
             <div key={group.group}>
               <h2 className="px-3 text-[10px] font-extrabold text-text-secondary uppercase tracking-wider mb-1">
@@ -123,8 +144,8 @@ export const Sidebar = ({ currentView, setCurrentView, onOpenDiagnostics }) => {
                   return (
                     <button
                       key={item.id}
-                      onClick={() => setCurrentView(item.id)}
-                      className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold transition-all duration-200 ${
+                      onClick={() => handleSelectView(item.id)}
+                      className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold transition-all duration-200 cursor-pointer ${
                         isActive 
                           ? 'bg-primary text-white shadow-md shadow-primary/20 font-bold' 
                           : 'text-text-secondary hover:bg-background hover:text-text-primary'
@@ -171,13 +192,35 @@ export const Sidebar = ({ currentView, setCurrentView, onOpenDiagnostics }) => {
         
         <button
           onClick={logout}
-          className="w-full flex items-center justify-center gap-1.5 px-3 py-1.5 border border-danger/20 rounded-lg text-xs font-bold text-danger hover:bg-danger/5 transition-colors"
+          className="w-full flex items-center justify-center gap-1.5 px-3 py-1.5 border border-danger/20 rounded-lg text-xs font-bold text-danger hover:bg-danger/5 transition-colors cursor-pointer"
         >
           <LogOut size={12} />
           Logout
         </button>
       </div>
-    </aside>
+    </div>
+  );
+
+  return (
+    <>
+      {/* Desktop Sticky Sidebar */}
+      <aside className="hidden md:flex w-64 bg-surface border-r border-border flex-col justify-between h-screen sticky top-0 overflow-y-auto custom-scrollbar flex-shrink-0 z-20">
+        {sidebarContent}
+      </aside>
+
+      {/* Mobile Drawer Overlay */}
+      {isMobileOpen && (
+        <div className="fixed inset-0 z-50 md:hidden flex">
+          <div 
+            className="fixed inset-0 bg-black/40 backdrop-blur-xs transition-opacity" 
+            onClick={onCloseMobile}
+          />
+          <aside className="relative w-72 max-w-[85vw] bg-surface h-full shadow-2xl flex flex-col z-10 animate-in slide-in-from-left duration-200">
+            {sidebarContent}
+          </aside>
+        </div>
+      )}
+    </>
   );
 };
 

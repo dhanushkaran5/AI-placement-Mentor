@@ -1,171 +1,211 @@
-<<<<<<< HEAD
-# 🚀 AI Placement Mentor Agent
+# 🎓 AI Placement Mentor — Autonomous Placement Intelligence Operating System
 
-An end-to-end AI-powered placement preparation & adaptive career mentor platform designed to continuously assess, verify, analyze, predict, plan, evaluate, adapt, and reassess engineering student placement readiness.
+An enterprise-grade, full-stack AI career preparation platform engineered to continuously assess, verify, predict, plan, evaluate, adapt, and mentor engineering students for campus recruitment and industry placements.
 
 ```text
-ASSESS → VERIFY → ANALYZE → PREDICT → PLAN → PRACTICE → EVALUATE → ADAPT → REASSESS
+ASSESS ➔ VERIFY ➔ ANALYZE ➔ PREDICT ➔ PLAN ➔ PRACTICE ➔ EVALUATE ➔ ADAPT ➔ REASSESS
 ```
 
 ---
 
-## 🌟 Key Features
+## 🌟 Executive Summary & Problem Statement
 
-1. **AI Placement Readiness Index**: Multi-factorial 0–100 weighted index calculated dynamically across Technical Skills, DSA/Coding, Mock Interviews, Resume Quality, Aptitude, Projects, and Communication.
-2. **Skill Verification Engine**: Quizzes (MCQs, conceptual, debugging, code output) to verify claimed skills on resumes.
-3. **Resume Claim Verification**: Generates deep technical/project verification questions to evaluate resume authenticity.
-4. **Adaptive AI Roadmap**: Dynamic study roadmap that auto-adjusts when skill performance updates.
-5. **Company-Specific Placement Simulator**: Multi-round recruitment drive simulation (Aptitude $\rightarrow$ Coding $\rightarrow$ Technical $\rightarrow$ HR) tailored to company assessment patterns (TCS, Infosys, Amazon, Wipro, Google, etc.).
-6. **AI Interview Memory**: Tracks interview performance trends and weakness memory.
-7. **Placement Risk Analyzer**: Diagnostic engine highlighting evidence-based skill vulnerabilities and action remedies.
-8. **What-If Career Simulator**: Interactive target score sliders showing hypothetical readiness index impact.
-9. **AI Project Portfolio & Defense**: Evaluates project technical depth, architecture, and generates project defense questions.
-10. **AI Coding Lab**: Coding environment with problem sets, test case runner, runtime complexity analysis, and submission history.
-11. **Multi-Company Intelligence Engine**: Tiering, interview patterns, salary benchmarks, and profile matcher across 30+ tech companies.
-12. **System Health & Diagnostics**: Live health checking for database, authentication, company engine, AI service, and frontend client.
+College placement preparation is frequently fragmented: students practice coding problems without knowing company-specific patterns, create unverified resumes, face surprise interview questions, and lack visibility into their true readiness for specific target companies (e.g. TCS vs Amazon vs Zoho).
+
+**AI Placement Mentor** solves this by providing a unified **Placement Operating System (OS)** featuring:
+1. **Dynamic Readiness Index (0–100)**: Multi-factorial weighted readiness calculated across 7 core competencies (Technical, DSA, Mock Interviews, Resume, Aptitude, Projects, Communication).
+2. **Multi-Company Intelligence Engine**: Deep profiles, assessment patterns, hiring rounds, and match algorithms for **50+ Tech Companies** (IT Services, Global Product Leaders, and Indian Unicorns).
+3. **Resume Claim & Skill Verification**: Rigorous interactive skill quizzes (MCQs, conceptual, debugging, code output) and architectural claim defenses that validate genuine ability.
+4. **Resume ↔ Job Description (JD) Matcher**: Instant ATS compatibility scoring, keyword gap breakdown, and targeted resume optimization suggestions.
+5. **AI Placement Drive Simulator**: Full company-tailored recruitment drive simulations replicating exact round flows (Aptitude $\rightarrow$ Coding $\rightarrow$ Technical Interview $\rightarrow$ HR Defense).
+6. **Interview & Coding Weakness Profiler**: Memory system that tracks recurring conceptual mistakes across mock interviews and coding attempts.
+7. **24/7 Context-Aware AI Mentor**: Streaming chat coach aware of the student's active resume, target company, weak areas, and daily milestones.
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: React 19, Vite, Tailwind CSS, Recharts, Lucide React
-- **Backend**: Express.js (Node.js REST API), JWT Authentication, Multer, PDF-Parse
-- **Database**: Zero-dependency JSON Database Engine (`backend/data/database.json`)
-- **AI Intelligence**: Anthropic Claude 3.5 Sonnet API with robust local fallback heuristics
-- **Deployment**: Vercel/Netlify (Frontend) + Render/Railway (Backend)
+| Layer | Technologies |
+|---|---|
+| **Frontend** | React 19, Vite 8, Tailwind CSS, Recharts (Radar, Line, Bar charts), Lucide Icons |
+| **Backend** | Node.js, Express.js REST API, JSON Web Tokens (JWT), Bcrypt.js, Multer, PDF-Parse |
+| **Database** | Persistent Structured Database Engine (`backend/data/database.json`) with 15 normalized placement tables |
+| **AI Integration** | Anthropic Claude 3.5 Sonnet SDK (`@anthropic-ai/sdk`) + High-Performance Local Heuristics Fallback Engine |
+| **Code Splitting & SPA** | `React.lazy`, `Suspense`, manual vendor chunking, Render SPA rewrite routing (`_redirects`) |
+| **Deployment Target** | Render (Static Site for Frontend + Web Service for Backend) |
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Architecture & Directory Structure
 
 ```text
-AI-placement-Mentor/
-├── README.md
-├── .gitignore
-├── package.json
+AI-Placement-Mentor/
+├── package.json                    # Root workspace package & concurrent dev scripts
+├── .gitignore                      # Git ignore protecting .env and build output
+├── .env.example                    # Root environment configuration template
+├── README.md                       # Master documentation
 │
-├── frontend/
+├── frontend/                       # Vite + React Client
 │   ├── public/
+│   │   ├── _redirects              # Render SPA routing rewrite (/* /index.html 200)
+│   │   ├── favicon.svg
+│   │   └── icons.svg
 │   ├── src/
-│   │   ├── assets/
-│   │   ├── components/         # Reusable UI (Sidebar, ChatPanel, ErrorBoundary, etc.)
-│   │   ├── pages/              # Screen views (Dashboard, Resume, Coding, Interview, etc.)
-│   │   ├── layouts/            # DashboardLayout wrapper
-│   │   ├── context/            # Global AuthContext
-│   │   ├── hooks/              # Custom React hooks (useAuth, useApi)
-│   │   ├── services/           # Central API client & auth services
-│   │   ├── utils/              # Helper utilities
-│   │   ├── data/               # Static datasets
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   ├── index.css
+│   │   ├── components/             # Sidebar, ChatPanel, CompanyLogo, SystemHealthModal, ErrorBoundary
+│   │   ├── context/                # AuthContext (JWT session persistence, registration, profile sync)
+│   │   ├── layouts/                # DashboardLayout (Responsive desktop + mobile drawer)
+│   │   ├── pages/                  # 25 Lazy-loaded route views
+│   │   ├── services/               # Centralized api.js client (VITE_API_URL, timeouts, error parsing)
+│   │   ├── App.jsx                 # Lazy-route splitting + URL hash synchronization
+│   │   ├── index.css               # Modern design tokens, custom scrollbars, typography
 │   │   └── main.jsx
 │   ├── index.html
-│   ├── package.json
-│   ├── vite.config.js
+│   ├── vite.config.js              # Rollup manualChunks optimization for vendor splitting
 │   ├── tailwind.config.js
-│   ├── postcss.config.js
-│   └── .env.example
-│
-├── backend/
-│   ├── data/                   # Database store (database.json)
-│   ├── src/
-│   │   ├── config/             # Database & seed configuration
-│   │   ├── controllers/        # Route logic controllers
-│   │   ├── middleware/         # Auth & error handling middleware
-│   │   ├── routes/             # Express API endpoints
-│   │   ├── services/           # AI, Company Engine, & Readiness services
-│   │   ├── utils/              # Logger & backend helpers
-│   │   └── validators/         # Input request validators
-│   ├── server.js
 │   ├── package.json
 │   └── .env.example
 │
-└── docs/
-    ├── architecture.md          # Architectural blueprints & diagrams
-    ├── api.md                   # API specification & endpoints
-    └── deployment.md            # Production deployment guide
+├── backend/                        # Express.js API Server
+│   ├── data/
+│   │   └── database.json           # Persistent JSON storage (15 placement tables)
+│   ├── src/
+│   │   ├── config/                 # Database abstraction (db.js), seed script (seed.js), companies (companies.json)
+│   │   ├── controllers/            # Auth, Company, Readiness, Coding, Mock, Resume, Project controllers
+│   │   ├── middleware/             # authenticateToken (JWT), errorMiddleware (Centralized logger)
+│   │   ├── routes/                 # Express API routes
+│   │   └── services/               # aiService.js (Claude + Local fallback), companyIntelligenceEngine.js, readinessEngine.js
+│   ├── server.js                   # Main entry point with dynamic CORS & startup auto-seeding
+│   ├── package.json
+│   └── .env.example
+│
+└── docs/                           # Technical Specifications & Architecture guides
+    ├── architecture.md
+    ├── api.md
+    └── deployment.md
 ```
 
 ---
 
-## ⚡ Quick Start Guide
+## ⚡ Quickstart & Local Development
 
 ### Prerequisites
-- Node.js (v18+)
-- npm or yarn
+- **Node.js**: v18.0.0 or higher
+- **npm**: v9.0.0 or higher
 
-### 1. Installation
-
+### 1. Clone & Install Dependencies
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/AI-placement-Mentor.git
+git clone https://github.com/dhanushkaran5/AI-placement-Mentor.git
 cd AI-placement-Mentor
 
-# Install root, backend, and frontend dependencies
+# Install root, backend, and frontend dependencies in one command
 npm run install:all
 ```
 
-### 2. Environment Setup
+### 2. Configure Environment Variables
 
-Create `.env` in `backend/`:
+**Backend (`backend/.env`):**
 ```env
 PORT=5000
-JWT_SECRET=super_secret_key_123
-DB_PATH=data/database.json
-ANTHROPIC_API_KEY=your_claude_api_key_optional
+JWT_SECRET=super_secret_placement_mentor_token_123!
+FRONTEND_URL=http://localhost:5173
+
+# Optional: Set your Claude API Key for live LLM mode.
+# If omitted or empty, the built-in intelligent local fallback heuristics run automatically.
+ANTHROPIC_API_KEY=
 ```
 
-Create `.env` in `frontend/`:
+**Frontend (`frontend/.env`):**
 ```env
 VITE_API_URL=http://localhost:5000/api
 ```
 
-### 3. Running Locally
-
+### 3. Run Development Servers
 ```bash
-# Run both backend and frontend concurrently
+# Run backend (Port 5000) and frontend (Port 5173) concurrently:
 npm run dev
 ```
 
-Or run separately:
-
-**Backend Server**:
-```bash
-cd backend
-npm run dev
-```
-
-**Frontend React App**:
-```bash
-cd frontend
-npm run dev
-```
-
-- **Frontend**: `http://localhost:3000` (or Vite port)
+- **Frontend URL**: `http://localhost:5173`
 - **Backend API**: `http://localhost:5000/api`
-- **Health Check**: `http://localhost:5000/api/health`
-
-### 🔑 Demo Credentials
-- **Email**: `test@example.com`
-- **Password**: `password123`
+- **API Health Check**: `http://localhost:5000/api/health`
+- **System Diagnostics**: `http://localhost:5000/api/health/diagnostics`
 
 ---
 
-## 📖 Documentation
+## 🔑 Pre-Seeded College Demo Credentials
 
-For detailed guides, explore the `docs/` folder:
-- [Architecture Blueprint](docs/architecture.md)
-- [API Reference](docs/api.md)
-- [Deployment Instructions](docs/deployment.md)
+The database automatically seeds an active student account on initial launch:
+
+| Field | Value |
+|---|---|
+| **Email** | `test@example.com` |
+| **Password** | `password123` |
+| **Target Role** | Software Development Engineer (SDE) |
+| **Target Company** | TCS / Infosys / Amazon |
+| **Quick Action** | Click **"One-Click Demo Login"** on the login screen for instant access! |
 
 ---
 
-## 🔒 License & Author
+## 🚀 Step-by-Step Render Deployment Guide
 
-Developed for Engineering Placement Excellence.
-Licensed under MIT.
-=======
-# AI-placementor-Mentor
-🤖 AI-powered placement mentor that analyzes student skills, identifies placement gaps, generates personalized preparation roadmaps, provides coding &amp; mock interview practice, and matches students with suitable companies. Built with React, Node.js, Express, JWT &amp; AI-driven analytics.
->>>>>>> e6f2f6a0ea0ec6e62f522e015a219d71018790fc
+Follow these exact steps to deploy both services on **Render**:
+
+### Step 1: Deploy Backend (Web Service)
+1. In Render Dashboard, click **New +** $\rightarrow$ **Web Service**.
+2. Connect your GitHub repository: `dhanushkaran5/AI-placement-Mentor`.
+3. Configure the following fields:
+   - **Name**: `ai-placement-mentor-backend`
+   - **Root Directory**: `backend`
+   - **Runtime**: `Node`
+   - **Build Command**: `npm install`
+   - **Start Command**: `node server.js`
+4. In **Environment Variables**, add:
+   - `PORT` = `5000` (or leave default for Render dynamic assignment)
+   - `JWT_SECRET` = `your_secure_random_jwt_secret_key_here`
+   - `FRONTEND_URL` = `https://ai-placement-mentor-frontend.onrender.com` (your frontend URL once created)
+   - `ANTHROPIC_API_KEY` = (optional for live Claude integration)
+5. Click **Create Web Service**. Note your backend URL (e.g. `https://ai-placement-mentor-backend.onrender.com`).
+
+### Step 2: Deploy Frontend (Static Site)
+1. In Render Dashboard, click **New +** $\rightarrow$ **Static Site**.
+2. Connect the same GitHub repository.
+3. Configure the following fields:
+   - **Name**: `ai-placement-mentor-frontend`
+   - **Root Directory**: `frontend`
+   - **Build Command**: `npm install && npm run build`
+   - **Publish Directory**: `dist`
+4. In **Environment Variables**, add:
+   - `VITE_API_URL` = `https://ai-placement-mentor-backend.onrender.com/api` (use your actual backend URL from Step 1)
+5. Click **Create Static Site**.
+6. The `public/_redirects` file automatically handles SPA rewrites (`/* /index.html 200`) so direct links and page refreshes work seamlessly!
+
+---
+
+## 🛡️ Security & Reliability Architecture
+
+- **Zero Client-Side API Keys**: AI API keys are never bundled, transmitted, or accessible to client code.
+- **Dynamic CORS Isolation**: Backend explicitly verifies origin headers against `FRONTEND_URL` and Render domains.
+- **Fail-Safe Offline Mode**: If Claude API is unavailable or unconfigured, the application runs on intelligent local fallback heuristics without crashing.
+- **Graceful Error Recovery**: Centralized `ErrorBoundary` on the frontend and `errorMiddleware` on the backend catch exceptions cleanly with zero sensitive stack trace leakage.
+
+---
+
+## 📝 Verification & Testing Commands
+
+To run the automated acceptance test suite locally:
+
+```bash
+# Run backend endpoint full suite verification:
+node "backend/src/testScenarios.js"
+
+# Verify production frontend build:
+npm run build --prefix frontend
+```
+
+---
+
+## 📄 License & Author
+
+- **Author**: Dhanushkaran M (dhanushkaran5)
+- **Project**: AI Placement Mentor Agent
+- **License**: MIT

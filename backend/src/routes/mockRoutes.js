@@ -9,6 +9,7 @@ router.use(authMiddleware);
 router.post('/start', startSession);
 router.post('/answer', submitAnswer);
 router.post('/submit', submitAnswer); // Alias for frontend compatibility
+router.post('/submit-answer', submitAnswer); // Alias for test/API compatibility
 router.get('/history', getHistory);
 router.get('/history/:id', getSessionDetails);
 router.get('/weakness-memory', getWeaknessMemory);

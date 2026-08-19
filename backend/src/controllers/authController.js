@@ -7,15 +7,30 @@ const JWT_SECRET = process.env.JWT_SECRET || 'super_secret_placement_mentor_toke
 export const signup = async (req, res) => {
   const { name, email, password } = req.body;
 
-  if (!name || !email || !password) {
-    return res.status(400).json({ error: 'All fields are required.' });
+  if (!name || !name.trim()) {
+    return res.status(400).json({ error: 'Full name is required.' });
   }
+
+  if (!email || !email.trim()) {
+    return res.status(400).json({ error: 'Email address is required.' });
+  }
+
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email.trim())) {
+    return res.status(400).json({ error: 'Please provide a valid email address.' });
+  }
+
+  if (!password || password.length < 6) {
+    return res.status(400).json({ error: 'Password must be at least 6 characters long.' });
+  }
+
+  const normalizedEmail = email.trim().toLowerCase();
 
   try {
     // Check if email already exists
-    const existingUser = await get('SELECT * FROM users WHERE email = ?', [email]);
+    const existingUser = await get('SELECT * FROM users WHERE email = ?', [normalizedEmail]);
     if (existingUser) {
-      return res.status(400).json({ error: 'Email already registered.' });
+      return res.status(400).json({ error: 'An account with this email already exists. Please log in.' });
     }
 
     // Hash password
@@ -24,7 +39,7 @@ export const signup = async (req, res) => {
     // Save user
     const userResult = await run(
       'INSERT INTO users (name, email, password) VALUES (?, ?, ?)',
-      [name, email, hashedPassword]
+      [name.trim(), normalizedEmail, hashedPassword]
     );
 
     // Create empty profile
@@ -34,20 +49,22 @@ export const signup = async (req, res) => {
     );
 
     // Generate JWT token
-    const token = jwt.sign({ id: userResult.id, email, name }, JWT_SECRET, {
+    const token = jwt.sign({ id: userResult.id, email: normalizedEmail, name: name.trim() }, JWT_SECRET, {
       expiresIn: '24h',
     });
 
     res.status(201).json({
       message: 'Signup successful.',
       token,
-      user: { id: userResult.id, name, email },
+      user: { id: userResult.id, name: name.trim(), email: normalizedEmail },
     });
   } catch (error) {
     console.error('Signup error:', error);
     res.status(500).json({ error: 'Internal server error during signup.' });
   }
 };
+
+export const register = signup;
 
 export const login = async (req, res) => {
   const { email, password } = req.body;
@@ -103,6 +120,8 @@ export const getProfile = async (req, res) => {
     res.status(500).json({ error: 'Internal server error fetching profile.' });
   }
 };
+
+export const getMe = getProfile;
 
 export const updateProfile = async (req, res) => {
   const { target_role, target_company } = req.body;

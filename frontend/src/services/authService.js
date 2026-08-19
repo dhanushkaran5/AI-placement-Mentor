@@ -9,8 +9,20 @@ export const authService = {
     return await api.post('/auth/register', userData);
   },
 
+  signup: async (userData) => {
+    return await api.post('/auth/signup', userData);
+  },
+
   getProfile: async () => {
+    return await api.get('/auth/profile');
+  },
+
+  getMe: async () => {
     return await api.get('/auth/me');
+  },
+
+  updateProfile: async (profileData) => {
+    return await api.put('/auth/profile', profileData);
   },
 
   logout: () => {
