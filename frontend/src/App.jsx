@@ -2,33 +2,53 @@ import React, { useState, useEffect, Suspense, lazy } from 'react';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import DashboardLayout from './layouts/DashboardLayout';
 import ErrorBoundary from './components/ErrorBoundary';
+import AuthScreen from './pages/AuthScreen';
 
-// Lazy-loaded Views for Fast Initial Load and Optimized Route Code-Splitting
-const AuthScreen = lazy(() => import('./pages/AuthScreen'));
-const Dashboard = lazy(() => import('./pages/Dashboard'));
-const ResumeUpload = lazy(() => import('./pages/ResumeUpload'));
-const SkillGap = lazy(() => import('./pages/SkillGap'));
-const Roadmap = lazy(() => import('./pages/Roadmap'));
-const CompanyInsights = lazy(() => import('./pages/CompanyInsights'));
-const MockInterview = lazy(() => import('./pages/MockInterview'));
-const Progress = lazy(() => import('./pages/Progress'));
-const SkillVerification = lazy(() => import('./pages/SkillVerification'));
-const CodingLab = lazy(() => import('./pages/CodingLab'));
-const PlacementSimulator = lazy(() => import('./pages/PlacementSimulator'));
-const DailyMission = lazy(() => import('./pages/DailyMission'));
-const ProjectAnalyzer = lazy(() => import('./pages/ProjectAnalyzer'));
-const RiskAnalyzer = lazy(() => import('./pages/RiskAnalyzer'));
-const WhatIfSimulator = lazy(() => import('./pages/WhatIfSimulator'));
-const CompanyMatcher = lazy(() => import('./pages/CompanyMatcher'));
-const ReadinessIndex = lazy(() => import('./pages/ReadinessIndex'));
-const PlacementBlockers = lazy(() => import('./pages/PlacementBlockers'));
-const ResumeJdMatcher = lazy(() => import('./pages/ResumeJdMatcher'));
-const ProjectDefense = lazy(() => import('./pages/ProjectDefense'));
-const CompanyDiscovery = lazy(() => import('./pages/CompanyDiscovery'));
-const CompanyProfile = lazy(() => import('./pages/CompanyProfile'));
-const CompanyComparison = lazy(() => import('./pages/CompanyComparison'));
-const PlacementOpportunities = lazy(() => import('./pages/PlacementOpportunities'));
-const CompanyAdmin = lazy(() => import('./pages/CompanyAdmin'));
+// Helper for resilient dynamic chunk loading (handles stale deployment chunks gracefully)
+const lazyWithRetry = (componentImport) =>
+  lazy(async () => {
+    const pageHasBeenRefreshed = JSON.parse(
+      window.sessionStorage.getItem('chunk_reload_retry') || 'false'
+    );
+    try {
+      const component = await componentImport();
+      window.sessionStorage.setItem('chunk_reload_retry', 'false');
+      return component;
+    } catch (error) {
+      console.error('Dynamic import chunk load error:', error);
+      if (!pageHasBeenRefreshed) {
+        window.sessionStorage.setItem('chunk_reload_retry', 'true');
+        window.location.reload();
+      }
+      throw error;
+    }
+  });
+
+// Lazy-loaded Views with Retry Resilience
+const Dashboard = lazyWithRetry(() => import('./pages/Dashboard'));
+const ResumeUpload = lazyWithRetry(() => import('./pages/ResumeUpload'));
+const SkillGap = lazyWithRetry(() => import('./pages/SkillGap'));
+const Roadmap = lazyWithRetry(() => import('./pages/Roadmap'));
+const CompanyInsights = lazyWithRetry(() => import('./pages/CompanyInsights'));
+const MockInterview = lazyWithRetry(() => import('./pages/MockInterview'));
+const Progress = lazyWithRetry(() => import('./pages/Progress'));
+const SkillVerification = lazyWithRetry(() => import('./pages/SkillVerification'));
+const CodingLab = lazyWithRetry(() => import('./pages/CodingLab'));
+const PlacementSimulator = lazyWithRetry(() => import('./pages/PlacementSimulator'));
+const DailyMission = lazyWithRetry(() => import('./pages/DailyMission'));
+const ProjectAnalyzer = lazyWithRetry(() => import('./pages/ProjectAnalyzer'));
+const RiskAnalyzer = lazyWithRetry(() => import('./pages/RiskAnalyzer'));
+const WhatIfSimulator = lazyWithRetry(() => import('./pages/WhatIfSimulator'));
+const CompanyMatcher = lazyWithRetry(() => import('./pages/CompanyMatcher'));
+const ReadinessIndex = lazyWithRetry(() => import('./pages/ReadinessIndex'));
+const PlacementBlockers = lazyWithRetry(() => import('./pages/PlacementBlockers'));
+const ResumeJdMatcher = lazyWithRetry(() => import('./pages/ResumeJdMatcher'));
+const ProjectDefense = lazyWithRetry(() => import('./pages/ProjectDefense'));
+const CompanyDiscovery = lazyWithRetry(() => import('./pages/CompanyDiscovery'));
+const CompanyProfile = lazyWithRetry(() => import('./pages/CompanyProfile'));
+const CompanyComparison = lazyWithRetry(() => import('./pages/CompanyComparison'));
+const PlacementOpportunities = lazyWithRetry(() => import('./pages/PlacementOpportunities'));
+const CompanyAdmin = lazyWithRetry(() => import('./pages/CompanyAdmin'));
 
 // Loading Fallback Component
 const ViewLoadingFallback = () => (
@@ -82,11 +102,7 @@ function MainAppContent() {
   }
 
   if (!token) {
-    return (
-      <Suspense fallback={<ViewLoadingFallback />}>
-        <AuthScreen />
-      </Suspense>
-    );
+    return <AuthScreen />;
   }
 
   const renderView = () => {

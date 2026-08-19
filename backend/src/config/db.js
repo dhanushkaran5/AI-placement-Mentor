@@ -540,22 +540,52 @@ export const run = async (sql, params = []) => {
   }
 
   // Handle Updates
-  if (normalized.startsWith('update roadmaps set weeks =')) {
-    const [weeks, id] = params;
-    const roadmap = dbData.roadmaps.find(r => r.id === Number(id));
+  if (normalized.startsWith('update resumes set')) {
+    const userId = Number(params[params.length - 1]);
+    const resume = dbData.resumes.find(r => r.user_id === userId);
+    if (resume) {
+      if (normalized.includes('raw_text =')) {
+        resume.raw_text = params[0];
+        resume.skills = params[1];
+        resume.education = params[2];
+        resume.experience = params[3];
+        resume.cgpa = params[4] ? Number(params[4]) : null;
+      }
+      resume.updated_at = new Date().toISOString();
+      saveDb();
+      return { changes: 1 };
+    }
+  }
+
+  if (normalized.startsWith('update mock_interviews set')) {
+    const id = Number(params[params.length - 1]);
+    const mock = dbData.mock_interviews.find(m => m.id === id);
+    if (mock) {
+      mock.questions = params[0];
+      if (normalized.includes('overall_score =')) {
+        mock.overall_score = Number(params[1] || 0);
+      }
+      saveDb();
+      return { changes: 1 };
+    }
+  }
+
+  if (normalized.startsWith('update roadmaps set')) {
+    const id = Number(params[params.length - 1]);
+    const roadmap = dbData.roadmaps.find(r => r.id === id || r.user_id === id);
     if (roadmap) {
-      roadmap.weeks = weeks;
+      roadmap.weeks = params[0];
       saveDb();
       return { changes: 1 };
     }
   }
 
   if (normalized.startsWith('update daily_missions set')) {
-    const [tasks, completion_percentage, id] = params;
-    const mission = dbData.daily_missions.find(m => m.id === Number(id));
+    const id = Number(params[params.length - 1]);
+    const mission = dbData.daily_missions.find(m => m.id === id);
     if (mission) {
-      mission.tasks = tasks;
-      mission.completion_percentage = Number(completion_percentage || 0);
+      mission.tasks = params[0];
+      mission.completion_percentage = Number(params[1] || 0);
       saveDb();
       return { changes: 1 };
     }

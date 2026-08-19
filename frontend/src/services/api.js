@@ -1,5 +1,7 @@
 const ENV_API_URL = import.meta.env.VITE_API_URL;
-const BASE_URL = (ENV_API_URL && ENV_API_URL.trim() !== '') ? ENV_API_URL.replace(/\/$/, '') : 'http://localhost:5000/api';
+const BASE_URL = (ENV_API_URL && ENV_API_URL.trim() !== '') 
+  ? ENV_API_URL.replace(/\/$/, '') 
+  : (import.meta.env.PROD ? '/api' : 'http://localhost:5000/api');
 
 const DEFAULT_TIMEOUT_MS = 12000;
 
@@ -23,7 +25,7 @@ const fetchWithTimeout = async (url, options = {}, timeoutMs = DEFAULT_TIMEOUT_M
       throw new Error(`Request timed out after ${timeoutMs / 1000}s. Backend server might be busy or starting up.`);
     }
     if (err.message && err.message.includes('Failed to fetch')) {
-      throw new Error('Backend server is currently offline or unreachable. Please ensure the backend server is running on port 5000.');
+      throw new Error('Backend server is currently offline or unreachable. Please verify your connection.');
     }
     throw err;
   }

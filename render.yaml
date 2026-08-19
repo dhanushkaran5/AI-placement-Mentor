@@ -1,0 +1,30 @@
+services:
+  # Backend Web Service
+  - type: web
+    name: ai-placement-mentor-backend
+    env: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: FRONTEND_URL
+        value: https://ai-placement-mentor.onrender.com # Change to match your actual frontend URL
+      - key: DB_PATH
+        value: data/database.json
+      - key: ANTHROPIC_API_KEY
+        sync: false
+
+  # Frontend Static Site
+  - type: static
+    name: ai-placement-mentor-frontend
+    env: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    publishDir: dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://ai-placement-mentor-backend.onrender.com/api # Change to match your actual backend URL

@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Test Student",
       "email": "test@example.com",
-      "password": "$2a$10$D3kd1Ta2MfnzRagb4zXSUeAsltnfpuiKQPNv//yK.Dw8oFNLDdCLC",
+      "password": "$2a$10$fwY0pozoGFexoVQ1QO/JfuXRO03evQeKPp8m0iTjAJt19Pvcxx4Ka",
       "created_at": "2026-08-11T04:31:31.831Z"
     },
     {
@@ -83,16 +83,51 @@
       "email": "dhanushdkkaran@gmail.com",
       "password": "$2a$10$oGOp4./tkfOnkzC6MWzAPOua1NV4asBvvYFYB7oAHSlZ2SViLw9Oy",
       "created_at": "2026-08-18T16:40:11.360Z"
+    },
+    {
+      "id": 13,
+      "name": "Smoke Tester",
+      "email": "smoke_1787157571936@example.com",
+      "password": "$2a$10$KxN6qngip3IiuIJBomBvx.xEkEoXaO/Hqw/nTmWswW89jnfuQPnSy",
+      "created_at": "2026-08-19T16:39:32.009Z"
+    },
+    {
+      "id": 14,
+      "name": "Aditi Sharma",
+      "email": "candidate_1787157772337@test.com",
+      "password": "$2a$10$MT1SxVSmIqmSxMWDHtRb0ucbru6T0r0C9UjiG/lZ1aRPofQvuQGEe",
+      "created_at": "2026-08-19T16:42:52.418Z"
+    },
+    {
+      "id": 15,
+      "name": "Aditi Sharma",
+      "email": "candidate_1787157901054@test.com",
+      "password": "$2a$10$xYQ/R53O5BSSILRdZVNymOS/LzsuxHks8yFd8vapRJsoqtDC9szg.",
+      "created_at": "2026-08-19T16:45:01.129Z"
+    },
+    {
+      "id": 16,
+      "name": "Aditi Sharma",
+      "email": "candidate_1787158012837@test.com",
+      "password": "$2a$10$LlIZjUxk6xoG.sqVTmfY0.pVujBhhcjTQj5QOaOCqfhPngHEO9Jle",
+      "created_at": "2026-08-19T16:46:52.910Z"
+    },
+    {
+      "id": 17,
+      "name": "Aditi Sharma",
+      "email": "candidate_1787158410767@test.com",
+      "password": "$2a$10$yLs5kfu7S0j0UZKto9UXx.4p27Q9BWh.qQqW1qGO/wLsL/ambNWyS",
+      "created_at": "2026-08-19T16:53:30.839Z"
     }
   ],
   "user_profiles": [
     {
       "id": 1,
       "user_id": 1,
-      "target_role": "Software Engineer",
+      "target_role": "Full Stack Engineer",
       "target_company": "Infosys",
       "readiness_score": 73,
-      "updated_at": "2026-08-18T15:57:53.615Z"
+      "updated_at": "2026-08-19T16:53:31.794Z"
     },
     {
       "id": 2,
@@ -201,6 +236,56 @@
       "daily_hours": 4,
       "readiness_score": 38,
       "updated_at": "2026-08-18T16:41:58.698Z"
+    },
+    {
+      "id": 13,
+      "user_id": 13,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "target_date": null,
+      "daily_hours": 4,
+      "readiness_score": 0,
+      "updated_at": "2026-08-19T16:39:32.012Z"
+    },
+    {
+      "id": 14,
+      "user_id": 14,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "target_date": null,
+      "daily_hours": 4,
+      "readiness_score": 0,
+      "updated_at": "2026-08-19T16:42:52.423Z"
+    },
+    {
+      "id": 15,
+      "user_id": 15,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "target_date": null,
+      "daily_hours": 4,
+      "readiness_score": 0,
+      "updated_at": "2026-08-19T16:45:01.133Z"
+    },
+    {
+      "id": 16,
+      "user_id": 16,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "target_date": null,
+      "daily_hours": 4,
+      "readiness_score": 0,
+      "updated_at": "2026-08-19T16:46:52.913Z"
+    },
+    {
+      "id": 17,
+      "user_id": 17,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "target_date": null,
+      "daily_hours": 4,
+      "readiness_score": 0,
+      "updated_at": "2026-08-19T16:53:30.844Z"
     }
   ],
   "resumes": [
@@ -215,17 +300,6 @@
       "updated_at": "2026-08-11T05:11:12.618Z"
     },
     {
-      "id": 4,
-      "user_id": 1,
-      "raw_text": "Test Student Resume - B.Tech CS, 8.4 CGPA, Java, SQL, React, Node.js, AWS. Projects in AI and Full-stack.",
-      "skills": "[\"Java\",\"SQL\",\"React\",\"Node.js\",\"Python\",\"Git\",\"AWS\",\"DSA\",\"Spring Boot\"]",
-      "education": "[{\"degree\":\"B.Tech in Computer Science\",\"institution\":\"State Engineering College\",\"year\":\"2022-2026\",\"cgpa\":\"8.4\"}]",
-      "experience": "[{\"role\":\"Software Engineering Intern\",\"company\":\"TechSolutions Inc\",\"duration\":\"3 Months\",\"description\":\"Built REST APIs and UI widgets.\"}]",
-      "cgpa": 8.4,
-      "claim_verifications": "[]",
-      "updated_at": "2026-08-16T16:27:49.745Z"
-    },
-    {
       "id": 5,
       "user_id": 12,
       "raw_text": "\n\nDHANUSHKARAN M \n +91-9566413640     logeshdhanushkaran@gmail.com     LinkedIn     GitHub \nOBJECTIVE \nI am an AI & DS student with a strong interest in technology, seeking an internship opportunity to apply analytical \nthinking, programming skills, and creativity to real-world projects while contributing to innovative teams through \nsoftware development and technology-driven solutions for environmental and business growth. \nEXPERIENCE \nIntern — Litz Technologies                                                                                                                                        May 2025 \n● Built responsive web interfaces using HTML, CSS, and JavaScript across multiple internal modules, \nimproving UI consistency and load performance. \n● Applied cloud computing fundamentals to deploy and test web components in a live server environment under \nsenior developer guidance. \n● Collaborated in technical design discussions, contributing implementation ideas adopted into the final \ndeployment plan. \nIntern — EDU TANTR                                                                                                                                               Dec 2025 \n● Analyzed real-world datasets using Python-based data science workflows, improving data quality through \nstructured cleaning and preprocessing. \n● Implemented analytical and problem-solving techniques across assigned tasks, delivering results within a \ncollaborative, deadline-driven environment. \n● Strengthened data science and critical-thinking skills through hands-on training in industry-standard \nworkflows and best practices. \nPROJECTS \nAI Placement Mentor Agent \nDeveloped an AI-powered career guidance platform that analyzes resumes, identifies skill gaps, recommends suitable \njob roles and companies, and generates personalized placement preparation roadmaps. \nImplemented AI-driven interview preparation and career assistance using React, Spring Boot, and AI technologies to \nprovide personalized support for students and job seekers. \nTree Plantation & Carbon Reduction Calculator \nEngineered a web-based carbon footprint calculator estimating CO2 emissions and recommending tree-planting \noffsets. Built an interactive dashboard with real-time calculations and data visualizations, delivering personalized \nsustainability insights. \nDesigned a responsive, user-friendly interface to promote environmental awareness and support eco-friendly decision-\nmaking. \nTECHNICAL SKILLS \n● Languages: Python, Java \n● Developer Tools: Git, VS Code \n● Frameworks: Flask, Node.js \n● Database: SQL \n● Soft Skills: Adaptability, Quick Learner, Leadership \nEDUCATION \nB.Tech, Artificial Intelligence & Data Science                                                                                                   (2023 – 2027) \nV.S.B College of Engineering Technical Campus (Affiliated with Anna University), Coimbatore.              CGPA: 8.10 \nHigher Secondary Certificate (HSC)                                                                                                                  (2022 – 2023) \nKamarajar Matriculation Higher Secondary School, Coimbatore.                                                          Percentage: 75% \nCERTIFICATIONS \n● NPTEL — The Joy of Computing Using Python \n● Infosys Springboard — Data Structures and Algorithms Using Python; Generative AI \n● AWS — Foundations of Prompt Engineering \n● IBM — Generative AI Essentials: Using LLMs to Work with Data \nACHIEVEMENTS \n● Patent Publication — Smart Traffic Management System for Urban Congestion (Indian Patent Application \nNo. 202541099319 A, Nov 2025) \n● 1st Prize — Tech Architecture, Inter College Symposium \n● Finalist — Tree Plantation & Carbon Reduction Calculator, Eclearnix Hackathon, KPR College ",
@@ -235,6 +309,17 @@
       "cgpa": 8.1,
       "claim_verifications": "[]",
       "updated_at": "2026-08-18T16:41:58.691Z"
+    },
+    {
+      "id": 10,
+      "user_id": 1,
+      "raw_text": "Test Student Resume - B.Tech CS, 8.4 CGPA, Java, SQL, React, Node.js, AWS. Projects in AI and Full-stack.",
+      "skills": "[\"Java\",\"SQL\",\"React\",\"Node.js\",\"Python\",\"Git\",\"AWS\",\"DSA\",\"Spring Boot\"]",
+      "education": "[{\"degree\":\"B.Tech in Computer Science\",\"institution\":\"State Engineering College\",\"year\":\"2022-2026\",\"cgpa\":\"8.4\"}]",
+      "experience": "[{\"role\":\"Software Engineering Intern\",\"company\":\"TechSolutions Inc\",\"duration\":\"3 Months\",\"description\":\"Built REST APIs and UI widgets.\"}]",
+      "cgpa": 8.4,
+      "claim_verifications": "[]",
+      "updated_at": "2026-08-19T16:53:30.628Z"
     }
   ],
   "roadmaps": [
@@ -247,12 +332,12 @@
       "created_at": "2026-08-11T05:11:25.877Z"
     },
     {
-      "id": 6,
+      "id": 10,
       "user_id": 1,
-      "target_role": "Software Engineer",
+      "target_role": "Full Stack Engineer",
       "target_company": "Infosys",
-      "weeks": "[{\"weekNumber\":1,\"title\":\"Week 1: Master C++\",\"description\":\"This week is dedicated to filling your skill gap in C++ specifically for the Software Engineer expectations at Infosys.\",\"tasks\":[{\"text\":\"Learn foundational concepts of C++\",\"completed\":false},{\"text\":\"Build a mini hands-on mini-project demonstrating C++\",\"completed\":false},{\"text\":\"Review commonly asked technical interview questions for C++\",\"completed\":false}],\"resources\":[{\"title\":\"FreeCodeCamp C++ Full Course (YouTube)\",\"url\":\"https://www.youtube.com/\"},{\"title\":\"GeeksforGeeks C++ Tutorial Guide\",\"url\":\"https://www.geeksforgeeks.org/\"}]},{\"weekNumber\":2,\"title\":\"Week 2: Master DBMS\",\"description\":\"This week is dedicated to filling your skill gap in DBMS specifically for the Software Engineer expectations at Infosys.\",\"tasks\":[{\"text\":\"Understand database indexing and normal forms (1NF, 2NF, 3NF)\",\"completed\":false},{\"text\":\"Practice writing complex SQL queries using JOINs, aggregations, and subqueries\",\"completed\":false},{\"text\":\"Solve 10 SQL practice problems on HackerRank / LeetCode\",\"completed\":false}],\"resources\":[{\"title\":\"Kudvenkat SQL Tutorial (YouTube)\",\"url\":\"https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB\"},{\"title\":\"SQLZoo Interactive Tutorial\",\"url\":\"https://sqlzoo.net/\"}]},{\"weekNumber\":3,\"title\":\"Week 3: Master Data Structures\",\"description\":\"This week is dedicated to filling your skill gap in Data Structures specifically for the Software Engineer expectations at Infosys.\",\"tasks\":[{\"text\":\"Revise Arrays, LinkedLists, Stacks and Queues\",\"completed\":false},{\"text\":\"Solve 15 LeetCode Easy-Medium questions on Arrays/Strings\",\"completed\":false},{\"text\":\"Implement Binary Search and QuickSort from scratch\",\"completed\":false}],\"resources\":[{\"title\":\"Kunal Kushwaha - DSA BootCamp (YouTube)\",\"url\":\"https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ\"},{\"title\":\"LeetCode Top Interview Questions\",\"url\":\"https://leetcode.com/problemset/all/\"}]},{\"weekNumber\":4,\"title\":\"Week 4: Master OOPs\",\"description\":\"This week is dedicated to filling your skill gap in OOPs specifically for the Software Engineer expectations at Infosys.\",\"tasks\":[{\"text\":\"Learn foundational concepts of OOPs\",\"completed\":false},{\"text\":\"Build a mini hands-on mini-project demonstrating OOPs\",\"completed\":false},{\"text\":\"Review commonly asked technical interview questions for OOPs\",\"completed\":false}],\"resources\":[{\"title\":\"FreeCodeCamp OOPs Full Course (YouTube)\",\"url\":\"https://www.youtube.com/\"},{\"title\":\"GeeksforGeeks OOPs Tutorial Guide\",\"url\":\"https://www.geeksforgeeks.org/\"}]},{\"weekNumber\":5,\"title\":\"Week 5: Master Communication Skills\",\"description\":\"This week is dedicated to filling your skill gap in Communication Skills specifically for the Software Engineer expectations at Infosys.\",\"tasks\":[{\"text\":\"Learn foundational concepts of Communication Skills\",\"completed\":false},{\"text\":\"Build a mini hands-on mini-project demonstrating Communication Skills\",\"completed\":false},{\"text\":\"Review commonly asked technical interview questions for Communication Skills\",\"completed\":false}],\"resources\":[{\"title\":\"FreeCodeCamp Communication Skills Full Course (YouTube)\",\"url\":\"https://www.youtube.com/\"},{\"title\":\"GeeksforGeeks Communication Skills Tutorial Guide\",\"url\":\"https://www.geeksforgeeks.org/\"}]}]",
-      "created_at": "2026-08-18T15:52:41.286Z"
+      "weeks": "[{\"weekNumber\":1,\"title\":\"Week 1: Master C++\",\"description\":\"This week is dedicated to filling your skill gap in C++ specifically for the Full Stack Engineer expectations at Infosys.\",\"tasks\":[{\"text\":\"Learn foundational concepts of C++\",\"completed\":false},{\"text\":\"Build a mini hands-on mini-project demonstrating C++\",\"completed\":false},{\"text\":\"Review commonly asked technical interview questions for C++\",\"completed\":false}],\"resources\":[{\"title\":\"FreeCodeCamp C++ Full Course (YouTube)\",\"url\":\"https://www.youtube.com/\"},{\"title\":\"GeeksforGeeks C++ Tutorial Guide\",\"url\":\"https://www.geeksforgeeks.org/\"}]},{\"weekNumber\":2,\"title\":\"Week 2: Master DBMS\",\"description\":\"This week is dedicated to filling your skill gap in DBMS specifically for the Full Stack Engineer expectations at Infosys.\",\"tasks\":[{\"text\":\"Understand database indexing and normal forms (1NF, 2NF, 3NF)\",\"completed\":false},{\"text\":\"Practice writing complex SQL queries using JOINs, aggregations, and subqueries\",\"completed\":false},{\"text\":\"Solve 10 SQL practice problems on HackerRank / LeetCode\",\"completed\":false}],\"resources\":[{\"title\":\"Kudvenkat SQL Tutorial (YouTube)\",\"url\":\"https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB\"},{\"title\":\"SQLZoo Interactive Tutorial\",\"url\":\"https://sqlzoo.net/\"}]},{\"weekNumber\":3,\"title\":\"Week 3: Master Data Structures\",\"description\":\"This week is dedicated to filling your skill gap in Data Structures specifically for the Full Stack Engineer expectations at Infosys.\",\"tasks\":[{\"text\":\"Revise Arrays, LinkedLists, Stacks and Queues\",\"completed\":false},{\"text\":\"Solve 15 LeetCode Easy-Medium questions on Arrays/Strings\",\"completed\":false},{\"text\":\"Implement Binary Search and QuickSort from scratch\",\"completed\":false}],\"resources\":[{\"title\":\"Kunal Kushwaha - DSA BootCamp (YouTube)\",\"url\":\"https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ\"},{\"title\":\"LeetCode Top Interview Questions\",\"url\":\"https://leetcode.com/problemset/all/\"}]},{\"weekNumber\":4,\"title\":\"Week 4: Master OOPs\",\"description\":\"This week is dedicated to filling your skill gap in OOPs specifically for the Full Stack Engineer expectations at Infosys.\",\"tasks\":[{\"text\":\"Learn foundational concepts of OOPs\",\"completed\":false},{\"text\":\"Build a mini hands-on mini-project demonstrating OOPs\",\"completed\":false},{\"text\":\"Review commonly asked technical interview questions for OOPs\",\"completed\":false}],\"resources\":[{\"title\":\"FreeCodeCamp OOPs Full Course (YouTube)\",\"url\":\"https://www.youtube.com/\"},{\"title\":\"GeeksforGeeks OOPs Tutorial Guide\",\"url\":\"https://www.geeksforgeeks.org/\"}]},{\"weekNumber\":5,\"title\":\"Week 5: Master Communication Skills\",\"description\":\"This week is dedicated to filling your skill gap in Communication Skills specifically for the Full Stack Engineer expectations at Infosys.\",\"tasks\":[{\"text\":\"Learn foundational concepts of Communication Skills\",\"completed\":false},{\"text\":\"Build a mini hands-on mini-project demonstrating Communication Skills\",\"completed\":false},{\"text\":\"Review commonly asked technical interview questions for Communication Skills\",\"completed\":false}],\"resources\":[{\"title\":\"FreeCodeCamp Communication Skills Full Course (YouTube)\",\"url\":\"https://www.youtube.com/\"},{\"title\":\"GeeksforGeeks Communication Skills Tutorial Guide\",\"url\":\"https://www.geeksforgeeks.org/\"}]}]",
+      "created_at": "2026-08-19T16:53:31.658Z"
     }
   ],
   "company_insights": [
@@ -419,6 +504,87 @@
       "questions": "[{\"id\":1,\"text\":\"Explain how you would optimize database queries in SQL, and how index structures help. Wipro relies heavily on backend engineers who understand this.\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":2,\"text\":\"Can you talk about a technical project where you faced a major challenge, and what specific steps you took to resolve it?\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":3,\"text\":\"Tell me about yourself, and why you are interested in joining Infosys as a Software Engineer.\",\"category\":\"HR\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":4,\"text\":\"How would you explain the difference between REST API and GraphQL to a non-technical manager?\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":5,\"text\":\"Where do you see yourself in 5 years? Describe how this role fits into your career plans.\",\"category\":\"HR\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null}]",
       "overall_score": 0,
       "created_at": "2026-08-18T15:52:41.300Z"
+    },
+    {
+      "id": 9,
+      "user_id": 1,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "questions": "[{\"question\":\"Explain how HashMap works internally in Java and how collisions are resolved.\",\"user_answer\":\"HashMap uses an array of Node buckets. Keys are hashed with hashCode() and mapped to index. In Java 8, bucket converts from LinkedList to Red-Black Tree if bucket size exceeds 8.\",\"score\":8.5,\"feedback\":\"Strong technical explanation with accurate reference to Java 8 treeification threshold.\"},{\"question\":\"What is the difference between Synchronous and Asynchronous execution?\",\"user_answer\":\"Synchronous blocks execution until task finishes, while Asynchronous executes without blocking and notifies through callbacks or promises.\",\"score\":8,\"feedback\":\"Clear and concise answer.\"}]",
+      "overall_score": 8.2,
+      "created_at": "2026-08-19T16:39:31.283Z"
+    },
+    {
+      "id": 10,
+      "user_id": 1,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "questions": "[{\"question\":\"Explain how HashMap works internally in Java and how collisions are resolved.\",\"user_answer\":\"HashMap uses an array of Node buckets. Keys are hashed with hashCode() and mapped to index. In Java 8, bucket converts from LinkedList to Red-Black Tree if bucket size exceeds 8.\",\"score\":8.5,\"feedback\":\"Strong technical explanation with accurate reference to Java 8 treeification threshold.\"},{\"question\":\"What is the difference between Synchronous and Asynchronous execution?\",\"user_answer\":\"Synchronous blocks execution until task finishes, while Asynchronous executes without blocking and notifies through callbacks or promises.\",\"score\":8,\"feedback\":\"Clear and concise answer.\"}]",
+      "overall_score": 8.2,
+      "created_at": "2026-08-19T16:42:52.175Z"
+    },
+    {
+      "id": 11,
+      "user_id": 1,
+      "target_role": "Full Stack Engineer",
+      "target_company": "Infosys",
+      "questions": "[{\"id\":1,\"text\":\"Explain how you would optimize database queries in SQL, and how index structures help. Wipro relies heavily on backend engineers who understand this.\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":2,\"text\":\"Can you talk about a technical project where you faced a major challenge, and what specific steps you took to resolve it?\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":3,\"text\":\"Tell me about yourself, and why you are interested in joining Infosys as a Full Stack Engineer.\",\"category\":\"HR\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":4,\"text\":\"How would you explain the difference between REST API and GraphQL to a non-technical manager?\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":5,\"text\":\"Where do you see yourself in 5 years? Describe how this role fits into your career plans.\",\"category\":\"HR\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null}]",
+      "overall_score": 0,
+      "created_at": "2026-08-19T16:42:53.096Z"
+    },
+    {
+      "id": 12,
+      "user_id": 1,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "questions": "[{\"question\":\"Explain how HashMap works internally in Java and how collisions are resolved.\",\"user_answer\":\"HashMap uses an array of Node buckets. Keys are hashed with hashCode() and mapped to index. In Java 8, bucket converts from LinkedList to Red-Black Tree if bucket size exceeds 8.\",\"score\":8.5,\"feedback\":\"Strong technical explanation with accurate reference to Java 8 treeification threshold.\"},{\"question\":\"What is the difference between Synchronous and Asynchronous execution?\",\"user_answer\":\"Synchronous blocks execution until task finishes, while Asynchronous executes without blocking and notifies through callbacks or promises.\",\"score\":8,\"feedback\":\"Clear and concise answer.\"}]",
+      "overall_score": 8.2,
+      "created_at": "2026-08-19T16:45:00.904Z"
+    },
+    {
+      "id": 13,
+      "user_id": 1,
+      "target_role": "Full Stack Engineer",
+      "target_company": "Infosys",
+      "questions": "[{\"id\":1,\"text\":\"Explain how you would optimize database queries in SQL, and how index structures help. Wipro relies heavily on backend engineers who understand this.\",\"category\":\"Technical\",\"userAnswer\":\"HashMap uses buckets and hashes the keys with hashCode() to find bucket indexes. Collisions are handled using linked nodes and trees.\",\"score\":8,\"feedback\":{\"strengths\":[\"Directly addressed the question core.\",\"Gave a structured response.\"],\"weaknesses\":[\"Could include more technical metrics or specific technologies.\",\"Missing a concrete example of implementation.\"],\"suggestedAnswer\":\"A stronger answer would be: \\\"When answering, frame your project with context. For example: 'In my last project, I encountered a bottleneck where SQL queries took 3 seconds due to missing indexing on the foreign key. I solved this by running EXPLAIN queries, creating a composite index, and refactoring nested subqueries into JOINs, which reduced execution time by 85%.' This shows technical mastery, structured problem-solving, and measurable results.\\\"\"},\"rating\":\"Strong\"},{\"id\":2,\"text\":\"Can you talk about a technical project where you faced a major challenge, and what specific steps you took to resolve it?\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":3,\"text\":\"Tell me about yourself, and why you are interested in joining Infosys as a Full Stack Engineer.\",\"category\":\"HR\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":4,\"text\":\"How would you explain the difference between REST API and GraphQL to a non-technical manager?\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":5,\"text\":\"Where do you see yourself in 5 years? Describe how this role fits into your career plans.\",\"category\":\"HR\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null}]",
+      "overall_score": 0,
+      "created_at": "2026-08-19T16:45:01.916Z"
+    },
+    {
+      "id": 14,
+      "user_id": 1,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "questions": "[{\"question\":\"Explain how HashMap works internally in Java and how collisions are resolved.\",\"user_answer\":\"HashMap uses an array of Node buckets. Keys are hashed with hashCode() and mapped to index. In Java 8, bucket converts from LinkedList to Red-Black Tree if bucket size exceeds 8.\",\"score\":8.5,\"feedback\":\"Strong technical explanation with accurate reference to Java 8 treeification threshold.\"},{\"question\":\"What is the difference between Synchronous and Asynchronous execution?\",\"user_answer\":\"Synchronous blocks execution until task finishes, while Asynchronous executes without blocking and notifies through callbacks or promises.\",\"score\":8,\"feedback\":\"Clear and concise answer.\"}]",
+      "overall_score": 8.2,
+      "created_at": "2026-08-19T16:46:52.659Z"
+    },
+    {
+      "id": 15,
+      "user_id": 1,
+      "target_role": "Full Stack Engineer",
+      "target_company": "Infosys",
+      "questions": "[{\"id\":1,\"text\":\"Explain how you would optimize database queries in SQL, and how index structures help. Wipro relies heavily on backend engineers who understand this.\",\"category\":\"Technical\",\"userAnswer\":\"HashMap uses buckets and hashes the keys with hashCode() to find bucket indexes. Collisions are handled using linked nodes and trees.\",\"score\":8,\"feedback\":{\"strengths\":[\"Directly addressed the question core.\",\"Gave a structured response.\"],\"weaknesses\":[\"Could include more technical metrics or specific technologies.\",\"Missing a concrete example of implementation.\"],\"suggestedAnswer\":\"A stronger answer would be: \\\"When answering, frame your project with context. For example: 'In my last project, I encountered a bottleneck where SQL queries took 3 seconds due to missing indexing on the foreign key. I solved this by running EXPLAIN queries, creating a composite index, and refactoring nested subqueries into JOINs, which reduced execution time by 85%.' This shows technical mastery, structured problem-solving, and measurable results.\\\"\"},\"rating\":\"Strong\"},{\"id\":2,\"text\":\"Can you talk about a technical project where you faced a major challenge, and what specific steps you took to resolve it?\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":3,\"text\":\"Tell me about yourself, and why you are interested in joining Infosys as a Full Stack Engineer.\",\"category\":\"HR\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":4,\"text\":\"How would you explain the difference between REST API and GraphQL to a non-technical manager?\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":5,\"text\":\"Where do you see yourself in 5 years? Describe how this role fits into your career plans.\",\"category\":\"HR\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null}]",
+      "overall_score": 0,
+      "created_at": "2026-08-19T16:46:53.737Z"
+    },
+    {
+      "id": 16,
+      "user_id": 1,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "questions": "[{\"question\":\"Explain how HashMap works internally in Java and how collisions are resolved.\",\"user_answer\":\"HashMap uses an array of Node buckets. Keys are hashed with hashCode() and mapped to index. In Java 8, bucket converts from LinkedList to Red-Black Tree if bucket size exceeds 8.\",\"score\":8.5,\"feedback\":\"Strong technical explanation with accurate reference to Java 8 treeification threshold.\"},{\"question\":\"What is the difference between Synchronous and Asynchronous execution?\",\"user_answer\":\"Synchronous blocks execution until task finishes, while Asynchronous executes without blocking and notifies through callbacks or promises.\",\"score\":8,\"feedback\":\"Clear and concise answer.\"}]",
+      "overall_score": 8.2,
+      "created_at": "2026-08-19T16:53:30.624Z"
+    },
+    {
+      "id": 17,
+      "user_id": 1,
+      "target_role": "Full Stack Engineer",
+      "target_company": "Infosys",
+      "questions": "[{\"id\":1,\"text\":\"Explain how you would optimize database queries in SQL, and how index structures help. Wipro relies heavily on backend engineers who understand this.\",\"category\":\"Technical\",\"userAnswer\":\"HashMap uses buckets and hashes the keys with hashCode() to find bucket indexes. Collisions are handled using linked nodes and trees.\",\"score\":8,\"feedback\":{\"strengths\":[\"Directly addressed the question core.\",\"Gave a structured response.\"],\"weaknesses\":[\"Could include more technical metrics or specific technologies.\",\"Missing a concrete example of implementation.\"],\"suggestedAnswer\":\"A stronger answer would be: \\\"When answering, frame your project with context. For example: 'In my last project, I encountered a bottleneck where SQL queries took 3 seconds due to missing indexing on the foreign key. I solved this by running EXPLAIN queries, creating a composite index, and refactoring nested subqueries into JOINs, which reduced execution time by 85%.' This shows technical mastery, structured problem-solving, and measurable results.\\\"\"},\"rating\":\"Strong\"},{\"id\":2,\"text\":\"Can you talk about a technical project where you faced a major challenge, and what specific steps you took to resolve it?\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":3,\"text\":\"Tell me about yourself, and why you are interested in joining Infosys as a Full Stack Engineer.\",\"category\":\"HR\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":4,\"text\":\"How would you explain the difference between REST API and GraphQL to a non-technical manager?\",\"category\":\"Technical\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null},{\"id\":5,\"text\":\"Where do you see yourself in 5 years? Describe how this role fits into your career plans.\",\"category\":\"HR\",\"userAnswer\":\"\",\"score\":0,\"feedback\":null}]",
+      "overall_score": 0,
+      "created_at": "2026-08-19T16:53:31.639Z"
     }
   ],
   "progress_logs": [
@@ -541,11 +707,107 @@
       "description": "Uploaded and parsed resume",
       "metric_value": 38,
       "created_at": "2026-08-18T16:41:58.704Z"
+    },
+    {
+      "id": 16,
+      "user_id": 1,
+      "activity_type": "profile_update",
+      "description": "Updated target role to Full Stack Engineer at Infosys",
+      "metric_value": 0,
+      "created_at": "2026-08-19T16:42:52.436Z"
+    },
+    {
+      "id": 17,
+      "user_id": 1,
+      "activity_type": "coding_assessment",
+      "description": "Submitted Two Sum - Target Index Matching (Accepted)",
+      "metric_value": 100,
+      "created_at": "2026-08-19T16:42:53.088Z"
+    },
+    {
+      "id": 18,
+      "user_id": 1,
+      "activity_type": "project_analysis",
+      "description": "Analyzed project portfolio: AI Placement Mentor Agent (84%)",
+      "metric_value": 84,
+      "created_at": "2026-08-19T16:42:53.234Z"
+    },
+    {
+      "id": 19,
+      "user_id": 1,
+      "activity_type": "profile_update",
+      "description": "Updated target role to Full Stack Engineer at Infosys",
+      "metric_value": 0,
+      "created_at": "2026-08-19T16:45:01.149Z"
+    },
+    {
+      "id": 20,
+      "user_id": 1,
+      "activity_type": "coding_assessment",
+      "description": "Submitted Two Sum - Target Index Matching (Accepted)",
+      "metric_value": 100,
+      "created_at": "2026-08-19T16:45:01.909Z"
+    },
+    {
+      "id": 21,
+      "user_id": 1,
+      "activity_type": "project_analysis",
+      "description": "Analyzed project portfolio: AI Placement Mentor Agent (84%)",
+      "metric_value": 84,
+      "created_at": "2026-08-19T16:45:02.078Z"
+    },
+    {
+      "id": 22,
+      "user_id": 1,
+      "activity_type": "profile_update",
+      "description": "Updated target role to Full Stack Engineer at Infosys",
+      "metric_value": 0,
+      "created_at": "2026-08-19T16:46:52.930Z"
+    },
+    {
+      "id": 23,
+      "user_id": 1,
+      "activity_type": "coding_assessment",
+      "description": "Submitted Two Sum - Target Index Matching (Accepted)",
+      "metric_value": 100,
+      "created_at": "2026-08-19T16:46:53.728Z"
+    },
+    {
+      "id": 24,
+      "user_id": 1,
+      "activity_type": "project_analysis",
+      "description": "Analyzed project portfolio: AI Placement Mentor Agent (84%)",
+      "metric_value": 84,
+      "created_at": "2026-08-19T16:46:53.930Z"
+    },
+    {
+      "id": 25,
+      "user_id": 1,
+      "activity_type": "profile_update",
+      "description": "Updated target role to Full Stack Engineer at Infosys",
+      "metric_value": 0,
+      "created_at": "2026-08-19T16:53:30.861Z"
+    },
+    {
+      "id": 26,
+      "user_id": 1,
+      "activity_type": "coding_assessment",
+      "description": "Submitted Two Sum - Target Index Matching (Accepted)",
+      "metric_value": 100,
+      "created_at": "2026-08-19T16:53:31.630Z"
+    },
+    {
+      "id": 27,
+      "user_id": 1,
+      "activity_type": "project_analysis",
+      "description": "Analyzed project portfolio: AI Placement Mentor Agent (84%)",
+      "metric_value": 84,
+      "created_at": "2026-08-19T16:53:31.813Z"
     }
   ],
   "verified_skills": [
     {
-      "id": 6,
+      "id": 36,
       "user_id": 1,
       "skill": "Java",
       "level": "Strong",
@@ -554,10 +816,10 @@
       "debugging_score": 82,
       "verification_score": 82,
       "status": "Verified",
-      "updated_at": "2026-08-16T16:27:49.723Z"
+      "updated_at": "2026-08-19T16:53:30.597Z"
     },
     {
-      "id": 8,
+      "id": 38,
       "user_id": 1,
       "skill": "SQL & Database Design",
       "level": "Strong",
@@ -566,10 +828,10 @@
       "debugging_score": 85,
       "verification_score": 85,
       "status": "Verified",
-      "updated_at": "2026-08-16T16:27:49.727Z"
+      "updated_at": "2026-08-19T16:53:30.602Z"
     },
     {
-      "id": 9,
+      "id": 39,
       "user_id": 1,
       "skill": "JavaScript / React",
       "level": "Strong",
@@ -578,10 +840,10 @@
       "debugging_score": 74,
       "verification_score": 76,
       "status": "Verified",
-      "updated_at": "2026-08-16T16:27:49.728Z"
+      "updated_at": "2026-08-19T16:53:30.606Z"
     },
     {
-      "id": 10,
+      "id": 40,
       "user_id": 1,
       "skill": "System Design & Architecture",
       "level": "Moderate",
@@ -590,10 +852,10 @@
       "debugging_score": 60,
       "verification_score": 59,
       "status": "Verified",
-      "updated_at": "2026-08-16T16:27:49.730Z"
+      "updated_at": "2026-08-19T16:53:30.609Z"
     },
     {
-      "id": 12,
+      "id": 41,
       "user_id": 1,
       "skill": "Data Structures & Algorithms",
       "level": "Strong",
@@ -602,7 +864,7 @@
       "debugging_score": 80,
       "verification_score": 100,
       "status": "Verified",
-      "updated_at": "2026-08-18T15:52:41.337Z"
+      "updated_at": "2026-08-19T16:53:31.625Z"
     }
   ],
   "skill_assessments": [],
@@ -756,6 +1018,366 @@
       "runtime_ms": 37,
       "complexity": "O(N)",
       "created_at": "2026-08-18T15:52:41.313Z"
+    },
+    {
+      "id": 11,
+      "user_id": 1,
+      "problem_id": "p1",
+      "problem_title": "Two Sum Problem",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 10,
+      "total_test_cases": 10,
+      "score": 100,
+      "runtime_ms": 38,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:39:31.267Z"
+    },
+    {
+      "id": 12,
+      "user_id": 1,
+      "problem_id": "p2",
+      "problem_title": "Valid Anagram & Frequency Map",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 8,
+      "total_test_cases": 8,
+      "score": 95,
+      "runtime_ms": 42,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:39:31.270Z"
+    },
+    {
+      "id": 13,
+      "user_id": 1,
+      "problem_id": "p3",
+      "problem_title": "Reverse Linked List",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 12,
+      "total_test_cases": 12,
+      "score": 90,
+      "runtime_ms": 55,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:39:31.274Z"
+    },
+    {
+      "id": 14,
+      "user_id": 1,
+      "problem_id": "p4",
+      "problem_title": "Binary Tree Level Order Traversal",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Wrong Answer",
+      "test_cases_passed": 4,
+      "total_test_cases": 10,
+      "score": 40,
+      "runtime_ms": 90,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:39:31.277Z"
+    },
+    {
+      "id": 15,
+      "user_id": 1,
+      "problem_id": "p1",
+      "problem_title": "Two Sum Problem",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 10,
+      "total_test_cases": 10,
+      "score": 100,
+      "runtime_ms": 38,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:42:52.163Z"
+    },
+    {
+      "id": 16,
+      "user_id": 1,
+      "problem_id": "p2",
+      "problem_title": "Valid Anagram & Frequency Map",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 8,
+      "total_test_cases": 8,
+      "score": 95,
+      "runtime_ms": 42,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:42:52.165Z"
+    },
+    {
+      "id": 17,
+      "user_id": 1,
+      "problem_id": "p3",
+      "problem_title": "Reverse Linked List",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 12,
+      "total_test_cases": 12,
+      "score": 90,
+      "runtime_ms": 55,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:42:52.168Z"
+    },
+    {
+      "id": 18,
+      "user_id": 1,
+      "problem_id": "p4",
+      "problem_title": "Binary Tree Level Order Traversal",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Wrong Answer",
+      "test_cases_passed": 4,
+      "total_test_cases": 10,
+      "score": 40,
+      "runtime_ms": 90,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:42:52.171Z"
+    },
+    {
+      "id": 19,
+      "user_id": 1,
+      "problem_id": 1,
+      "problem_title": "Two Sum - Target Index Matching",
+      "code": "class Solution { public int[] twoSum(int[] nums, int target) { return new int[]{0,1}; } }",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 5,
+      "total_test_cases": 5,
+      "score": 100,
+      "runtime_ms": 21,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:42:53.059Z"
+    },
+    {
+      "id": 20,
+      "user_id": 1,
+      "problem_id": "p1",
+      "problem_title": "Two Sum Problem",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 10,
+      "total_test_cases": 10,
+      "score": 100,
+      "runtime_ms": 38,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:45:00.892Z"
+    },
+    {
+      "id": 21,
+      "user_id": 1,
+      "problem_id": "p2",
+      "problem_title": "Valid Anagram & Frequency Map",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 8,
+      "total_test_cases": 8,
+      "score": 95,
+      "runtime_ms": 42,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:45:00.895Z"
+    },
+    {
+      "id": 22,
+      "user_id": 1,
+      "problem_id": "p3",
+      "problem_title": "Reverse Linked List",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 12,
+      "total_test_cases": 12,
+      "score": 90,
+      "runtime_ms": 55,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:45:00.898Z"
+    },
+    {
+      "id": 23,
+      "user_id": 1,
+      "problem_id": "p4",
+      "problem_title": "Binary Tree Level Order Traversal",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Wrong Answer",
+      "test_cases_passed": 4,
+      "total_test_cases": 10,
+      "score": 40,
+      "runtime_ms": 90,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:45:00.900Z"
+    },
+    {
+      "id": 24,
+      "user_id": 1,
+      "problem_id": 1,
+      "problem_title": "Two Sum - Target Index Matching",
+      "code": "class Solution { public int[] twoSum(int[] nums, int target) { return new int[]{0,1}; } }",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 5,
+      "total_test_cases": 5,
+      "score": 100,
+      "runtime_ms": 35,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:45:01.877Z"
+    },
+    {
+      "id": 25,
+      "user_id": 1,
+      "problem_id": "p1",
+      "problem_title": "Two Sum Problem",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 10,
+      "total_test_cases": 10,
+      "score": 100,
+      "runtime_ms": 38,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:46:52.637Z"
+    },
+    {
+      "id": 26,
+      "user_id": 1,
+      "problem_id": "p2",
+      "problem_title": "Valid Anagram & Frequency Map",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 8,
+      "total_test_cases": 8,
+      "score": 95,
+      "runtime_ms": 42,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:46:52.641Z"
+    },
+    {
+      "id": 27,
+      "user_id": 1,
+      "problem_id": "p3",
+      "problem_title": "Reverse Linked List",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 12,
+      "total_test_cases": 12,
+      "score": 90,
+      "runtime_ms": 55,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:46:52.646Z"
+    },
+    {
+      "id": 28,
+      "user_id": 1,
+      "problem_id": "p4",
+      "problem_title": "Binary Tree Level Order Traversal",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Wrong Answer",
+      "test_cases_passed": 4,
+      "total_test_cases": 10,
+      "score": 40,
+      "runtime_ms": 90,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:46:52.651Z"
+    },
+    {
+      "id": 29,
+      "user_id": 1,
+      "problem_id": 1,
+      "problem_title": "Two Sum - Target Index Matching",
+      "code": "class Solution { public int[] twoSum(int[] nums, int target) { return new int[]{0,1}; } }",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 5,
+      "total_test_cases": 5,
+      "score": 100,
+      "runtime_ms": 34,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:46:53.689Z"
+    },
+    {
+      "id": 30,
+      "user_id": 1,
+      "problem_id": "p1",
+      "problem_title": "Two Sum Problem",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 10,
+      "total_test_cases": 10,
+      "score": 100,
+      "runtime_ms": 38,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:53:30.612Z"
+    },
+    {
+      "id": 31,
+      "user_id": 1,
+      "problem_id": "p2",
+      "problem_title": "Valid Anagram & Frequency Map",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 8,
+      "total_test_cases": 8,
+      "score": 95,
+      "runtime_ms": 42,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:53:30.615Z"
+    },
+    {
+      "id": 32,
+      "user_id": 1,
+      "problem_id": "p3",
+      "problem_title": "Reverse Linked List",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 12,
+      "total_test_cases": 12,
+      "score": 90,
+      "runtime_ms": 55,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:53:30.618Z"
+    },
+    {
+      "id": 33,
+      "user_id": 1,
+      "problem_id": "p4",
+      "problem_title": "Binary Tree Level Order Traversal",
+      "code": "// Solution code",
+      "language": "java",
+      "status": "Wrong Answer",
+      "test_cases_passed": 4,
+      "total_test_cases": 10,
+      "score": 40,
+      "runtime_ms": 90,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:53:30.621Z"
+    },
+    {
+      "id": 34,
+      "user_id": 1,
+      "problem_id": 1,
+      "problem_title": "Two Sum - Target Index Matching",
+      "code": "class Solution { public int[] twoSum(int[] nums, int target) { return new int[]{0,1}; } }",
+      "language": "java",
+      "status": "Accepted",
+      "test_cases_passed": 5,
+      "total_test_cases": 5,
+      "score": 100,
+      "runtime_ms": 16,
+      "complexity": "O(N)",
+      "created_at": "2026-08-19T16:53:31.589Z"
     }
   ],
   "project_analyses": [
@@ -788,6 +1410,66 @@
       "weaknesses": "[\"Lacks automated unit/integration test coverage details\",\"Could include explicit caching mechanism (Redis) for scalability\"]",
       "interview_questions": "[\"Why did you choose React, Node.js, Express, PostgreSQL over alternative frameworks?\",\"How do you secure user authentication and API endpoints in Smart Campus Placement Portal?\",\"If traffic increases by 10x, what is the first bottleneck in Smart Campus Placement Portal and how would you resolve it?\"]",
       "created_at": "2026-08-18T15:52:41.350Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "project_name": "AI Placement Mentor Agent",
+      "description": "Career intelligence and coaching platform",
+      "tech_stack": "React, Node.js, Express, JSON DB",
+      "github_url": "https://github.com/dhanushkaran5/AI-placement-Mentor",
+      "live_url": "",
+      "project_score": 84,
+      "metrics": "{\"projectScore\":84,\"technicalDepth\":\"Strong\",\"innovation\":\"Good\",\"resumeValue\":\"High\",\"interviewReadiness\":80,\"architectureQuality\":\"Well Structured\",\"technologyRelevance\":\"Industry Standard\",\"strengths\":[\"Uses standard multi-tier architecture pattern\",\"Relevant tech stack (React, Node/Express, Database persistence)\",\"Clear problem statement and solution scope\"],\"weaknesses\":[\"Lacks automated unit/integration test coverage details\",\"Could include explicit caching mechanism (Redis) for scalability\"],\"missingAreas\":[\"CI/CD pipeline configuration\",\"API documentation / Swagger OpenAPI spec\"],\"potentialInterviewQuestions\":[\"Why did you choose React, Node.js, Express, JSON DB over alternative frameworks?\",\"How do you secure user authentication and API endpoints in AI Placement Mentor Agent?\",\"If traffic increases by 10x, what is the first bottleneck in AI Placement Mentor Agent and how would you resolve it?\"],\"improvementSuggestions\":[\"Add a Dockerfile and GitHub Actions workflow for automated testing.\",\"Include measurable metrics in resume bullet points (e.g. \\\"Reduced API latency by 35%\\\").\"]}",
+      "strengths": "[\"Uses standard multi-tier architecture pattern\",\"Relevant tech stack (React, Node/Express, Database persistence)\",\"Clear problem statement and solution scope\"]",
+      "weaknesses": "[\"Lacks automated unit/integration test coverage details\",\"Could include explicit caching mechanism (Redis) for scalability\"]",
+      "interview_questions": "[\"Why did you choose React, Node.js, Express, JSON DB over alternative frameworks?\",\"How do you secure user authentication and API endpoints in AI Placement Mentor Agent?\",\"If traffic increases by 10x, what is the first bottleneck in AI Placement Mentor Agent and how would you resolve it?\"]",
+      "created_at": "2026-08-19T16:42:53.209Z"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "project_name": "AI Placement Mentor Agent",
+      "description": "Career intelligence and coaching platform",
+      "tech_stack": "React, Node.js, Express, JSON DB",
+      "github_url": "https://github.com/dhanushkaran5/AI-placement-Mentor",
+      "live_url": "",
+      "project_score": 84,
+      "metrics": "{\"projectScore\":84,\"technicalDepth\":\"Strong\",\"innovation\":\"Good\",\"resumeValue\":\"High\",\"interviewReadiness\":80,\"architectureQuality\":\"Well Structured\",\"technologyRelevance\":\"Industry Standard\",\"strengths\":[\"Uses standard multi-tier architecture pattern\",\"Relevant tech stack (React, Node/Express, Database persistence)\",\"Clear problem statement and solution scope\"],\"weaknesses\":[\"Lacks automated unit/integration test coverage details\",\"Could include explicit caching mechanism (Redis) for scalability\"],\"missingAreas\":[\"CI/CD pipeline configuration\",\"API documentation / Swagger OpenAPI spec\"],\"potentialInterviewQuestions\":[\"Why did you choose React, Node.js, Express, JSON DB over alternative frameworks?\",\"How do you secure user authentication and API endpoints in AI Placement Mentor Agent?\",\"If traffic increases by 10x, what is the first bottleneck in AI Placement Mentor Agent and how would you resolve it?\"],\"improvementSuggestions\":[\"Add a Dockerfile and GitHub Actions workflow for automated testing.\",\"Include measurable metrics in resume bullet points (e.g. \\\"Reduced API latency by 35%\\\").\"]}",
+      "strengths": "[\"Uses standard multi-tier architecture pattern\",\"Relevant tech stack (React, Node/Express, Database persistence)\",\"Clear problem statement and solution scope\"]",
+      "weaknesses": "[\"Lacks automated unit/integration test coverage details\",\"Could include explicit caching mechanism (Redis) for scalability\"]",
+      "interview_questions": "[\"Why did you choose React, Node.js, Express, JSON DB over alternative frameworks?\",\"How do you secure user authentication and API endpoints in AI Placement Mentor Agent?\",\"If traffic increases by 10x, what is the first bottleneck in AI Placement Mentor Agent and how would you resolve it?\"]",
+      "created_at": "2026-08-19T16:45:02.044Z"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "project_name": "AI Placement Mentor Agent",
+      "description": "Career intelligence and coaching platform",
+      "tech_stack": "React, Node.js, Express, JSON DB",
+      "github_url": "https://github.com/dhanushkaran5/AI-placement-Mentor",
+      "live_url": "",
+      "project_score": 84,
+      "metrics": "{\"projectScore\":84,\"technicalDepth\":\"Strong\",\"innovation\":\"Good\",\"resumeValue\":\"High\",\"interviewReadiness\":80,\"architectureQuality\":\"Well Structured\",\"technologyRelevance\":\"Industry Standard\",\"strengths\":[\"Uses standard multi-tier architecture pattern\",\"Relevant tech stack (React, Node/Express, Database persistence)\",\"Clear problem statement and solution scope\"],\"weaknesses\":[\"Lacks automated unit/integration test coverage details\",\"Could include explicit caching mechanism (Redis) for scalability\"],\"missingAreas\":[\"CI/CD pipeline configuration\",\"API documentation / Swagger OpenAPI spec\"],\"potentialInterviewQuestions\":[\"Why did you choose React, Node.js, Express, JSON DB over alternative frameworks?\",\"How do you secure user authentication and API endpoints in AI Placement Mentor Agent?\",\"If traffic increases by 10x, what is the first bottleneck in AI Placement Mentor Agent and how would you resolve it?\"],\"improvementSuggestions\":[\"Add a Dockerfile and GitHub Actions workflow for automated testing.\",\"Include measurable metrics in resume bullet points (e.g. \\\"Reduced API latency by 35%\\\").\"]}",
+      "strengths": "[\"Uses standard multi-tier architecture pattern\",\"Relevant tech stack (React, Node/Express, Database persistence)\",\"Clear problem statement and solution scope\"]",
+      "weaknesses": "[\"Lacks automated unit/integration test coverage details\",\"Could include explicit caching mechanism (Redis) for scalability\"]",
+      "interview_questions": "[\"Why did you choose React, Node.js, Express, JSON DB over alternative frameworks?\",\"How do you secure user authentication and API endpoints in AI Placement Mentor Agent?\",\"If traffic increases by 10x, what is the first bottleneck in AI Placement Mentor Agent and how would you resolve it?\"]",
+      "created_at": "2026-08-19T16:46:53.889Z"
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "project_name": "AI Placement Mentor Agent",
+      "description": "Career intelligence and coaching platform",
+      "tech_stack": "React, Node.js, Express, JSON DB",
+      "github_url": "https://github.com/dhanushkaran5/AI-placement-Mentor",
+      "live_url": "",
+      "project_score": 84,
+      "metrics": "{\"projectScore\":84,\"technicalDepth\":\"Strong\",\"innovation\":\"Good\",\"resumeValue\":\"High\",\"interviewReadiness\":80,\"architectureQuality\":\"Well Structured\",\"technologyRelevance\":\"Industry Standard\",\"strengths\":[\"Uses standard multi-tier architecture pattern\",\"Relevant tech stack (React, Node/Express, Database persistence)\",\"Clear problem statement and solution scope\"],\"weaknesses\":[\"Lacks automated unit/integration test coverage details\",\"Could include explicit caching mechanism (Redis) for scalability\"],\"missingAreas\":[\"CI/CD pipeline configuration\",\"API documentation / Swagger OpenAPI spec\"],\"potentialInterviewQuestions\":[\"Why did you choose React, Node.js, Express, JSON DB over alternative frameworks?\",\"How do you secure user authentication and API endpoints in AI Placement Mentor Agent?\",\"If traffic increases by 10x, what is the first bottleneck in AI Placement Mentor Agent and how would you resolve it?\"],\"improvementSuggestions\":[\"Add a Dockerfile and GitHub Actions workflow for automated testing.\",\"Include measurable metrics in resume bullet points (e.g. \\\"Reduced API latency by 35%\\\").\"]}",
+      "strengths": "[\"Uses standard multi-tier architecture pattern\",\"Relevant tech stack (React, Node/Express, Database persistence)\",\"Clear problem statement and solution scope\"]",
+      "weaknesses": "[\"Lacks automated unit/integration test coverage details\",\"Could include explicit caching mechanism (Redis) for scalability\"]",
+      "interview_questions": "[\"Why did you choose React, Node.js, Express, JSON DB over alternative frameworks?\",\"How do you secure user authentication and API endpoints in AI Placement Mentor Agent?\",\"If traffic increases by 10x, what is the first bottleneck in AI Placement Mentor Agent and how would you resolve it?\"]",
+      "created_at": "2026-08-19T16:53:31.779Z"
     }
   ],
   "daily_missions": [
@@ -814,6 +1496,14 @@
       "tasks": "[{\"id\":1,\"text\":\"Solve 2 Array & HashMap problem challenges in Coding Lab\",\"category\":\"DSA\",\"completed\":false},{\"id\":2,\"text\":\"Revise SQL Joins and Group By queries (Skill Verification)\",\"category\":\"Technical\",\"completed\":false},{\"id\":3,\"text\":\"Complete 1 Technical Mock Interview question on Mock Interview\",\"category\":\"Interview\",\"completed\":false},{\"id\":4,\"text\":\"Review 10 Quantitative Aptitude questions for TCS Ninja round\",\"category\":\"Aptitude\",\"completed\":false},{\"id\":5,\"text\":\"Verify Project claims with Resume Claim Verification\",\"category\":\"Resume\",\"completed\":false}]",
       "completion_percentage": 0,
       "created_at": "2026-08-18T15:43:46.522Z"
+    },
+    {
+      "id": 9,
+      "user_id": 1,
+      "mission_date": "2026-08-19",
+      "tasks": "[{\"id\":1,\"title\":\"Solve 2 Binary Tree & Queue Coding Problems\",\"category\":\"DSA\",\"durationMin\":35,\"completed\":true},{\"id\":2,\"title\":\"Review Java Memory Management & Garbage Collection\",\"category\":\"Technical\",\"durationMin\":20,\"completed\":false},{\"id\":3,\"title\":\"Take 10-Minute Quantitative Aptitude Drill\",\"category\":\"Aptitude\",\"durationMin\":15,\"completed\":false},{\"id\":4,\"title\":\"Simulate Project Architecture Defense for SDE\",\"category\":\"Interview\",\"durationMin\":20,\"completed\":false}]",
+      "completion_percentage": 25,
+      "created_at": "2026-08-19T16:53:30.646Z"
     }
   ],
   "placement_simulations": [
@@ -1744,6 +2434,390 @@
       "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
       "risk_level": "High Risk",
       "created_at": "2026-08-18T16:41:31.915Z"
+    },
+    {
+      "id": 114,
+      "user_id": 1,
+      "overall_score": 55,
+      "category_breakdown": "{\"technical\":52,\"dsa\":40,\"mockInterview\":50,\"resume\":65,\"aptitude\":60,\"projects\":55,\"communication\":58}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-19T16:39:31.289Z"
+    },
+    {
+      "id": 115,
+      "user_id": 1,
+      "overall_score": 62,
+      "category_breakdown": "{\"technical\":65,\"dsa\":48,\"mockInterview\":60,\"resume\":75,\"aptitude\":65,\"projects\":65,\"communication\":65}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:39:31.293Z"
+    },
+    {
+      "id": 116,
+      "user_id": 1,
+      "overall_score": 68,
+      "category_breakdown": "{\"technical\":75,\"dsa\":56,\"mockInterview\":70,\"resume\":80,\"aptitude\":70,\"projects\":70,\"communication\":72}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:39:31.296Z"
+    },
+    {
+      "id": 117,
+      "user_id": 1,
+      "overall_score": 72,
+      "category_breakdown": "{\"technical\":80,\"dsa\":64,\"mockInterview\":82,\"resume\":85,\"aptitude\":75,\"projects\":75,\"communication\":78}",
+      "risk_level": "Good",
+      "created_at": "2026-08-19T16:39:31.299Z"
+    },
+    {
+      "id": 118,
+      "user_id": 1,
+      "overall_score": 55,
+      "category_breakdown": "{\"technical\":52,\"dsa\":40,\"mockInterview\":50,\"resume\":65,\"aptitude\":60,\"projects\":55,\"communication\":58}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-19T16:42:52.179Z"
+    },
+    {
+      "id": 119,
+      "user_id": 1,
+      "overall_score": 62,
+      "category_breakdown": "{\"technical\":65,\"dsa\":48,\"mockInterview\":60,\"resume\":75,\"aptitude\":65,\"projects\":65,\"communication\":65}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:42:52.183Z"
+    },
+    {
+      "id": 120,
+      "user_id": 1,
+      "overall_score": 68,
+      "category_breakdown": "{\"technical\":75,\"dsa\":56,\"mockInterview\":70,\"resume\":80,\"aptitude\":70,\"projects\":70,\"communication\":72}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:42:52.186Z"
+    },
+    {
+      "id": 121,
+      "user_id": 1,
+      "overall_score": 72,
+      "category_breakdown": "{\"technical\":80,\"dsa\":64,\"mockInterview\":82,\"resume\":85,\"aptitude\":75,\"projects\":75,\"communication\":78}",
+      "risk_level": "Good",
+      "created_at": "2026-08-19T16:42:52.189Z"
+    },
+    {
+      "id": 122,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":83,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:42:52.460Z"
+    },
+    {
+      "id": 123,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":83,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:42:52.487Z"
+    },
+    {
+      "id": 124,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:42:53.074Z"
+    },
+    {
+      "id": 125,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:42:53.134Z"
+    },
+    {
+      "id": 126,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:42:53.166Z"
+    },
+    {
+      "id": 127,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:42:53.191Z"
+    },
+    {
+      "id": 128,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:42:53.222Z"
+    },
+    {
+      "id": 129,
+      "user_id": 1,
+      "overall_score": 55,
+      "category_breakdown": "{\"technical\":52,\"dsa\":40,\"mockInterview\":50,\"resume\":65,\"aptitude\":60,\"projects\":55,\"communication\":58}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-19T16:45:00.910Z"
+    },
+    {
+      "id": 130,
+      "user_id": 1,
+      "overall_score": 62,
+      "category_breakdown": "{\"technical\":65,\"dsa\":48,\"mockInterview\":60,\"resume\":75,\"aptitude\":65,\"projects\":65,\"communication\":65}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:45:00.913Z"
+    },
+    {
+      "id": 131,
+      "user_id": 1,
+      "overall_score": 68,
+      "category_breakdown": "{\"technical\":75,\"dsa\":56,\"mockInterview\":70,\"resume\":80,\"aptitude\":70,\"projects\":70,\"communication\":72}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:45:00.916Z"
+    },
+    {
+      "id": 132,
+      "user_id": 1,
+      "overall_score": 72,
+      "category_breakdown": "{\"technical\":80,\"dsa\":64,\"mockInterview\":82,\"resume\":85,\"aptitude\":75,\"projects\":75,\"communication\":78}",
+      "risk_level": "Good",
+      "created_at": "2026-08-19T16:45:00.919Z"
+    },
+    {
+      "id": 133,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:45:01.210Z"
+    },
+    {
+      "id": 134,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:45:01.251Z"
+    },
+    {
+      "id": 135,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:45:01.893Z"
+    },
+    {
+      "id": 136,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:45:01.962Z"
+    },
+    {
+      "id": 137,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:45:01.994Z"
+    },
+    {
+      "id": 138,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:45:02.027Z"
+    },
+    {
+      "id": 139,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:45:02.063Z"
+    },
+    {
+      "id": 140,
+      "user_id": 1,
+      "overall_score": 55,
+      "category_breakdown": "{\"technical\":52,\"dsa\":40,\"mockInterview\":50,\"resume\":65,\"aptitude\":60,\"projects\":55,\"communication\":58}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-19T16:46:52.667Z"
+    },
+    {
+      "id": 141,
+      "user_id": 1,
+      "overall_score": 62,
+      "category_breakdown": "{\"technical\":65,\"dsa\":48,\"mockInterview\":60,\"resume\":75,\"aptitude\":65,\"projects\":65,\"communication\":65}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:46:52.672Z"
+    },
+    {
+      "id": 142,
+      "user_id": 1,
+      "overall_score": 68,
+      "category_breakdown": "{\"technical\":75,\"dsa\":56,\"mockInterview\":70,\"resume\":80,\"aptitude\":70,\"projects\":70,\"communication\":72}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:46:52.677Z"
+    },
+    {
+      "id": 143,
+      "user_id": 1,
+      "overall_score": 72,
+      "category_breakdown": "{\"technical\":80,\"dsa\":64,\"mockInterview\":82,\"resume\":85,\"aptitude\":75,\"projects\":75,\"communication\":78}",
+      "risk_level": "Good",
+      "created_at": "2026-08-19T16:46:52.683Z"
+    },
+    {
+      "id": 144,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:46:52.993Z"
+    },
+    {
+      "id": 145,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:46:53.040Z"
+    },
+    {
+      "id": 146,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:46:53.709Z"
+    },
+    {
+      "id": 147,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:46:53.792Z"
+    },
+    {
+      "id": 148,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:46:53.829Z"
+    },
+    {
+      "id": 149,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:46:53.867Z"
+    },
+    {
+      "id": 150,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:46:53.910Z"
+    },
+    {
+      "id": 151,
+      "user_id": 1,
+      "overall_score": 55,
+      "category_breakdown": "{\"technical\":52,\"dsa\":40,\"mockInterview\":50,\"resume\":65,\"aptitude\":60,\"projects\":55,\"communication\":58}",
+      "risk_level": "High Risk",
+      "created_at": "2026-08-19T16:53:30.632Z"
+    },
+    {
+      "id": 152,
+      "user_id": 1,
+      "overall_score": 62,
+      "category_breakdown": "{\"technical\":65,\"dsa\":48,\"mockInterview\":60,\"resume\":75,\"aptitude\":65,\"projects\":65,\"communication\":65}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:53:30.635Z"
+    },
+    {
+      "id": 153,
+      "user_id": 1,
+      "overall_score": 68,
+      "category_breakdown": "{\"technical\":75,\"dsa\":56,\"mockInterview\":70,\"resume\":80,\"aptitude\":70,\"projects\":70,\"communication\":72}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:53:30.639Z"
+    },
+    {
+      "id": 154,
+      "user_id": 1,
+      "overall_score": 72,
+      "category_breakdown": "{\"technical\":80,\"dsa\":64,\"mockInterview\":82,\"resume\":85,\"aptitude\":75,\"projects\":75,\"communication\":78}",
+      "risk_level": "Good",
+      "created_at": "2026-08-19T16:53:30.642Z"
+    },
+    {
+      "id": 155,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:53:30.889Z"
+    },
+    {
+      "id": 156,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":84,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:53:30.920Z"
+    },
+    {
+      "id": 157,
+      "user_id": 1,
+      "overall_score": 71,
+      "category_breakdown": "{\"technical\":73,\"dsa\":85,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:53:31.609Z"
+    },
+    {
+      "id": 158,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":85,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:53:31.685Z"
+    },
+    {
+      "id": 159,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":85,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:53:31.722Z"
+    },
+    {
+      "id": 160,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":85,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:53:31.758Z"
+    },
+    {
+      "id": 161,
+      "user_id": 1,
+      "overall_score": 73,
+      "category_breakdown": "{\"technical\":80,\"dsa\":85,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
+      "risk_level": "Moderate",
+      "created_at": "2026-08-19T16:53:31.798Z"
     }
   ],
   "placement_risks": [
@@ -1811,33 +2885,6 @@
       "recommended_action": "Complete targeted exercises for DSA & Coding in your adaptive roadmap."
     },
     {
-      "id": 11,
-      "user_id": 1,
-      "category": "Aptitude & Logic",
-      "risk_level": "MEDIUM",
-      "reason": "Moderate proficiency in Aptitude & Logic (60%). Further practice required for top companies.",
-      "evidence": "Category score: 60%",
-      "recommended_action": "Schedule 2 extra practice sessions for Aptitude & Logic this week."
-    },
-    {
-      "id": 12,
-      "user_id": 1,
-      "category": "Communication",
-      "risk_level": "HIGH",
-      "reason": "Recent performance in Communication is currently 38%, which is below target placement standards.",
-      "evidence": "Assessment/Session average score: 38%",
-      "recommended_action": "Complete targeted exercises for Communication in your adaptive roadmap."
-    },
-    {
-      "id": 13,
-      "user_id": 1,
-      "category": "Mock Interview",
-      "risk_level": "HIGH",
-      "reason": "Recent performance in Mock Interview is currently 33%, which is below target placement standards.",
-      "evidence": "Assessment/Session average score: 33%",
-      "recommended_action": "Complete targeted exercises for Mock Interview in your adaptive roadmap."
-    },
-    {
       "id": 14,
       "user_id": 12,
       "category": "Aptitude & Logic",
@@ -1899,6 +2946,33 @@
       "reason": "Recent performance in DSA & Coding is currently 45%, which is below target placement standards.",
       "evidence": "Assessment/Session average score: 45%",
       "recommended_action": "Complete targeted exercises for DSA & Coding in your adaptive roadmap."
+    },
+    {
+      "id": 21,
+      "user_id": 1,
+      "category": "Aptitude & Logic",
+      "risk_level": "MEDIUM",
+      "reason": "Moderate proficiency in Aptitude & Logic (60%). Further practice required for top companies.",
+      "evidence": "Category score: 60%",
+      "recommended_action": "Schedule 2 extra practice sessions for Aptitude & Logic this week."
+    },
+    {
+      "id": 22,
+      "user_id": 1,
+      "category": "Communication",
+      "risk_level": "HIGH",
+      "reason": "Recent performance in Communication is currently 38%, which is below target placement standards.",
+      "evidence": "Assessment/Session average score: 38%",
+      "recommended_action": "Complete targeted exercises for Communication in your adaptive roadmap."
+    },
+    {
+      "id": 23,
+      "user_id": 1,
+      "category": "Mock Interview",
+      "risk_level": "HIGH",
+      "reason": "Recent performance in Mock Interview is currently 33%, which is below target placement standards.",
+      "evidence": "Assessment/Session average score: 33%",
+      "recommended_action": "Complete targeted exercises for Mock Interview in your adaptive roadmap."
     }
   ]
 }

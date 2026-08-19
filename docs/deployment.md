@@ -1,60 +1,70 @@
-# Deployment Guide — AI Placement Mentor Agent
+# Deployment Guide — Render & Single Repository Setup
 
-This guide outlines production deployment for both the React/Vite Frontend and the Node/Express Backend.
+This document provides step-by-step instructions for deploying **AI Placement Mentor Agent** to [Render](https://render.com) using a single GitHub repository.
 
 ---
 
-## 1. Frontend Deployment (Vercel / Netlify / Render)
+## Architecture Overview
 
-### Environment Configuration
-Before deploying the frontend, configure the environment variable pointing to your deployed backend API:
-
-```env
-VITE_API_URL=https://your-backend-api.onrender.com/api
+```
+GitHub Repository (AI-placement-Mentor)
+├── frontend/   --> Deploy as Render Static Site
+└── backend/    --> Deploy as Render Web Service
 ```
 
-### Vercel
-1. Connect your GitHub repository to Vercel.
-2. Select **Root Directory**: `frontend`
-3. Build Command: `npm run build`
-4. Output Directory: `dist`
-5. Environment Variables:
-   - Key: `VITE_API_URL`
-   - Value: `https://your-backend-domain.com/api`
+---
 
-### Netlify
-1. New Site from Git -> Select Repository.
-2. Base directory: `frontend`
-3. Build command: `npm run build`
-4. Publish directory: `frontend/dist`
-5. Add build environment variable `VITE_API_URL`.
+## 1. Backend Deployment (Render Web Service)
+
+1. Log in to [Render Dashboard](https://dashboard.render.com/) and click **New +** -> **Web Service**.
+2. Connect your GitHub repository (`AI-placement-Mentor`).
+3. Configure the service:
+   - **Name**: `ai-placement-mentor-backend`
+   - **Region**: Select your preferred region
+   - **Root Directory**: `backend`
+   - **Environment**: `Node`
+   - **Build Command**: `npm install`
+   - **Start Command**: `npm start`
+4. Add the following **Environment Variables** under the *Environment* tab:
+   - `PORT`: `5000` (or leave default, Render sets `PORT` automatically)
+   - `JWT_SECRET`: `[Generate a secure random string]`
+   - `FRONTEND_URL`: `https://[your-frontend-name].onrender.com`
+   - `ANTHROPIC_API_KEY`: `[Optional: your_claude_api_key]`
+5. Click **Create Web Service**.
+6. Copy the assigned backend URL (e.g. `https://ai-placement-mentor-backend.onrender.com`).
 
 ---
 
-## 2. Backend Deployment (Render / Railway / Fly.io)
+## 2. Frontend Deployment (Render Static Site)
 
-### Environment Configuration
-Configure environment variables on your backend hosting platform:
+1. Click **New +** -> **Static Site** on Render.
+2. Connect the same GitHub repository (`AI-placement-Mentor`).
+3. Configure the service:
+   - **Name**: `ai-placement-mentor-frontend`
+   - **Root Directory**: `frontend`
+   - **Build Command**: `npm install && npm run build`
+   - **Publish Directory**: `dist`
+4. Add the following **Environment Variable**:
+   - `VITE_API_URL`: `https://ai-placement-mentor-backend.onrender.com/api` (Use your actual backend Render URL from Step 1)
+5. Click **Create Static Site**.
 
-```env
-PORT=5000
-JWT_SECRET=your_super_secret_production_key_here
-ANTHROPIC_API_KEY=your_live_claude_api_key_optional
+---
+
+## 3. SPA Routing Note
+
+The frontend includes `public/_redirects` with rule:
 ```
-
-### Render Web Service
-1. Create new **Web Service** on Render.
-2. Root Directory: `backend`
-3. Runtime: `Node`
-4. Build Command: `npm install`
-5. Start Command: `npm start`
-6. Add Environment Variables (`PORT`, `JWT_SECRET`, `ANTHROPIC_API_KEY`).
+/*    /index.html   200
+```
+This ensures direct URL navigation (e.g., `/dashboard`, `/companies`, `/roadmap`) serves `index.html` on Render without 404 errors.
 
 ---
 
-## 3. Post-Deployment Verification
+## 4. Verification Checklist
 
-1. Access your deployed frontend URL in browser.
-2. Open Network tab / System Health Modal (`Shift + H` or click status indicator in sidebar).
-3. Confirm API Health endpoint returns `{"status": "healthy", "service": "AI Placement Mentor API"}`.
-4. Perform login test using demo credentials (`test@example.com` / `password123`) or create a new user.
+1. Access `https://your-backend.onrender.com/api/health` — should return `{"status": "healthy", ...}`.
+2. Access `https://your-frontend.onrender.com` in browser.
+3. Test login with demo credentials:
+   - **Email**: `test@example.com`
+   - **Password**: `password123`
+4. Verify resume upload, roadmap generation, and mock interview modules.
