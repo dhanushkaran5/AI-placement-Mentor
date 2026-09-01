@@ -118,6 +118,13 @@
       "email": "candidate_1787158410767@test.com",
       "password": "$2a$10$yLs5kfu7S0j0UZKto9UXx.4p27Q9BWh.qQqW1qGO/wLsL/ambNWyS",
       "created_at": "2026-08-19T16:53:30.839Z"
+    },
+    {
+      "id": 18,
+      "name": "Likethan",
+      "email": "likethankj751@gmail.com",
+      "password": "$2a$10$cu7.3UqI3Ky28pF99QptTuzqDA17yZ1qoiRsSSNjeRUR.G27yGN0O",
+      "created_at": "2026-09-01T10:27:08.891Z"
     }
   ],
   "user_profiles": [
@@ -286,6 +293,16 @@
       "daily_hours": 4,
       "readiness_score": 0,
       "updated_at": "2026-08-19T16:53:30.844Z"
+    },
+    {
+      "id": 18,
+      "user_id": 18,
+      "target_role": "SDE",
+      "target_company": "TCS",
+      "target_date": null,
+      "daily_hours": 4,
+      "readiness_score": 52,
+      "updated_at": "2026-09-01T10:27:21.822Z"
     }
   ],
   "resumes": [
@@ -2818,6 +2835,142 @@
       "category_breakdown": "{\"technical\":80,\"dsa\":85,\"mockInterview\":33,\"resume\":98,\"aptitude\":60,\"projects\":84,\"communication\":38}",
       "risk_level": "Moderate",
       "created_at": "2026-08-19T16:53:31.798Z"
+    },
+    {
+      "id": 162,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:09.936Z"
+    },
+    {
+      "id": 163,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:10.012Z"
+    },
+    {
+      "id": 164,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:10.684Z"
+    },
+    {
+      "id": 165,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:10.748Z"
+    },
+    {
+      "id": 166,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:11.432Z"
+    },
+    {
+      "id": 167,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:11.496Z"
+    },
+    {
+      "id": 168,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:15.027Z"
+    },
+    {
+      "id": 169,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:15.133Z"
+    },
+    {
+      "id": 170,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:17.535Z"
+    },
+    {
+      "id": 171,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:17.637Z"
+    },
+    {
+      "id": 172,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:18.330Z"
+    },
+    {
+      "id": 173,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:18.423Z"
+    },
+    {
+      "id": 174,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:20.993Z"
+    },
+    {
+      "id": 175,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:21.051Z"
+    },
+    {
+      "id": 176,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:21.126Z"
+    },
+    {
+      "id": 177,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:21.741Z"
+    },
+    {
+      "id": 178,
+      "user_id": 18,
+      "overall_score": 52,
+      "category_breakdown": "{\"technical\":50,\"dsa\":45,\"mockInterview\":50,\"resume\":55,\"aptitude\":60,\"projects\":50,\"communication\":60}",
+      "risk_level": "High Risk",
+      "created_at": "2026-09-01T10:27:21.834Z"
     }
   ],
   "placement_risks": [
@@ -2973,6 +3126,69 @@
       "reason": "Recent performance in Mock Interview is currently 33%, which is below target placement standards.",
       "evidence": "Assessment/Session average score: 33%",
       "recommended_action": "Complete targeted exercises for Mock Interview in your adaptive roadmap."
+    },
+    {
+      "id": 24,
+      "user_id": 18,
+      "category": "Aptitude & Logic",
+      "risk_level": "MEDIUM",
+      "reason": "Moderate proficiency in Aptitude & Logic (60%). Further practice required for top companies.",
+      "evidence": "Category score: 60%",
+      "recommended_action": "Schedule 2 extra practice sessions for Aptitude & Logic this week."
+    },
+    {
+      "id": 25,
+      "user_id": 18,
+      "category": "Communication",
+      "risk_level": "MEDIUM",
+      "reason": "Moderate proficiency in Communication (60%). Further practice required for top companies.",
+      "evidence": "Category score: 60%",
+      "recommended_action": "Schedule 2 extra practice sessions for Communication this week."
+    },
+    {
+      "id": 26,
+      "user_id": 18,
+      "category": "Resume Quality",
+      "risk_level": "MEDIUM",
+      "reason": "Moderate proficiency in Resume Quality (55%). Further practice required for top companies.",
+      "evidence": "Category score: 55%",
+      "recommended_action": "Schedule 2 extra practice sessions for Resume Quality this week."
+    },
+    {
+      "id": 27,
+      "user_id": 18,
+      "category": "Technical Skills",
+      "risk_level": "MEDIUM",
+      "reason": "Moderate proficiency in Technical Skills (50%). Further practice required for top companies.",
+      "evidence": "Category score: 50%",
+      "recommended_action": "Schedule 2 extra practice sessions for Technical Skills this week."
+    },
+    {
+      "id": 28,
+      "user_id": 18,
+      "category": "Mock Interview",
+      "risk_level": "MEDIUM",
+      "reason": "Moderate proficiency in Mock Interview (50%). Further practice required for top companies.",
+      "evidence": "Category score: 50%",
+      "recommended_action": "Schedule 2 extra practice sessions for Mock Interview this week."
+    },
+    {
+      "id": 29,
+      "user_id": 18,
+      "category": "Project Depth",
+      "risk_level": "MEDIUM",
+      "reason": "Moderate proficiency in Project Depth (50%). Further practice required for top companies.",
+      "evidence": "Category score: 50%",
+      "recommended_action": "Schedule 2 extra practice sessions for Project Depth this week."
+    },
+    {
+      "id": 30,
+      "user_id": 18,
+      "category": "DSA & Coding",
+      "risk_level": "HIGH",
+      "reason": "Recent performance in DSA & Coding is currently 45%, which is below target placement standards.",
+      "evidence": "Assessment/Session average score: 45%",
+      "recommended_action": "Complete targeted exercises for DSA & Coding in your adaptive roadmap."
     }
   ]
 }
